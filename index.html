@@ -1,470 +1,683 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en-US">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Lovemoney game — Fan-made Visual Novel (18+) | Play & Download</title>
-  <meta name="description" content="Lovemoney game is a short, choice-driven fan-made visual novel (18+). Play online instantly or download via itch.io. Features, screenshots, and FAQs included.">
-  <meta name="robots" content="index,follow" />
-  <link rel="canonical" href="https://lovemoneygame.cc/" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Play Human Expenditure Program Online — Browser Game with Multiple Endings</title>
+  <meta name="description" content="Play Human Expenditure Program online in your browser — a horror-tinged simulation with choices and multiple endings. Free to try, no downloads required.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://humanexpenditureprogram.net">
 
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8830315294299920"
-     crossorigin="anonymous"></script>
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Human Expenditure Program">
+  <meta property="og:title" content="Play Human Expenditure Program Online">
+  <meta property="og:description" content="A browser-based moral choice game with multiple endings. Free to try, no downloads.">
+  <meta property="og:url" content="https://humanexpenditureprogram.net">
+  <meta property="og:image" content="https://humanexpenditureprogram.net/images/cover-1920x1080.webp">
+  <meta property="og:image:width" content="1920">
+  <meta property="og:image:height" content="1080">
+  <meta property="og:image:alt" content="Human Expenditure Program — cover artwork">
+  <meta property="og:locale" content="en_US">
+  <meta property="article:published_time" content="2025-09-17T00:00:00Z">
+  <meta property="article:modified_time" content="2025-09-17T00:00:00Z">
 
-  <!-- Performance hints -->
-  <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
-  <link rel="dns-prefetch" href="https://cdn.tailwindcss.com">
-  <link rel="preconnect" href="https://bloodmoneygame.io" crossorigin>
-  <link rel="dns-prefetch" href="https://bloodmoneygame.io">
-  <link rel="preconnect" href="https://itch.io" crossorigin>
-  <link rel="dns-prefetch" href="https://itch.io">
-  <link rel="preconnect" href="https://buwu3.itch.io" crossorigin>
-  <link rel="dns-prefetch" href="https://buwu3.itch.io">
-  <link rel="preconnect" href="https://img.itch.zone" crossorigin>
-  <link rel="dns-prefetch" href="https://img.itch.zone">
-  <!-- Preload hero image for faster LCP -->
-  <link rel="preload" as="image" href="https://img.itch.zone/aW1hZ2UvMzg1MjQxOS8yMjk4NTEzOS5wbmc=/original/Pcarju.png">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Play Human Expenditure Program Online">
+  <meta name="twitter:description" content="Choices with consequences. Multiple endings. Play free in your browser.">
+  <meta name="twitter:image" content="https://humanexpenditureprogram.net/images/cover-1920x1080.webp">
+  <meta name="twitter:image:alt" content="Human Expenditure Program — cover artwork">
 
-  <!-- OG / Twitter -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Lovemoney game — Fan-made Visual Novel (18+)" />
-  <meta property="og:description" content="A compact, choice-driven story. Play online or download on itch.io." />
-  <meta property="og:url" content="https://lovemoneygame.cc/" />
-  <meta property="og:image" content="https://lovemoneygame.cc/og-image.jpg" />
-  <meta property="og:site_name" content="Lovemoney game" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Lovemoney game — Fan-made Visual Novel (18+)" />
-  <meta name="twitter:description" content="Play Lovemoney game online or download via itch.io." />
-  <meta name="twitter:image" content="https://lovemoneygame.cc/og-image.jpg" />
-  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0B0B12" media="(prefers-color-scheme: dark)">
-
-  <!-- Favicon -->
+  <!-- Theme / Icons -->
+  <meta name="theme-color" content="#0b0f19">
   <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/logo-512.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/logo-512.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/logo-512.png">
+  <link rel="apple-touch-icon" sizes="512x512" href="/images/logo-512.png">
+  <link rel="manifest" href="/site.webmanifest">
 
-  <!-- Tailwind (pinned) -->
-  <script src="https://cdn.tailwindcss.com/3.4.10"></script>
-  <script>tailwind.config = { darkMode: 'class' };</script>
+  <!-- Preconnect: iframe host -->
+  <link rel="preconnect" href="https://humanexpenditureprogram.io" crossorigin>
+  <!-- Preload hero image for better LCP (self-hosted) -->
+  <link rel="preload" as="image" href="/images/cover-1920x1080.avif">
 
-  <!-- JSON-LD -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebSite",
-        "@id": "https://lovemoneygame.cc/#website",
-        "url": "https://lovemoneygame.cc/",
-        "name": "Lovemoney game",
-        "inLanguage": "en",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://lovemoneygame.cc/?q={search_term_string}",
-          "query-input": "required name=search_term_string"
-        }
-      },
-      {
-        "@type": "VideoGame",
-        "@id": "https://lovemoneygame.cc/#videogame",
-        "name": "Lovemoney game",
-        "url": "https://lovemoneygame.cc/",
-        "sameAs": ["https://buwu3.itch.io/llllollll"],
-        "inLanguage": "en",
-        "gamePlatform": ["WebBrowser", "Windows"],
-        "applicationCategory": "Game",
-        "genre": ["Visual Novel"],
-        "isAccessibleForFree": true,
-        "description": "Lovemoney game is a short, choice-driven fan-made visual novel (18+). Play online or download via itch.io.",
-        "operatingSystem": "Windows, Web",
-        "publisher": "Independent",
-        "author": "Independent",
-        "image": "https://lovemoneygame.cc/og-image.jpg",
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "category": "free" }
-      },
-      {
-        "@type": "BreadcrumbList",
-        "@id": "https://lovemoneygame.cc/#breadcrumbs",
-        "itemListElement": [
-          {"@type": "ListItem","position": 1,"name": "Home","item": "https://lovemoneygame.cc/"},
-          {"@type": "ListItem","position": 2,"name": "About","item": "https://lovemoneygame.cc/#about"},
-          {"@type": "ListItem","position": 3,"name": "Play","item": "https://lovemoneygame.cc/#play"},
-          {"@type": "ListItem","position": 4,"name": "Download","item": "https://lovemoneygame.cc/#download"},
-          {"@type": "ListItem","position": 5,"name": "FAQ","item": "https://lovemoneygame.cc/#faq"}
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://lovemoneygame.cc/#faqpage",
-        "mainEntity": [
-          {"@type": "Question","name": "What is Lovemoney game?","acceptedAnswer":{"@type":"Answer","text":"Lovemoney game is a short, choice-driven fan-made visual novel intended for mature audiences (18+)."}},
-          {"@type": "Question","name": "Can I play online?","acceptedAnswer":{"@type":"Answer","text":"Yes. You can play Lovemoney game directly in your browser via the Play section on this page."}},
-          {"@type": "Question","name": "Which platforms are supported?","acceptedAnswer":{"@type":"Answer","text":"The game supports Web (browser) here, with Windows as a typical desktop target for visual novels."}},
-          {"@type": "Question","name": "Is it free?","acceptedAnswer":{"@type":"Answer","text":"Yes, the online version on this site is accessible for free."}},
-          {"@type": "Question","name": "Is the content suitable for all ages?","acceptedAnswer":{"@type":"Answer","text":"No. This title is intended for mature audiences (18+). Please do not proceed if you are under 18."}}
-        ]
-      }
-    ]
-  }
-  </script>
+  <!-- Tailwind CSS (CDN). Tip: switch to precompiled /assets/tailwind.css in prod for best INP. -->
+  <script src="https://cdn.tailwindcss.com"></script>
 
   <style>
     :root { color-scheme: light dark; }
-    .focus-outline:focus { outline: 3px solid currentColor; outline-offset: 2px; }
-    .cv { content-visibility: auto; contain-intrinsic-size: 1px 600px; }
+    .focus-ring:focus-visible { outline: 2px solid #10b981; outline-offset: 2px; }
+    @media (prefers-reduced-motion: reduce) { .transition-all, .duration-300 { transition: none !important; } }
+
+    /* Fullscreen styles & control button */
+    #player-container:fullscreen { border-radius: 0; }
+    #player-container:fullscreen iframe { width: 100vw; height: 100vh; }
+    .fs-btn { width:44px; height:44px; border-radius:9999px; display:grid; place-items:center;
+              background:rgba(255,255,255,.9); color:#6d28d9; box-shadow:0 6px 20px rgba(0,0,0,.35); }
+    .fs-btn:hover { background:#ffffff; }
+    .fs-icon { width:22px; height:22px; }
+    .hidden { display:none; }
+
+    /* Ad placeholder to prevent CLS */
+    .ad-slot{min-height:280px; display:block}
+    @media(min-width:768px){.ad-slot{min-height:250px}}
   </style>
+
+  <!-- ANALYTICS_SNIPPET -->
+  <!-- ADSENSE_SNIPPET -->
 </head>
+<body class="bg-[#0b0f19] text-white antialiased">
+  <!-- Skip Link -->
+  <a href="#main" class="sr-only focus:not-sr-only focus:ring-2 focus:ring-emerald-500 focus:outline-none absolute left-2 top-2 z-50 bg-emerald-600 text-white px-3 py-2 rounded">Skip to content</a>
 
-<body class="bg-white text-slate-900 dark:bg-[#0B0B12] dark:text-[#EAEAF0] antialiased selection:bg-pink-500/30">
-  <a href="#content" class="sr-only focus:not-sr-only focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2 focus:ring-offset-white dark:focus:ring-offset-black px-3 py-2 bg-black/80 text-white absolute left-2 top-2 rounded">Skip to content</a>
-
-  <!-- Header -->
-  <header class="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-white/70 bg-white/80 dark:supports-[backdrop-filter]:bg-black/40 dark:bg-black/60 border-b border-black/10 dark:border-white/10">
-    <nav class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between" aria-label="Primary">
-      <a href="#" class="flex items-center gap-2 font-semibold tracking-tight focus-outline">
-        <span aria-hidden="true" class="inline-block w-2.5 h-2.5 rounded-full bg-pink-500"></span>
-        <span>Lovemoney game</span>
-        <span class="ml-2 text-xs text-slate-500 dark:text-white/60 border border-black/10 dark:border-white/20 rounded px-1.5 py-0.5">18+</span>
+  <!-- Header / Sticky Nav -->
+  <header class="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-black/40 bg-black/60 border-b border-white/10">
+    <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between">
+      <!-- Brand with inline logo -->
+      <a href="#" aria-current="page" class="focus-ring flex items-center gap-2">
+        <img src="/images/logo-512.png" width="28" height="28" alt="Human Expenditure Program logo"
+             class="rounded-md ring-1 ring-white/15 bg-black/20">
+        <span class="font-semibold tracking-wide">Human Expenditure Program</span>
       </a>
-      <ul class="hidden md:flex items-center gap-6 text-sm">
-        <li><a href="#about" class="hover:text-pink-500 focus-outline">About</a></li>
-        <li><a href="#features" class="hover:text-pink-500 focus-outline">Features</a></li>
-        <li><a href="#screens" class="hover:text-pink-500 focus-outline">Screenshots</a></li>
-        <li><a href="#play" class="hover:text-pink-500 focus-outline">Play</a></li>
-        <li><a href="#download" class="hover:text-pink-500 focus-outline">Download</a></li>
-        <li><a href="#faq" class="hover:text-pink-500 focus-outline">FAQ</a></li>
-        <li><a href="#contact" class="hover:text-pink-500 focus-outline">Contact</a></li>
+      <ul class="flex items-center gap-4 text-sm">
+        <li><a class="focus-ring hover:underline" href="#play" aria-label="Jump to Play section">Play</a></li>
+        <li><a class="focus-ring hover:underline" href="#features" aria-label="Jump to Features section">Features</a></li>
+        <li><a class="focus-ring hover:underline" href="#how-to" aria-label="Jump to How to Play section">How&nbsp;to</a></li>
+        <li><a class="focus-ring hover:underline" href="#endings" aria-label="Jump to Endings and Choices section">Endings</a></li>
+        <li><a class="focus-ring hover:underline" href="#faq" aria-label="Jump to FAQ section">FAQ</a></li>
+        <li><a class="focus-ring hover:underline" href="#about" aria-label="Jump to About and Contact section">About</a></li>
       </ul>
-      <div class="flex items-center gap-2">
-        <a href="#play" class="inline-flex items-center gap-2 rounded-xl px-3.5 py-2 text-sm font-semibold bg-pink-500 hover:bg-pink-400 transition focus-outline" aria-label="Play Lovemoney game online now">Play Now</a>
-        <button id="themeToggle" class="ml-1 rounded-xl px-3 py-2 text-xs bg-slate-900 text-white dark:bg-white/10 dark:text-white hover:bg-slate-800 dark:hover:bg-white/20 border border-slate-300/60 dark:border-white/20 focus-outline" aria-pressed="false" aria-label="Toggle theme">Theme</button>
-      </div>
     </nav>
   </header>
 
-  <main id="content">
+  <main id="main">
     <!-- Hero -->
-    <section class="relative overflow-hidden">
-      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-        <div class="py-14 sm:py-20 grid md:grid-cols-2 items-center gap-10">
-          <div>
-            <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight">
-              Lovemoney game — a short, choice-driven fan-made visual novel
-            </h1>
-            <p class="mt-4 text-slate-700 dark:text-white/80 leading-relaxed">
-              A compact story where your choices matter. Designed for quick sessions,
-              readable on mobile, and playable online. <span class="font-semibold text-pink-600 dark:text-pink-300">Mature content (18+)</span>.
-            </p>
-            <div class="mt-6 flex flex-wrap items-center gap-3">
-              <a href="#play" class="inline-flex items-center gap-2 rounded-2xl px-5 py-3 font-semibold bg-pink-500 hover:bg-pink-400 transition focus-outline" aria-label="Start playing Lovemoney game">
-                ▶ Play Online
-              </a>
-              <a href="#download" class="inline-flex items-center gap-2 rounded-2xl px-5 py-3 font-semibold bg-black/5 hover:bg-black/10 dark:bg-white/10 dark:hover:bg-white/20 transition focus-outline">Download</a>
-              <span class="text-xs text-slate-500 dark:text-white/60 ml-1">Web • Windows • EN</span>
-            </div>
+    <section class="relative">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-14 md:py-20 grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h1 class="text-3xl md:text-5xl font-extrabold leading-tight">
+            Play Human Expenditure Program Online
+          </h1>
+          <p class="mt-4 text-lg text-slate-200">
+            A browser-based moral choice game with multiple endings. Free to try, no downloads.
+          </p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="#play" class="focus-ring inline-flex items-center justify-center px-5 py-3 rounded-lg bg-emerald-500 hover:bg-emerald-400 text-black font-semibold min-h-[44px]" aria-label="Scroll to Play section to start playing Human Expenditure Program">
+              Play in your browser
+            </a>
+            <a href="https://shroomychrist-studios.itch.io/human-expenditure-program" target="_blank" rel="noopener noreferrer" class="focus-ring inline-flex items-center justify-center px-5 py-3 rounded-lg border border-emerald-500 text-emerald-400 hover:bg-emerald-500/10 min-h-[44px]" aria-label="Open the official itch.io page in a new tab">
+              Visit the official itch.io page
+            </a>
           </div>
+          <p class="mt-3 text-sm text-slate-400">Powered by trusted sources, linked to the official itch.io page.</p>
+        </div>
 
-          <!-- Hero image (your URL) -->
-          <div class="relative">
-            <figure class="aspect-[16/10] rounded-3xl overflow-hidden border border-black/10 dark:border-white/10 shadow-2xl bg-black">
-              <img
-                src="https://img.itch.zone/aW1hZ2UvMzg1MjQxOS8yMjk4NTEzOS5wbmc=/original/Pcarju.png"
-                alt="Lovemoney game key art (safe preview)"
-                class="w-full h-full object-cover"
-                loading="eager"
-                decoding="async"
-                fetchpriority="high"
-                referrerpolicy="no-referrer"
-              />
-            </figure>
+        <!-- Game image (self-hosted) -->
+        <div class="rounded-2xl overflow-hidden ring-1 ring-white/10 aspect-[16/10]">
+          <picture>
+            <source type="image/avif" srcset="/images/cover-1920x1080.avif" sizes="(min-width:1024px) 50vw, 100vw">
+            <source type="image/webp" srcset="/images/cover-1920x1080.webp" sizes="(min-width:1024px) 50vw, 100vw">
+            <img
+              src="/images/cover-1280x720.jpg"
+              width="1920" height="1080"
+              fetchpriority="high" decoding="async"
+              alt="Human Expenditure Program — cover artwork"
+              class="w-full h-full object-cover">
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <!-- Play (fullscreen-friendly container, lazy iframe + poster image) -->
+    <section id="play" class="bg-[#0a0e17]">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+        <h2 class="text-2xl md:text-3xl font-bold">Play Now</h2>
+        <p class="mt-2 text-slate-300">Click to load the game. No downloads required.</p>
+
+        <!-- Dynamic height: 100svh minus header (3.5rem) and local spacing (~7rem) -->
+        <div id="player-container"
+             class="mt-4 relative w-full h-[calc(100svh-3.5rem-7rem)] md:h-[calc(100vh-3.5rem-7rem)] min-h-[70vh] bg-black/60 rounded-2xl ring-1 ring-white/10 overflow-hidden"
+             aria-label="Game player area">
+
+          <!-- Poster image (self-hosted; shown before iframe loads) -->
+          <picture id="poster" class="absolute inset-0 w-full h-full">
+            <source type="image/avif" srcset="/images/cover-1920x1080.avif" sizes="100vw">
+            <source type="image/webp" srcset="/images/cover-1920x1080.webp" sizes="100vw">
+            <img
+              src="/images/cover-1280x720.jpg"
+              width="1920" height="1080"
+              alt="Human Expenditure Program gameplay poster"
+              class="w-full h-full object-cover select-none pointer-events-none">
+          </picture>
+
+          <!-- Click-to-load overlay -->
+          <button id="load-iframe"
+                  class="absolute inset-0 w-full h-full grid place-items-center bg-black/50 text-white cursor-pointer focus-ring"
+                  aria-busy="false" aria-controls="game-iframe">
+            <span class="px-5 py-3 rounded-lg bg-emerald-500 text-black font-semibold min-h-[44px] inline-flex items-center gap-2">
+              <svg id="spin" class="hidden animate-spin" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" fill="none" stroke-dasharray="60" stroke-linecap="round"/>
+              </svg>
+              Click to Play
+            </span>
+          </button>
+
+          <!-- Controls: Fullscreen + Fallback link -->
+          <div class="absolute bottom-3 right-3 flex items-center gap-3">
+            <button id="fs-btn" class="fs-btn focus-ring" aria-label="Enter fullscreen" aria-pressed="false" title="Fullscreen (F)">
+              <!-- enter fullscreen -->
+              <svg id="fs-enter" class="fs-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M9 3H3v6h2V5h4V3zm12 0h-6v2h4v4h2V3zM5 13H3v8h8v-2H5v-6zm16 0h-2v6h-6v2h8v-8z"/>
+              </svg>
+              <!-- exit fullscreen -->
+              <svg id="fs-exit" class="fs-icon hidden" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M9 5H5v4H3V3h6v2zm12 4h-2V5h-4V3h6v6zM5 19h4v2H3v-6h2v4zm12 0h4v-4h2v6h-6v-2z"/>
+              </svg>
+            </button>
+            <a class="text-sm underline focus-ring"
+               target="_blank" rel="noopener noreferrer"
+               href="https://humanexpenditureprogram.io/human-expenditure-program.embed"
+               aria-label="Open the game in a new tab as a fallback">Open</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- About -->
-    <section id="about" class="py-16 border-t border-black/10 dark:border-white/10 cv">
-      <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-        <h2 class="text-2xl sm:text-3xl font-bold">About the game</h2>
-        <p class="mt-4 text-slate-700 dark:text-white/80">
-          <strong>Lovemoney game</strong> is a short, fan-made visual novel for mature audiences.
-          It focuses on quick, meaningful choices and a compact narrative you can finish in a single sitting.
-          This site offers a safe, mobile-friendly landing and an instant web build to try.
-        </p>
-        <p class="mt-3 text-sm text-slate-500 dark:text-white/60">
-          Disclaimer: This is a fan-made work. All trademarks and references belong to their respective owners.
-        </p>
+    <!-- CTA Bar (below the fold) -->
+    <section class="py-8 bg-emerald-500/10 border-y border-emerald-500/20">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap items-center justify-between gap-4">
+        <p class="text-slate-200">Ready to make a choice?</p>
+        <a href="#play" class="focus-ring inline-flex items-center justify-center px-5 py-3 rounded-lg bg-emerald-500 text-black font-semibold min-h-[44px]">Play in your browser</a>
       </div>
     </section>
 
     <!-- Features -->
-    <section id="features" class="py-16 cv">
-      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-        <h2 class="text-2xl sm:text-3xl font-bold">Features</h2>
-        <ul class="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          <li class="rounded-2xl p-5 bg-slate-50/80 dark:bg-white/5 border border-black/10 dark:border-white/10">
-            <h3 class="font-semibold">Short & Replayable</h3>
-            <p class="mt-2 text-slate-700 dark:text-white/75 text-sm">Compact runtime with choices to revisit.</p>
+    <section id="features" class="py-12">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl md:text-3xl font-bold">What Makes It Different</h2>
+        <ul class="mt-6 grid md:grid-cols-3 gap-6">
+          <li class="p-5 rounded-xl bg-white/5 ring-1 ring-white/10">
+            <h3 class="font-semibold">Choices with lasting consequences</h3>
+            <p class="mt-2 text-slate-300">Your actions matter. The program remembers.</p>
           </li>
-          <li class="rounded-2xl p-5 bg-slate-50/80 dark:bg-white/5 border border-black/10 dark:border-white/10">
-            <h3 class="font-semibold">Choice-Driven</h3>
-            <p class="mt-2 text-slate-700 dark:text-white/75 text-sm">Your decisions shape the experience.</p>
+          <li class="p-5 rounded-xl bg-white/5 ring-1 ring-white/10">
+            <h3 class="font-semibold">Multiple endings to discover</h3>
+            <p class="mt-2 text-slate-300">Replay to explore different outcomes.</p>
           </li>
-          <li class="rounded-2xl p-5 bg-slate-50/80 dark:bg-white/5 border border-black/10 dark:border-white/10">
-            <h3 class="font-semibold">Mobile-First</h3>
-            <p class="mt-2 text-slate-700 dark:text-white/75 text-sm">Readable typography, large tap targets, fast loading.</p>
-          </li>
-          <li class="rounded-2xl p-5 bg-slate-50/80 dark:bg-white/5 border border-black/10 dark:border-white/10">
-            <h3 class="font-semibold">Safe Preview</h3>
-            <p class="mt-2 text-slate-700 dark:text-white/75 text-sm">No explicit imagery on this page; 18+ content warning applied.</p>
+          <li class="p-5 rounded-xl bg-white/5 ring-1 ring-white/10">
+            <h3 class="font-semibold">Free to try, no downloads</h3>
+            <p class="mt-2 text-slate-300">A fast, mobile-friendly browser game.</p>
           </li>
         </ul>
-
-        <!-- Mid-page CTA -->
-        <div class="mt-10">
-          <a href="#play" class="inline-flex items-center gap-2 rounded-2xl px-5 py-3 font-semibold bg-pink-500 hover:bg-pink-400 transition focus-outline" aria-label="Play Lovemoney game now">▶ Play Now</a>
-        </div>
       </div>
     </section>
 
-    <!-- Screenshots (safe) -->
-    <section id="screens" class="py-16 border-t border-black/10 dark:border-white/10 cv">
-      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-        <h2 class="text-2xl sm:text-3xl font-bold">Screenshots (Safe Preview)</h2>
-        <p class="mt-2 text-sm text-slate-500 dark:text-white/60">Example images from the game — non-explicit.</p>
-
-        <!-- Use portrait-friendly tiles (4:5) -->
-        <div class="mt-6 grid grid-cols-2 md:grid-cols-3 gap-3">
-          <a href="https://img.itch.zone/aW1hZ2UvMzg1MjQxOS8yMjk4NTEzOS5wbmc=/794x1000/8GcYn7.png" target="_blank" rel="noopener noreferrer" class="block">
-            <img
-              class="rounded-xl border border-black/10 dark:border-white/10 aspect-[4/5] object-cover w-full h-full"
-              src="https://img.itch.zone/aW1hZ2UvMzg1MjQxOS8yMjk4NTEzOS5wbmc=/794x1000/8GcYn7.png"
-              alt="Lovemoney game screenshot 1 (safe)"
-              loading="lazy"
-              decoding="async"
-              referrerpolicy="no-referrer"
-            />
-          </a>
-
-          <a href="https://img.itch.zone/aW1hZ2UvMzg1MjQxOS8yMjk4NDY1OC5wbmc=/794x1000/bfPJm0.png" target="_blank" rel="noopener noreferrer" class="block">
-            <img
-              class="rounded-xl border border-black/10 dark:border-white/10 aspect-[4/5] object-cover w-full h-full"
-              src="https://img.itch.zone/aW1hZ2UvMzg1MjQxOS8yMjk4NDY1OC5wbmc=/794x1000/bfPJm0.png"
-              alt="Lovemoney game screenshot 2 (safe)"
-              loading="lazy"
-              decoding="async"
-              referrerpolicy="no-referrer"
-            />
-          </a>
-
-          <a href="https://img.itch.zone/aW1hZ2UvMzg1MjQxOS8yMjk4NTE0NS5wbmc=/794x1000/NkpUFJ.png" target="_blank" rel="noopener noreferrer" class="block">
-            <img
-              class="rounded-xl border border-black/10 dark:border-white/10 aspect-[4/5] object-cover w-full h-full"
-              src="https://img.itch.zone/aW1hZ2UvMzg1MjQxOS8yMjk4NTE0NS5wbmc=/794x1000/NkpUFJ.png"
-              alt="Lovemoney game screenshot 3 (safe)"
-              loading="lazy"
-              decoding="async"
-              referrerpolicy="no-referrer"
-            />
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Play (responsive & fullscreen) -->
-    <section id="play" class="py-16 cv">
-      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-        <h2 class="text-2xl sm:text-3xl font-bold">Play Lovemoney game (Web)</h2>
-        <p class="mt-2 text-slate-700 dark:text-white/80">Click the player below to start. Content intended for adults (18+).</p>
-
-        <!-- Controls -->
-        <div class="mt-4 flex flex-wrap items-center gap-2 text-sm">
-          <span class="text-slate-500 dark:text-white/60">Fit:</span>
-          <button class="ratio-btn rounded-lg px-3 py-1.5 bg-black/5 hover:bg-black/10 dark:bg-white/10 dark:hover:bg-white/20 border border-black/10 dark:border-white/10 focus-outline" data-ratio="1.7777777778" aria-pressed="true">16:9</button>
-          <button class="ratio-btn rounded-lg px-3 py-1.5 bg-black/5 hover:bg-black/10 dark:bg-white/10 dark:hover:bg-white/20 border border-black/10 dark:border-white/10 focus-outline" data-ratio="1.6" aria-pressed="false">16:10</button>
-          <button class="ratio-btn rounded-lg px-3 py-1.5 bg-black/5 hover:bg-black/10 dark:bg-white/10 dark:hover:bg-white/20 border border-black/10 dark:border-white/10 focus-outline" data-ratio="1.3333333333" aria-pressed="false">4:3</button>
-          <button id="btnFullscreen" class="ml-auto rounded-lg px-3 py-1.5 bg-pink-500 hover:bg-pink-400 text-white font-semibold focus-outline">Fullscreen</button>
-        </div>
-
-        <!-- Player -->
-        <div id="playerWrap" class="mt-4 rounded-2xl overflow-hidden border border-black/10 dark:border-white/10 shadow-2xl bg-black">
-          <iframe
-            id="playFrame"
-            src="https://bloodmoneygame.io/game/bloodmoney/"
-            title="Lovemoney game — Play Online"
-            loading="lazy"
-            referrerpolicy="no-referrer"
-            allow="fullscreen; autoplay *; gamepad *; encrypted-media *; clipboard-write *"
-            allowfullscreen
-            scrolling="no"
-            class="w-full bg-black"
-            style="height: 60vh; min-height: 420px;"
-          ></iframe>
-        </div>
-
-        <!-- CTAs -->
-        <div class="mt-6 flex flex-wrap items-center gap-3">
-          <a href="#faq" class="inline-flex items-center gap-2 rounded-2xl px-5 py-3 font-semibold bg-black/5 hover:bg-black/10 dark:bg-white/10 dark:hover:bg-white/20 transition focus-outline">Read FAQs</a>
-          <a href="#download" class="inline-flex items-center gap-2 rounded-2xl px-5 py-3 font-semibold bg-pink-500 hover:bg-pink-400 transition focus-outline">Download</a>
-          <a href="https://bloodmoneygame.io/game/bloodmoney/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-2xl px-5 py-3 font-semibold bg-black/5 hover:bg-black/10 dark:bg-white/10 dark:hover:bg-white/20 transition focus-outline">Open in new tab</a>
-        </div>
-
-        <noscript><p class="mt-3 text-sm text-slate-600 dark:text-white/70">JavaScript is disabled. Enable it to load the web player.</p></noscript>
-      </div>
-    </section>
-
-    <!-- Download (itch.io embed) -->
-    <section id="download" class="py-16 border-t border-black/10 dark:border-white/10 cv">
-      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-        <h2 class="text-2xl sm:text-3xl font-bold">Download (itch.io)</h2>
-        <p class="mt-2 text-slate-700 dark:text-white/80">Prefer the desktop build? Use the official itch.io embed below.</p>
-
-        <div class="mt-6 flex justify-center">
-          <iframe
-            frameborder="0"
-            src="https://itch.io/embed/3852419"
-            title="Download Lovemoney game on itch.io"
-            loading="lazy"
-            class="w-full max-w-[552px] h-[167px] rounded-xl border border-black/10 dark:border-white/10 bg-black"
-            referrerpolicy="no-referrer"
-          >
-            <a href="https://buwu3.itch.io/llllollll" rel="noopener noreferrer" target="_blank">LoveMoney by Buwu</a>
-          </iframe>
-        </div>
-
-        <p class="mt-3 text-center text-sm text-slate-500 dark:text-white/60">
-          If the embed does not load, open the page on
-          <a href="https://buwu3.itch.io/llllollll" class="underline hover:text-pink-600 dark:hover:text-pink-300" target="_blank" rel="noopener noreferrer">itch.io</a>.
+    <!-- Endings & Choices (Expanded E-E-A-T long-tail content) -->
+    <section id="endings" class="py-12 bg-[#0a0e17]">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl md:text-3xl font-bold">Endings &amp; Choices Guide</h2>
+        <p class="mt-3 text-slate-300">
+          Human Expenditure Program is a browser game about trade-offs. Your choices ripple through the day and lock in different outcomes.
+          This spoiler-light guide helps you explore intentionally without ruining discovery.
         </p>
+
+        <!-- New Player Route -->
+        <article class="mt-6 p-5 rounded-xl bg-white/5 ring-1 ring-white/10">
+          <h3 class="font-semibold">New player route (first 2–3 runs)</h3>
+          <p class="mt-2 text-slate-300">
+            Treat early runs as scouting. Keep the system stable, read prompts carefully, and avoid extreme actions.
+            Aim for a “compliance-leaning” outcome first so you learn timing windows, failure thresholds, and what the game considers risky.
+          </p>
+          <ul class="mt-2 list-disc list-inside text-slate-300 space-y-1">
+            <li>Stabilize basics before pushing boundaries.</li>
+            <li>Note any hints that mention time, order, or repetition.</li>
+            <li>If a scene feels unremarkable, try its opposite next run.</li>
+          </ul>
+        </article>
+
+        <div class="mt-6 grid md:grid-cols-2 gap-6">
+          <article class="p-5 rounded-xl bg-white/5 ring-1 ring-white/10">
+            <h3 class="font-semibold">1) Compliance Ending</h3>
+            <p class="mt-2 text-slate-300">
+              Keep metrics stable, follow instructions, avoid risky actions. You’ll likely reach a “stable but hollow” resolution.
+              It’s the easiest path and a great tutorial, but it hides much of the moral texture.
+            </p>
+            <ul class="mt-2 list-disc list-inside text-slate-300 space-y-1">
+              <li>Prioritize routine and low-variance choices.</li>
+              <li>Say “yes” often; de-escalate conflicts.</li>
+              <li>Good baseline for mapping the system.</li>
+            </ul>
+          </article>
+
+          <article class="p-5 rounded-xl bg-white/5 ring-1 ring-white/10">
+            <h3 class="font-semibold">2) Defiance Ending</h3>
+            <p class="mt-2 text-slate-300">
+              Push back on directives and accept short-term instability. This route surfaces hidden scenes and sharp consequences.
+              Expect friction and a bittersweet finale with stronger narrative payoff.
+            </p>
+            <ul class="mt-2 list-disc list-inside text-slate-300 space-y-1">
+              <li>Break patterns deliberately to reveal flags.</li>
+              <li>Choose tension over safety to open new branches.</li>
+              <li>Great once you know “safe” timing windows.</li>
+            </ul>
+          </article>
+
+          <article class="p-5 rounded-xl bg-white/5 ring-1 ring-white/10">
+            <h3 class="font-semibold">3) Optimization Ending</h3>
+            <p class="mt-2 text-slate-300">
+              Master the resource loop: thresholds, sequencing, and tiny efficiencies.
+              Done right, you can stabilize while still unlocking optional scenes—a nuanced “win” that rewards planning rather than obedience.
+            </p>
+            <ul class="mt-2 list-disc list-inside text-slate-300 space-y-1">
+              <li>Micro-optimize the order of actions.</li>
+              <li>Avoid cascades by protecting weak metrics first.</li>
+              <li>Track cause → effect for 2–3 steps ahead.</li>
+            </ul>
+          </article>
+
+          <article class="p-5 rounded-xl bg-white/5 ring-1 ring-white/10">
+            <h3 class="font-semibold">4) Hidden / Variant Endings</h3>
+            <p class="mt-2 text-slate-300">
+              Special outcomes may require unusual orders, timing windows, or repeated runs.
+              Some scenes only appear after you’ve seen a different ending first. If something feels “off,” you’re probably close.
+            </p>
+            <ul class="mt-2 list-disc list-inside text-slate-300 space-y-1">
+              <li>Revisit a choice after completing another ending.</li>
+              <li>Try extremes to flip unseen flags.</li>
+              <li>Keep notes—memory is part of the design.</li>
+            </ul>
+          </article>
+        </div>
+
+        <!-- System Mastery & Route Flags -->
+        <div class="mt-6 grid md:grid-cols-2 gap-6">
+          <article class="p-5 rounded-xl bg-white/5 ring-1 ring-white/10">
+            <h3 class="font-semibold">System mastery: three pillars</h3>
+            <ol class="mt-2 list-decimal list-inside text-slate-300 space-y-1">
+              <li><strong>Sequencing</strong> — The same actions in a different order can avoid a collapse.</li>
+              <li><strong>Thresholds</strong> — Several checks are binary; crossing them flips whole branches.</li>
+              <li><strong>Tempo</strong> — Some prompts are safer early; others want late commitment.</li>
+            </ol>
+          </article>
+          <article class="p-5 rounded-xl bg-white/5 ring-1 ring-white/10">
+            <h3 class="font-semibold">Route flags to watch</h3>
+            <ul class="mt-2 list-disc list-inside text-slate-300 space-y-1">
+              <li>Repeated compliance vs. repeated dissent.</li>
+              <li>Specific pairings of choices in the same cycle.</li>
+              <li>“Silence” (deliberate inaction) sometimes counts as a choice.</li>
+            </ul>
+          </article>
+        </div>
+
+        <!-- Failure & Recovery -->
+        <article class="mt-6 p-5 rounded-xl bg-white/5 ring-1 ring-white/10">
+          <h3 class="font-semibold">Failure states &amp; recovery</h3>
+          <p class="mt-2 text-slate-300">
+            Failure is informative. If a run collapses, write down the last three decisions and the weakest metric at that moment.
+            On the next run, change only one of those variables. Iterating like this reveals where the invisible tripwires are.
+          </p>
+          <ul class="mt-2 list-disc list-inside text-slate-300 space-y-1">
+            <li>Hold one constant, vary one factor per run.</li>
+            <li>Use Fullscreen for clearer text and timing cues.</li>
+            <li>Short sessions (5–10 min) are ideal for testing flags.</li>
+          </ul>
+        </article>
+
+        <!-- Accessibility & Difficulty / Spoiler policy -->
+        <div class="mt-6 grid md:grid-cols-2 gap-6">
+          <article class="p-5 rounded-xl bg-white/5 ring-1 ring-white/10">
+            <h3 class="font-semibold">Accessibility &amp; difficulty</h3>
+            <p class="mt-2 text-slate-300">
+              The browser build supports keyboard navigation and fullscreen. If text feels small, use fullscreen or page zoom.
+              There is no hard timer you cannot out-plan; treat it like a resource puzzle.
+            </p>
+          </article>
+          <article class="p-5 rounded-xl bg-white/5 ring-1 ring-white/10">
+            <h3 class="font-semibold">Spoiler policy</h3>
+            <p class="mt-2 text-slate-300">
+              This guide avoids explicit solutions and numeric thresholds. If you want full spoilers, see the “All endings” page in Further Reading.
+            </p>
+          </article>
+        </div>
+
+        <!-- Tips -->
+        <div class="mt-6 p-5 rounded-xl bg-emerald-500/10 ring-1 ring-emerald-500/20">
+          <h3 class="font-semibold">Tips (spoiler-light)</h3>
+          <ul class="mt-2 list-disc list-inside text-slate-200 space-y-1">
+            <li>Use Fullscreen for better visibility (button, double-click, or press F).</li>
+            <li>Map cause → effect across two cycles, not just one.</li>
+            <li>When in doubt, try the deliberate opposite of a “safe” decision.</li>
+          </ul>
+          <p class="mt-3 text-xs text-slate-400">Last reviewed: <time datetime="2025-09-17">Sep 17, 2025</time></p>
+        </div>
+
+        <!-- Further reading -->
+        <nav aria-label="Further reading" class="mt-6">
+          <ul class="list-disc list-inside text-slate-300 space-y-1">
+            <li><a class="underline focus-ring" href="/endings/">All endings (spoiler version)</a></li>
+            <li><a class="underline focus-ring" href="/fullscreen/">How to fullscreen &amp; performance tips</a></li>
+            <li><a class="underline focus-ring" href="/guide/">Beginner’s quick guide</a></li>
+          </ul>
+        </nav>
       </div>
     </section>
 
-    <!-- FAQ -->
-    <section id="faq" class="py-16 border-t border-black/10 dark:border-white/10 cv">
-      <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-        <h2 class="text-2xl sm:text-3xl font-bold">Frequently Asked Questions</h2>
-        <div class="mt-6 space-y-6">
-          <details class="group rounded-xl border border-black/10 dark:border-white/10 p-4 bg-slate-50/80 dark:bg-white/5">
-            <summary class="cursor-pointer font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-500 rounded">What is Lovemoney game?</summary>
-            <p class="mt-2 text-slate-700 dark:text-white/80">A short, choice-driven fan-made visual novel. It’s designed for quick sessions and mature audiences (18+).</p>
+    <!-- ADSENSE_SLOT_1: below-the-fold placement -->
+    <section class="py-6" aria-label="Sponsored">
+      <div class="ad-slot" aria-hidden="true"></div>
+      <!-- Google AdSense code here -->
+    </section>
+
+    <!-- FAQ (10 Q&A; JSON-LD must match exactly) -->
+    <section id="faq" class="py-12">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl md:text-3xl font-bold">FAQ</h2>
+        <div class="mt-6 grid md:grid-cols-2 gap-6">
+          <details class="rounded-xl bg-white/5 ring-1 ring-white/10 p-5">
+            <summary class="font-semibold cursor-pointer focus-ring">What type of game is this?</summary>
+            <p class="mt-2 text-slate-300">A horror-tinged browser simulation about choices and consequences.</p>
           </details>
 
-          <details class="group rounded-xl border border-black/10 dark:border-white/10 p-4 bg-slate-50/80 dark:bg-white/5">
-            <summary class="cursor-pointer font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-500 rounded">Can I play online?</summary>
-            <p class="mt-2 text-slate-700 dark:text-white/80">Yes. Use the embedded web player in the <a href="#play" class="underline hover:text-pink-600 dark:hover:text-pink-300">Play</a> section.</p>
+          <details class="rounded-xl bg-white/5 ring-1 ring-white/10 p-5">
+            <summary class="font-semibold cursor-pointer focus-ring">Can I play it for free?</summary>
+            <p class="mt-2 text-slate-300">Yes. You can play in your browser with no downloads.</p>
           </details>
 
-          <details class="group rounded-xl border border-black/10 dark:border-white/10 p-4 bg-slate-50/80 dark:bg-white/5">
-            <summary class="cursor-pointer font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-500 rounded">Which platforms are supported?</summary>
-            <p class="mt-2 text-slate-700 dark:text-white/80">Web here on this site; Windows desktop is typical for visual novels.</p>
+          <details class="rounded-xl bg-white/5 ring-1 ring-white/10 p-5">
+            <summary class="font-semibold cursor-pointer focus-ring">Does it have multiple endings?</summary>
+            <p class="mt-2 text-slate-300">Yes. Your choices lead to different endings.</p>
           </details>
 
-          <details class="group rounded-xl border border-black/10 dark:border-white/10 p-4 bg-slate-50/80 dark:bg-white/5">
-            <summary class="cursor-pointer font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-500 rounded">Is it free?</summary>
-            <p class="mt-2 text-slate-700 dark:text-white/80">The online version here is free to access.</p>
+          <details class="rounded-xl bg-white/5 ring-1 ring-white/10 p-5">
+            <summary class="font-semibold cursor-pointer focus-ring">Is there an official download?</summary>
+            <p class="mt-2 text-slate-300">Yes. Visit the official itch.io page for downloads.</p>
           </details>
 
-          <details class="group rounded-xl border border-black/10 dark:border-white/10 p-4 bg-slate-50/80 dark:bg-white/5">
-            <summary class="cursor-pointer font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-500 rounded">Is the content suitable for all ages?</summary>
-            <p class="mt-2 text-slate-700 dark:text-white/80">No. The title is intended for mature audiences (18+). No explicit imagery is shown on this page.</p>
+          <details class="rounded-xl bg-white/5 ring-1 ring-white/10 p-5">
+            <summary class="font-semibold cursor-pointer focus-ring">Who created the game?</summary>
+            <p class="mt-2 text-slate-300">SHROOMYCHRIST is the original creator.</p>
+          </details>
+
+          <details class="rounded-xl bg-white/5 ring-1 ring-white/10 p-5">
+            <summary class="font-semibold cursor-pointer focus-ring">Does it save progress?</summary>
+            <p class="mt-2 text-slate-300">The web version is designed for short sessions; progress may not persist between reloads.</p>
+          </details>
+
+          <details class="rounded-xl bg-white/5 ring-1 ring-white/10 p-5">
+            <summary class="font-semibold cursor-pointer focus-ring">How do I enter fullscreen?</summary>
+            <p class="mt-2 text-slate-300">Click the fullscreen button, double-click the player, or press F.</p>
+          </details>
+
+          <details class="rounded-xl bg-white/5 ring-1 ring-white/10 p-5">
+            <summary class="font-semibold cursor-pointer focus-ring">Does it work on mobile?</summary>
+            <p class="mt-2 text-slate-300">Yes. It runs in modern mobile browsers; rotate to landscape for the best view.</p>
+          </details>
+
+          <details class="rounded-xl bg-white/5 ring-1 ring-white/10 p-5">
+            <summary class="font-semibold cursor-pointer focus-ring">Is it safe and legal to play here?</summary>
+            <p class="mt-2 text-slate-300">This is a non-commercial fan site that links to trusted sources.</p>
+          </details>
+
+          <details class="rounded-xl bg-white/5 ring-1 ring-white/10 p-5 md:col-span-2">
+            <summary class="font-semibold cursor-pointer focus-ring">Why is the game not full screen by default?</summary>
+            <p class="mt-2 text-slate-300">To keep pages fast and stable; click fullscreen for an immersive view.</p>
           </details>
         </div>
       </div>
     </section>
 
-    <!-- Contact -->
-    <section id="contact" class="py-16 cv">
-      <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-        <h2 class="text-2xl sm:text-3xl font-bold">Contact</h2>
-        <p class="mt-3 text-slate-700 dark:text-white/80">
-          For feedback or inquiries, email
-          <a class="underline hover:text-pink-600 dark:hover:text-pink-300 focus-outline" href="mailto:hello@lovemoneygame.cc">hello@lovemoneygame.cc</a>.
-        </p>
-        <div class="mt-6 flex flex-wrap gap-3">
-          <a href="#play" class="inline-flex items-center gap-2 rounded-2xl px-5 py-3 font-semibold bg-pink-500 hover:bg-pink-400 transition focus-outline" aria-label="Play Lovemoney game">▶ Play Lovemoney game</a>
-          <a href="#download" class="inline-flex items-center gap-2 rounded-2xl px-5 py-3 font-semibold bg-black/5 hover:bg-black/10 dark:bg-white/10 dark:hover:bg-white/20 transition focus-outline" aria-label="Download Lovemoney game on itch.io">⬇ Download</a>
+    <!-- ADSENSE_SLOT_2: after FAQ -->
+    <section class="py-6" aria-label="Sponsored">
+      <div class="ad-slot" aria-hidden="true"></div>
+      <!-- Google AdSense code here -->
+    </section>
+
+    <!-- About / Contact (E-E-A-T strengthened) -->
+    <section id="about" class="py-12 bg-[#0a0e17]">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl md:text-3xl font-bold">About &amp; Contact</h2>
+        <p class="mt-3 text-slate-300">This is a non-commercial fan site for discovery and fair use linking.</p>
+        <ul class="mt-4 space-y-1 text-slate-300">
+          <li>Email: <a class="underline focus-ring" href="mailto:qsyhxw@gmail.com">qsyhxw@gmail.com</a></li>
+          <li>Official page: <a class="underline focus-ring" target="_blank" rel="noopener noreferrer" href="https://shroomychrist-studios.itch.io/human-expenditure-program">itch.io (official)</a></li>
+        </ul>
+
+        <div class="mt-6 p-5 rounded-xl bg-white/5 ring-1 ring-white/10">
+          <h3 class="font-semibold">Editorial Notes</h3>
+          <p class="mt-2 text-slate-300">
+            This page is maintained by the site editor. We review public materials and play the browser build to keep instructions accurate.
+          </p>
+          <ul class="mt-2 list-disc list-inside text-slate-300">
+            <li>Primary sources: the official itch.io page and the playable web build.</li>
+            <li>Contact for updates/corrections: <a class="underline" href="mailto:qsyhxw@gmail.com">qsyhxw@gmail.com</a></li>
+          </ul>
         </div>
+
+        <!-- NEW: Maintainer / Sources / Changelog (E-E-A-T) -->
+        <div class="mt-6 p-5 rounded-xl bg-white/5 ring-1 ring-white/10">
+          <h3 class="font-semibold">Maintainer &amp; update policy</h3>
+          <ul class="mt-2 list-disc list-inside text-slate-300 space-y-1">
+            <li>Maintained by: site editor (<a class="underline" href="mailto:qsyhxw@gmail.com">qsyhxw@gmail.com</a>)</li>
+            <li>Review cadence: monthly, or when the web build changes</li>
+            <li>Last reviewed: <time datetime="2025-09-17">Sep 17, 2025</time></li>
+          </ul>
+        </div>
+
+        <div class="mt-6 p-5 rounded-xl bg-white/5 ring-1 ring-white/10">
+          <h3 class="font-semibold">Sources &amp; verification</h3>
+          <ul class="mt-2 list-disc list-inside text-slate-300">
+            <li><a class="underline" target="_blank" rel="noopener noreferrer" href="https://shroomychrist-studios.itch.io/human-expenditure-program">Official itch.io page</a></li>
+            <li><a class="underline" target="_blank" rel="noopener noreferrer" href="https://humanexpenditureprogram.io/">Official web build</a></li>
+          </ul>
+        </div>
+
+        <div class="mt-6 p-5 rounded-xl bg-white/5 ring-1 ring-white/10">
+          <h3 class="font-semibold">Changelog</h3>
+          <ul class="mt-2 list-disc list-inside text-slate-300 space-y-1">
+            <li><time datetime="2025-09-17">2025-09-17</time> — Added fullscreen controls, long FAQ/JSON-LD, expanded Endings guide, brand logo, and PWA manifest.</li>
+          </ul>
+        </div>
+
+        <p class="mt-6 text-xs text-slate-400">Rated 13+. Non-commercial fan site.</p>
+        <p class="text-xs text-slate-500 mt-2">Last updated: <time datetime="2025-09-17">Sep 17, 2025</time></p>
       </div>
     </section>
   </main>
 
-  <footer class="border-t border-black/10 dark:border-white/10 py-8 text-sm">
-    <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-      <p class="text-slate-600 dark:text-white/60">© <span id="y"></span> Lovemoney game. Fan-made work. All trademarks belong to their owners.</p>
+  <!-- Sticky CTA for mobile -->
+  <div class="md:hidden fixed bottom-3 inset-x-3 z-40">
+    <div class="rounded-xl bg-emerald-500 text-black shadow-lg ring-1 ring-emerald-400/40 px-4 py-3 flex items-center justify-between">
+      <span class="font-semibold">Play Human Expenditure Program</span>
+      <a href="#play" class="focus-ring px-3 py-2 rounded-lg bg-black/10">Play</a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-wrap items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <img src="/images/logo-512.png" width="32" height="32" alt="Human Expenditure Program logo"
+             class="rounded-md ring-1 ring-white/15 bg-black/20">
+        <p class="text-slate-300">© <span id="year"></span> Human Expenditure Program</p>
+      </div>
       <div class="flex items-center gap-4">
-        <a href="#about" class="hover:text-pink-600 dark:hover:text-pink-300 focus-outline">About</a>
-        <a href="#faq" class="hover:text-pink-600 dark:hover:text-pink-300 focus-outline">FAQ</a>
-        <a href="#contact" class="hover:text-pink-600 dark:hover:text-pink-300 focus-outline">Contact</a>
-        <a href="https://buwu3.itch.io/llllollll" class="hover:text-pink-600 dark:hover:text-pink-300 focus-outline" target="_blank" rel="noopener noreferrer">itch.io</a>
-        <span class="ml-2 text-xs text-slate-500 dark:text-white/60 border border-black/10 dark:border-white/20 rounded px-1.5 py-0.5">18+</span>
+        <a class="underline focus-ring" href="/privacy.html" aria-label="Privacy Policy link">Privacy</a>
+        <a class="underline focus-ring" href="/terms.html" aria-label="Terms of Use link">Terms</a>
+        <a href="#play" class="focus-ring inline-flex items-center justify-center px-4 py-2 rounded-lg bg-emerald-500 text-black font-semibold min-h-[44px]">Play now</a>
       </div>
     </div>
   </footer>
 
+  <!-- JSON-LD: Organization (with logo) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Human Expenditure Program",
+    "url": "https://humanexpenditureprogram.net",
+    "email": "qsyhxw@gmail.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://humanexpenditureprogram.net/images/logo-512.png",
+      "width": 512,
+      "height": 512
+    },
+    "sameAs": [
+      "https://shroomychrist-studios.itch.io/human-expenditure-program",
+      "https://humanexpenditureprogram.io/"
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD: VideoGame -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoGame",
+    "name": "Human Expenditure Program",
+    "url": "https://humanexpenditureprogram.net",
+    "inLanguage": "en-US",
+    "genre": ["Horror", "Simulation", "Browser game"],
+    "applicationCategory": "Game",
+    "operatingSystem": "Web",
+    "isAccessibleForFree": true,
+    "author": { "@type": "Person", "name": "SHROOMYCHRIST" },
+    "sameAs": [
+      "https://shroomychrist-studios.itch.io/human-expenditure-program",
+      "https://humanexpenditureprogram.io/"
+    ],
+    "description": "Play Human Expenditure Program online in your browser — a horror-tinged simulation with choices and multiple endings."
+  }
+  </script>
+
+  <!-- JSON-LD: FAQPage (must match visible text exactly) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "What type of game is this?", "acceptedAnswer": { "@type": "Answer", "text": "A horror-tinged browser simulation about choices and consequences." } },
+      { "@type": "Question", "name": "Can I play it for free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. You can play in your browser with no downloads." } },
+      { "@type": "Question", "name": "Does it have multiple endings?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Your choices lead to different endings." } },
+      { "@type": "Question", "name": "Is there an official download?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Visit the official itch.io page for downloads." } },
+      { "@type": "Question", "name": "Who created the game?", "acceptedAnswer": { "@type": "Answer", "text": "SHROOMYCHRIST is the original creator." } },
+      { "@type": "Question", "name": "Does it save progress?", "acceptedAnswer": { "@type": "Answer", "text": "The web version is designed for short sessions; progress may not persist between reloads." } },
+      { "@type": "Question", "name": "How do I enter fullscreen?", "acceptedAnswer": { "@type": "Answer", "text": "Click the fullscreen button, double-click the player, or press F." } },
+      { "@type": "Question", "name": "Does it work on mobile?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. It runs in modern mobile browsers; rotate to landscape for the best view." } },
+      { "@type": "Question", "name": "Is it safe and legal to play here?", "acceptedAnswer": { "@type": "Answer", "text": "This is a non-commercial fan site that links to trusted sources." } },
+      { "@type": "Question", "name": "Why is the game not full screen by default?", "acceptedAnswer": { "@type": "Answer", "text": "To keep pages fast and stable; click fullscreen for an immersive view." } }
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD: WebPage (E-E-A-T enhanced) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebPage",
+    "name":"Play Human Expenditure Program Online",
+    "url":"https://humanexpenditureprogram.net",
+    "inLanguage":"en-US",
+    "datePublished":"2025-09-17",
+    "dateModified":"2025-09-17",
+    "author":{"@type":"Organization","name":"Human Expenditure Program"},
+    "copyrightHolder":{"@type":"Organization","name":"Human Expenditure Program"},
+    "primaryImageOfPage":{
+      "@type":"ImageObject",
+      "url":"https://humanexpenditureprogram.net/images/cover-1920x1080.webp",
+      "width":1920,
+      "height":1080
+    },
+    "about":{"@type":"VideoGame","name":"Human Expenditure Program"},
+    "publisher":{"@type":"Organization","name":"Human Expenditure Program"}
+  }
+  </script>
+
+  <!-- Minimal JS: lazy-insert iframe on click; fullscreen; warm-up; a11y; year -->
   <script>
-    // Year
-    document.getElementById('y').textContent = new Date().getFullYear();
+    document.addEventListener('DOMContentLoaded', function () {
+      const y = document.getElementById('year');
+      if (y) y.textContent = new Date().getFullYear();
 
-    // Theme toggle (persist + respect system)
-    (function(){
-      const html = document.documentElement;
-      const btn = document.getElementById('themeToggle');
-      const KEY = 'theme';
-      const sysDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-      const saved = localStorage.getItem(KEY);
-      const start = saved || (sysDark ? 'dark' : 'light');
-      const apply = (m) => {
-        html.classList.toggle('dark', m === 'dark');
-        btn.setAttribute('aria-pressed', String(m === 'dark'));
-      };
-      apply(start);
-      btn.addEventListener('click', () => {
-        const next = html.classList.contains('dark') ? 'light' : 'dark';
-        localStorage.setItem(KEY, next);
-        apply(next);
-      });
-    })();
+      const btn = document.getElementById('load-iframe');
+      const fsBtn = document.getElementById('fs-btn');
+      const iconEnter = document.getElementById('fs-enter');
+      const iconExit  = document.getElementById('fs-exit');
+      const container = document.getElementById('player-container');
 
-    // Responsive player: ratio buttons + fullscreen
-    (function(){
-      const wrap = document.getElementById('playerWrap');
-      const frame = document.getElementById('playFrame');
-      const btnFS = document.getElementById('btnFullscreen');
-      const ratioBtns = Array.from(document.querySelectorAll('.ratio-btn'));
-      let ratio = 1.7777777778; // 16:9 default
+      const SRC = 'https://humanexpenditureprogram.io/human-expenditure-program.embed';
 
-      function sizeToRatio() {
-        const w = wrap.clientWidth;
-        const h = Math.round(w / ratio);
-        const maxH = Math.floor(window.innerHeight * 0.85);
-        frame.style.height = Math.max(420, Math.min(maxH, h)) + 'px';
+      function loadIframe() {
+        if (!container || container.querySelector('iframe')) return;
+        // Loading state
+        btn?.setAttribute('aria-busy','true');
+        document.getElementById('spin')?.classList.remove('hidden');
+
+        const iframe = document.createElement('iframe');
+        iframe.id = 'game-iframe';
+        iframe.src = SRC;
+        iframe.title = 'Human Expenditure Program game';
+        iframe.loading = 'lazy';
+        iframe.referrerPolicy = 'no-referrer';
+        iframe.allowFullscreen = true;
+        iframe.setAttribute('allow', 'fullscreen; autoplay; clipboard-write; gamepad; xr-spatial-tracking');
+        iframe.setAttribute('aria-label', 'Embedded game frame for Human Expenditure Program');
+        iframe.className = 'absolute inset-0 w-full h-full border-0';
+        container.appendChild(iframe);
+
+        // Remove overlay and poster after loading
+        btn?.remove();
+        const poster = document.getElementById('poster');
+        poster?.remove();
       }
+      btn?.addEventListener('click', loadIframe);
 
-      ratioBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
-          ratioBtns.forEach(b => b.setAttribute('aria-pressed','false'));
-          btn.setAttribute('aria-pressed','true');
-          ratio = Number(btn.dataset.ratio) || 1.7777777778;
-          sizeToRatio();
+      // Fullscreen toggle
+      function toggleFullscreen() {
+        const target = container.querySelector('iframe') || container; // prefer iframe
+        if (!document.fullscreenElement) {
+          const req = target.requestFullscreen || target.webkitRequestFullscreen || target.msRequestFullscreen;
+          if (req) req.call(target, { navigationUI: 'hide' });
+        } else {
+          const ex = document.exitFullscreen || document.webkitExitFullscreen || document.msExitFullscreen;
+          if (ex) ex.call(document);
+        }
+      }
+      function syncFsState() {
+        const inFs = !!document.fullscreenElement;
+        fsBtn?.setAttribute('aria-pressed', inFs ? 'true' : 'false');
+        iconEnter?.classList.toggle('hidden', inFs);
+        iconExit?.classList.toggle('hidden', !inFs);
+      }
+      fsBtn?.addEventListener('click', toggleFullscreen);
+      container?.addEventListener('dblclick', toggleFullscreen);
+      document.addEventListener('keydown', (e) => {
+        const k = e.key.toLowerCase();
+        if (k === 'f') toggleFullscreen();
+        if (k === 'escape' && document.fullscreenElement) {
+          (document.exitFullscreen || document.webkitExitFullscreen || document.msExitFullscreen)?.call(document);
+        }
+      });
+      document.addEventListener('fullscreenchange', syncFsState);
+      syncFsState();
+
+      // Warm-up preconnect on interaction (improves first play)
+      const warmTargets = ["https://humanexpenditureprogram.io", "https://humanexpenditureprogram.net"];
+      function addPreconnect(href){
+        if (document.querySelector(`link[rel="preconnect"][href="${href}"]`)) return;
+        const l = document.createElement('link');
+        l.rel = 'preconnect'; l.href = href; l.crossOrigin = 'anonymous';
+        document.head.appendChild(l);
+      }
+      ['load-iframe','fs-btn','player-container'].forEach(id=>{
+        const el = document.getElementById(id);
+        ['pointerenter','touchstart'].forEach(evt=>{
+          el?.addEventListener(evt, ()=> warmTargets.forEach(addPreconnect), { once:true, passive:true });
         });
       });
-
-      new ResizeObserver(sizeToRatio).observe(wrap);
-      window.addEventListener('orientationchange', sizeToRatio);
-      sizeToRatio();
-
-      btnFS.addEventListener('click', async () => {
-        try {
-          if (!document.fullscreenElement) {
-            await wrap.requestFullscreen();
-          } else {
-            await document.exitFullscreen();
-          }
-          setTimeout(sizeToRatio, 150);
-        } catch(e) { /* ignore */ }
-      });
-    })();
+    });
   </script>
 </body>
 </html>
-
-
