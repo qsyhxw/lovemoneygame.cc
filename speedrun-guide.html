@@ -1,0 +1,614 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Speedrun Guide 18+ — LoveMoney & BLOODMONEY World Records</title>
+
+  <meta name="description" content="Complete speedrun guide for LoveMoney 18+ and BLOODMONEY. Learn record-breaking strategies, routing, split timing, and join the competitive community.">
+
+  <meta name="keywords" content="lovemoney speedrun, bloodmoney speedrun world record, any% route, good ending speedrun, lovemoney fastest time">
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://lovemoneygame.cc/speedrun-guide" />
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8830315294299920"
+      crossorigin="anonymous"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F98FBQ2ZGS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-F98FBQ2ZGS');
+  </script>
+
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Speedrun Guide 18+ — LoveMoney & BLOODMONEY" />
+  <meta property="og:description" content="Master competitive speedrunning in LoveMoney 18+ and BLOODMONEY. World record strategies and routing." />
+  <meta property="og:url" content="https://lovemoneygame.cc/speedrun-guide/" />
+  <meta property="og:image" content="https://lovemoneygame.cc/og-image.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Speedrun Guide — LoveMoney & BLOODMONEY" />
+  <meta name="twitter:description" content="Complete competitive speedrun strategies for LoveMoney 18+ and BLOODMONEY games." />
+  <meta name="twitter:image" content="https://lovemoneygame.cc/og-image.jpg" />
+
+  <!-- Theme -->
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0B0B12" media="(prefers-color-scheme: dark)">
+
+  <!-- Tailwind CDN -->
+  <script>tailwind.config = { darkMode: 'class' };</script>
+  <script src="https://cdn.tailwindcss.com/3.4.10"></script>
+
+  <style>
+    :root { color-scheme: light dark; }
+    .focus-outline:focus { outline: 3px solid currentColor; outline-offset: 2px; }
+    
+    @media (prefers-reduced-motion: no-preference) {
+      * { transition: all 0.2s ease; }
+    }
+    
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    #mobileMenu {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+    }
+    #mobileMenu.open { max-height: 500px; }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border-width: 0;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-slate-900 dark:bg-[#0B0B12] dark:text-[#EAEAF0] antialiased selection:bg-pink-500/30">
+  <a href="#content" class="sr-only focus:not-sr-only focus:outline-none focus:ring-2 focus:ring-pink-500 px-3 py-2 bg-black text-white absolute left-2 top-2 rounded z-50">Skip to content</a>
+
+  <!-- HEADER -->
+  <header class="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-white/70 bg-white/80 dark:supports-[backdrop-filter]:bg-black/40 dark:bg-black/60 border-b border-black/10 dark:border-white/10">
+    <nav class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between" aria-label="Primary">
+      <a href="/" class="flex items-center gap-2 font-semibold tracking-tight focus-outline">
+        <span aria-hidden="true" class="inline-block w-2.5 h-2.5 rounded-full bg-pink-500"></span>
+        <span>LoveMoney Game</span>
+        <span class="ml-2 text-xs text-slate-500 dark:text-white/60 border border-black/10 dark:border-white/20 rounded px-1.5 py-0.5">18+</span>
+      </a>
+      
+      <ul class="hidden md:flex items-center gap-6 text-sm">
+        <li><a href="/#about" class="hover:text-pink-500 focus-outline">About</a></li>
+        <li><a href="/#tools" class="hover:text-pink-500 focus-outline">Tools</a></li>
+        <li><a href="/#guides" class="hover:text-pink-500 focus-outline">Guides</a></li>
+        <li><a href="/#play" class="hover:text-pink-500 focus-outline">Play</a></li>
+        <li><a href="/#faq" class="hover:text-pink-500 focus-outline">FAQ</a></li>
+      </ul>
+      
+      <div class="flex items-center gap-2">
+        <a href="/#play" class="hidden sm:inline-flex items-center gap-2 rounded-xl px-3.5 py-2 text-sm font-semibold bg-pink-500 hover:bg-pink-400 transition focus-outline">Play Now</a>
+        
+        <button id="mobileMenuToggle" class="md:hidden p-2 hover:bg-black/5 dark:hover:bg-white/10 rounded-lg focus-outline" aria-label="Toggle menu" aria-expanded="false">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </nav>
+    
+    <div id="mobileMenu" class="md:hidden bg-white dark:bg-[#0B0B12] border-t border-black/10 dark:border-white/10">
+      <ul class="px-4 py-3 space-y-2 text-sm">
+        <li><a href="/#about" class="block py-2 hover:text-pink-500 focus-outline">About</a></li>
+        <li><a href="/#tools" class="block py-2 hover:text-pink-500 focus-outline">Tools</a></li>
+        <li><a href="/#guides" class="block py-2 hover:text-pink-500 focus-outline">Guides</a></li>
+        <li><a href="/#play" class="block py-2 hover:text-pink-500 focus-outline">Play</a></li>
+        <li><a href="/#faq" class="block py-2 hover:text-pink-500 focus-outline">FAQ</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="content">
+    <!-- HERO -->
+    <section class="py-12 sm:py-16 border-b border-black/10 dark:border-white/10">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <nav class="flex items-center gap-2 text-sm text-slate-600 dark:text-white/60 mb-6">
+          <a href="/" class="hover:text-pink-500 transition">Home</a>
+          <span>→</span>
+          <a href="/#guides" class="hover:text-pink-500 transition">Guides</a>
+          <span>→</span>
+          <span class="text-slate-900 dark:text-white">Speedrun Guide</span>
+        </nav>
+
+        <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+          Speedrun Guide 18+ — Competitive Play for LoveMoney & BLOODMONEY
+        </h1>
+        <p class="mt-4 text-lg text-slate-700 dark:text-white/80 leading-relaxed">
+          Speedrunning transforms these moral choice games into athletic precision challenges. Whether you're chasing world records or personal bests, this guide covers category definitions, routing strategies, split timing, and the techniques that separate casual players from competitive runners.
+        </p>
+
+        <div class="mt-6 flex flex-wrap items-center gap-3">
+          <a href="/money-farming-tips/" class="inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold bg-pink-500 hover:bg-pink-400 transition focus-outline">Money Farming Tips</a>
+          <a href="/moral-choices-guide/" class="inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold bg-black/5 hover:bg-black/10 dark:bg-white/10 dark:hover:bg-white/20 transition focus-outline">Moral Choices</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTENT WARNING -->
+    <section class="py-12 border-b border-black/10 dark:border-white/10">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <div class="rounded-2xl p-6 bg-amber-50/80 dark:bg-amber-900/10 border border-amber-200 dark:border-amber-800">
+          <h3 class="font-semibold text-amber-900 dark:text-amber-200 flex items-center gap-2 mb-3">
+            <span aria-hidden="true">⚡</span> Speedrunning Philosophy Notice
+          </h3>
+          <p class="text-sm text-amber-800 dark:text-amber-300">
+            Speedrunning these games fundamentally changes their nature—transforming moral contemplation into mechanical optimization. While valid as competitive play, remember that fastest completion times typically require choosing the darkest paths. Consider whether pure efficiency aligns with your experience goals.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="py-12 border-b border-black/10 dark:border-white/10">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-6">Speedrun Categories Explained</h2>
+
+        <div class="prose prose-slate dark:prose-invert max-w-none">
+          <p class="text-slate-700 dark:text-white/80 leading-relaxed">
+            Both LoveMoney and BLOODMONEY speedrun communities have established standard categories that mirror broader speedrunning conventions. The most fundamental distinction is Any% versus restricted categories. Any% allows any methods, tools, and routes to reach the final screen as quickly as possible, prioritizing pure speed over completeness or ethics. This creates the most dramatic time difference between games—BLOODMONEY's Any% route enables sub-5-minute completions through purchasing all tools including the Gun, while LoveMoney's aggressive Soap route reaches similar speeds at 10-12 minutes.
+          </p>
+
+          <p class="text-slate-700 dark:text-white/80 leading-relaxed mt-4">
+            Restricted categories introduce additional challenge by limiting available tools or targeting specific endings. Good Ending% speedruns represent the ethical ceiling—reaching $25,000 using only harmless or minimally harmful tools. In BLOODMONEY, this typically means Feather-only runs taking 20-30 minutes, testing endurance over optimization since you cannot improve efficiency through purchases. LoveMoney's equivalent avoids the Soap entirely, accepting the slower progression inherent in maintaining moral boundaries. These categories appeal to runners who enjoy the challenge of optimization within ethical constraints.
+          </p>
+
+          <p class="text-slate-700 dark:text-white/80 leading-relaxed mt-4">
+            Bad Ending% categories specifically target the darkest conclusions—purchasing the Gun in BLOODMONEY or the Soap in LoveMoney—often overlapping with Any% routes since these tools provide maximum efficiency. The 100% or All Endings category represents the ultimate completionist challenge, requiring multiple full playthroughs to unlock every possible conclusion. This transforms speedrunning from a sprint into a strategic marathon where route planning across multiple runs matters more than individual run optimization. Runners must balance which endings to pursue in each attempt while minimizing total accumulated time.
+          </p>
+        </div>
+
+        <div class="mt-6 grid md:grid-cols-2 gap-6">
+          <div class="rounded-xl p-5 bg-purple-50/80 dark:bg-purple-900/10 border border-purple-200 dark:border-purple-800">
+            <h4 class="font-semibold text-purple-900 dark:text-purple-200 mb-3">Any% (Unrestricted)</h4>
+            <div class="space-y-2 text-sm text-purple-800 dark:text-purple-300">
+              <p><strong>Goal:</strong> Reach final screen by any means necessary</p>
+              <p><strong>BLOODMONEY:</strong> < 5 minutes (all tools + Gun)</p>
+              <p><strong>LoveMoney:</strong> 10-12 minutes (all items + Soap)</p>
+              <p><strong>Appeal:</strong> Pure optimization, highest skill ceiling</p>
+            </div>
+          </div>
+
+          <div class="rounded-xl p-5 bg-green-50/80 dark:bg-green-900/10 border border-green-200 dark:border-green-800">
+            <h4 class="font-semibold text-green-900 dark:text-green-200 mb-3">Good Ending%</h4>
+            <div class="space-y-2 text-sm text-green-800 dark:text-green-300">
+              <p><strong>Goal:</strong> Achieve ethical ending with minimal harm</p>
+              <p><strong>BLOODMONEY:</strong> 20-30 minutes (Feather only)</p>
+              <p><strong>LoveMoney:</strong> 20-30 minutes (no Soap)</p>
+              <p><strong>Appeal:</strong> Endurance test, moral optimization</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROUTING -->
+    <section class="py-12 border-b border-black/10 dark:border-white/10">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-6">Optimal Route Planning</h2>
+
+        <div class="prose prose-slate dark:prose-invert max-w-none">
+          <p class="text-slate-700 dark:text-white/80 leading-relaxed">
+            BLOODMONEY's Any% route represents perhaps the most mathematically elegant speedrun in the genre. Community testing has established that optimal play requires approximately 2,100 total clicks distributed strategically across the seven-tool progression. The key insight is that each tool roughly doubles your earning rate while its purchase cost also doubles, creating near-perfect equilibrium where you need around 375 clicks between purchases after the initial Needle. This means speedrunners can predict their progress with remarkable accuracy—if you're significantly above or below 375 clicks per tier, you're off optimal pace.
+          </p>
+
+          <p class="text-slate-700 dark:text-white/80 leading-relaxed mt-4">
+            The route breakdown follows predictable patterns: burst clicking from start until $100 for Feather (approximately 100 clicks), then continued burst clicking until $500 for Needle (250 more clicks with Feather). From Needle onward, the rhythm stabilizes—each subsequent purchase requires roughly 375 clicks with your current tool. The psychological challenge emerges in the Scissors-to-Knife transition where Harvey's reactions intensify and the knife quick-time event introduces execution risk. Elite runners maintain composure through this pressure point, treating Harvey's desperate pleas as audio cues for timing rather than emotional content.
+          </p>
+
+          <p class="text-slate-700 dark:text-white/80 leading-relaxed mt-4">
+            LoveMoney routing proves more complex due to its less transparent item system. While Feather's $1→$2 effect is confirmed, other items provide variable or undocumented multipliers, making precise route optimization difficult. Current Any% strategies focus on aggressive early Soap purchase, though the exact timing depends on when the item becomes available in your specific playthrough. Some runners report Soap appearing around $300-500, while others don't see it until $1,000+. This variance introduces luck elements that frustrate attempts at perfect routing. Competitive runners develop contingency plans for different shop RNG patterns rather than committing to a single rigid route.
+          </p>
+        </div>
+
+        <div class="mt-6 rounded-2xl p-6 bg-slate-50/80 dark:bg-white/5 border border-black/10 dark:border-white/10">
+          <h4 class="font-semibold mb-4">BLOODMONEY Any% Route Template</h4>
+          <div class="space-y-2 text-sm text-slate-700 dark:text-white/80 font-mono">
+            <div class="flex items-center justify-between">
+              <span>$0 → $100</span>
+              <span class="text-slate-500 dark:text-white/60">~100 clicks (burst clicking)</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span>$100 → $500</span>
+              <span class="text-slate-500 dark:text-white/60">~250 clicks (Feather @ $2/click)</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span>$500 → $1,500</span>
+              <span class="text-slate-500 dark:text-white/60">~375 clicks (Needle @ $4/click est.)</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span>$1,500 → $3,000</span>
+              <span class="text-slate-500 dark:text-white/60">~375 clicks (Hammer)</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span>$3,000 → $6,000</span>
+              <span class="text-slate-500 dark:text-white/60">~375 clicks (Scissors)</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span>$6,000 → $10,000</span>
+              <span class="text-slate-500 dark:text-white/60">~375 clicks (Matches)</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span>$10,000 → $20,000</span>
+              <span class="text-slate-500 dark:text-white/60">~375 clicks (Knife + QTE)</span>
+            </div>
+            <div class="flex items-center justify-between font-semibold">
+              <span>Purchase Gun → END</span>
+              <span class="text-pink-600 dark:text-pink-400">Instant completion</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADVANCED TECHNIQUES -->
+    <section class="py-12 border-b border-black/10 dark:border-white/10">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-6">Advanced Speedrun Techniques</h2>
+
+        <div class="prose prose-slate dark:prose-invert max-w-none">
+          <p class="text-slate-700 dark:text-white/80 leading-relaxed">
+            Frame-perfect purchase timing represents the most significant micro-optimization in both games. The moment your money counter reaches a tool's cost threshold, executing the purchase immediately prevents wasted clicks at lower earning rates. This sounds trivial but compounds dramatically over a full run—every delayed purchase costs you several clicks of opportunity cost. Elite runners develop muscle memory for the exact mouse path from Harvey to the shop button, minimizing travel time between earnings and purchases. Some competitive players use keyboard shortcuts or hotkeys when available to shave additional milliseconds.
+          </p>
+
+          <p class="text-slate-700 dark:text-white/80 leading-relaxed mt-4">
+            Dialogue skipping offers less obvious but still meaningful time savings. Both games include narrative moments where Harvey speaks or reacts, creating windows where clicking produces no earnings. BLOODMONEY's Any% route typically ignores all dialogue, treating Harvey's voice lines as background audio while maintaining maximum click rate. However, some dialogue segments appear unskippable, forcing runners to develop clicking rhythms that optimize hand rest during these forced pauses. Good runners treat unskippable dialogue as strategic rest points that prevent the accumulated micro-fatigue that degrades clicking speed in the late game.
+          </p>
+
+          <p class="text-slate-700 dark:text-white/80 leading-relaxed mt-4">
+            Hardware optimization matters more at competitive levels than casual players realize. Community testing confirms that traditional mice provide 15-20% faster completion times compared to laptop trackpads, primarily through superior ergonomics enabling sustained high click rates without fatigue. Some runners experiment with mechanical keyboards for any keyboard-triggered actions, though clicking remains the primary input. Perhaps controversially, autoclicker discussions occasionally surface in community spaces. While technically capable of superhuman click rates, autoclickers are universally banned from competitive leaderboards and generally discouraged as antithetical to speedrunning's test-of-skill philosophy.
+          </p>
+
+          <p class="text-slate-700 dark:text-white/80 leading-relaxed mt-4">
+            Split timing transforms speedrunning from casual fast-play into serious competitive discipline. Runners use timer software that tracks not just overall completion time but intermediate "splits"—typically marking each major purchase milestone. This enables real-time comparison against your personal best or world record pace, letting you know mid-run whether you're on track for a new record. Splits also facilitate route optimization by revealing which segments consistently lose time, directing practice focus toward your weakest execution points. The BLOODMONEY community has standardized on eight-split templates (one per tool), while LoveMoney splits vary based on individual routing strategies.
+          </p>
+        </div>
+
+        <div class="mt-6 grid md:grid-cols-2 gap-6">
+          <div class="rounded-xl p-5 bg-blue-50/80 dark:bg-blue-900/10 border border-blue-200 dark:border-blue-800">
+            <h4 class="font-semibold text-blue-900 dark:text-blue-200 mb-3">Execution Techniques</h4>
+            <div class="space-y-2 text-sm text-blue-800 dark:text-blue-300">
+              <p>• Frame-perfect purchase timing (0-delay shop access)</p>
+              <p>• Dialogue skip/ignore (maximize click uptime)</p>
+              <p>• Optimized mouse path (Harvey → Shop → Harvey)</p>
+              <p>• Burst clicking stamina management (5-7 clicks/sec)</p>
+              <p>• QTE preparation (Knife encounter in BLOODMONEY)</p>
+            </div>
+          </div>
+
+          <div class="rounded-xl p-5 bg-green-50/80 dark:bg-green-900/10 border border-green-200 dark:border-green-800">
+            <h4 class="font-semibold text-green-900 dark:text-green-200 mb-3">Mental Game</h4>
+            <div class="space-y-2 text-sm text-green-800 dark:text-green-300">
+              <p>• Treat Harvey as mechanical system, not character</p>
+              <p>• Maintain consistent rhythm despite pressure</p>
+              <p>• Reset after mistakes (don't tilt on bad runs)</p>
+              <p>• Use splits for real-time pace judgment</p>
+              <p>• Accept that PBs require dozens of attempts</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMMUNITY RECORDS -->
+    <section class="py-12 border-b border-black/10 dark:border-white/10">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-6">Community Records & Leaderboards</h2>
+
+        <div class="prose prose-slate dark:prose-invert max-w-none">
+          <p class="text-slate-700 dark:text-white/80 leading-relaxed">
+            The speedrunning community for these games remains relatively nascent compared to established titles, meaning record opportunities exist for newcomers willing to invest practice time. BLOODMONEY's Any% world record currently sits below the 5-minute barrier, with elite runners reporting sub-3-minute theoretical completion if perfect RNG and execution align. However, verification of specific record times proves challenging since neither game has achieved major speedrunning platform recognition. Most community records circulate through informal channels—Discord servers, YouTube comments, and casual leaderboard spreadsheets rather than Speedrun.com verification.
+          </p>
+
+          <p class="text-slate-700 dark:text-white/80 leading-relaxed mt-4">
+            LoveMoney records remain even less formalized due to the game's more recent release and smaller player base. The aggressive route theoretical floor sits around 8-10 minutes, though community consensus suggests no verified run has yet broken 10 minutes conclusively. The ethical Good Ending% category sees less competitive pressure, with most runners content hitting the 20-25 minute range rather than optimizing further. This creates an unusual dynamic where anyone reading this guide with moderate dedication could potentially claim category leadership simply by submitting verified runs to community spaces.
+          </p>
+
+          <p class="text-slate-700 dark:text-white/80 leading-relaxed mt-4">
+            Verification standards for these games typically require video evidence showing continuous gameplay from start to final ending screen, with visible timer overlay. Some community members advocate for additional anti-cheat measures like handcam footage proving manual clicking, though this remains controversial as potentially excluding legitimate runners who lack recording equipment. The absence of formal leaderboard infrastructure means record claims rely heavily on community trust and reputation. Established runners whose previous submissions passed scrutiny gain credibility for future claims, while newcomers face greater skepticism requiring more extensive documentation.
+          </p>
+        </div>
+
+        <div class="mt-6 rounded-2xl p-6 bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/10 dark:to-pink-900/10 border border-purple-200 dark:border-purple-800">
+          <h4 class="font-semibold text-purple-900 dark:text-purple-200 mb-4">Reported Community Records (Unverified)</h4>
+          <div class="space-y-3 text-sm">
+            <div class="flex items-center justify-between pb-2 border-b border-purple-200 dark:border-purple-700">
+              <span class="font-medium">BLOODMONEY Any%</span>
+              <span class="text-purple-600 dark:text-purple-400">< 5 minutes (< 3 min theoretical)</span>
+            </div>
+            <div class="flex items-center justify-between pb-2 border-b border-purple-200 dark:border-purple-700">
+              <span class="font-medium">BLOODMONEY Good Ending%</span>
+              <span class="text-purple-600 dark:text-purple-400">20-25 minutes (Feather only)</span>
+            </div>
+            <div class="flex items-center justify-between pb-2 border-b border-purple-200 dark:border-purple-700">
+              <span class="font-medium">LoveMoney Any%</span>
+              <span class="text-purple-600 dark:text-purple-400">~10 minutes (8-10 min theoretical)</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="font-medium">LoveMoney Good Ending%</span>
+              <span class="text-purple-600 dark:text-purple-400">20-30 minutes (no Soap)</span>
+            </div>
+          </div>
+          <p class="mt-4 text-xs text-purple-700 dark:text-purple-300">
+            <strong>Note:</strong> These records are community-reported and lack formal verification infrastructure. Consider them approximate benchmarks rather than official standings.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ETHICAL CONSIDERATIONS -->
+    <section class="py-12 border-b border-black/10 dark:border-white/10">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-6">The Speedrunning Paradox</h2>
+
+        <div class="prose prose-slate dark:prose-invert max-w-none">
+          <p class="text-slate-700 dark:text-white/80 leading-relaxed">
+            Speedrunning these particular games creates an interesting philosophical tension rarely discussed in broader speedrunning communities. Both LoveMoney and BLOODMONEY were explicitly designed as moral experiments where the primary experience comes from contemplating difficult ethical choices under pressure. Speedrunning fundamentally inverts this design intent—transforming careful moral consideration into mechanical optimization where Harvey becomes merely an obstacle between you and better splits. Elite runners report consciously suppressing emotional responses to Harvey's reactions, treating his pleas and distress as audio cues for timing rather than narrative content.
+          </p>
+
+          <p class="text-slate-700 dark:text-white/80 leading-relaxed mt-4">
+            This doesn't make speedrunning invalid or morally problematic—it simply represents a different way of engaging with the same content. Just as classical music can be appreciated both for emotional resonance and technical virtuosity, these games support both contemplative moral engagement and athletic optimization. Some runners report that speedrunning actually deepened their appreciation for the games' design by revealing the mathematical elegance underlying the progression systems. Others prefer separating their speedrun attempts from first-playthrough experiences, maintaining distinct mental frames for competitive versus contemplative engagement.
+          </p>
+
+          <p class="text-slate-700 dark:text-white/80 leading-relaxed mt-4">
+            The Good Ending% categories represent interesting compromise territory—maintaining the speedrunning framework while preserving ethical constraints. These runs demonstrate that optimization needn't always mean abandoning moral boundaries. Instead, the challenge becomes optimizing within those boundaries, finding the fastest possible path while respecting limitations you've chosen to impose. This perhaps more closely mirrors real-world ethical decision-making where we constantly balance competing pressures of efficiency against moral commitments. Whether you're chasing Any% world records or Good Ending personal bests, speedrunning these games offers legitimate competitive challenge and community engagement.
+          </p>
+        </div>
+
+        <div class="mt-6 p-4 rounded-xl bg-blue-50/80 dark:bg-blue-900/10 border border-blue-200 dark:border-blue-800">
+          <p class="text-sm text-blue-900 dark:text-blue-200">
+            <strong>💭 Reflection Point:</strong> Consider whether your speedrun goals align with your personal values. There's no wrong answer—pure Any% optimization and ethical Good Ending% both represent valid competitive challenges. The choice reveals something about what you find meaningful in gaming competition.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GETTING STARTED -->
+    <section class="py-12 border-b border-black/10 dark:border-white/10">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-6">Getting Started with Speedrunning</h2>
+
+        <div class="prose prose-slate dark:prose-invert max-w-none">
+          <p class="text-slate-700 dark:text-white/80 leading-relaxed">
+            New speedrunners should begin with casual practice runs focusing purely on completion without timing pressure. Play each game through 2-3 times to develop familiarity with shop timing, dialogue patterns, and Harvey's reaction sequences. Only after you can complete runs consistently without significant mistakes should you introduce split timing and formal practice. This foundation prevents the common beginner mistake of optimizing execution before understanding routing—you can't efficiently practice something you don't yet comprehend mechanically.
+          </p>
+
+          <p class="text-slate-700 dark:text-white/80 leading-relaxed mt-4">
+            Once ready for timed attempts, start with your chosen category's standard route rather than innovating immediately. Community-developed routes represent collective optimization wisdom from hundreds of previous attempts. After establishing baseline times using standard routes, you'll develop intuition for where optimization opportunities might exist based on your personal strengths. Some runners excel at sustained high click rates, others at precise timing and minimal wasted motion. Identify your natural advantages and route accordingly rather than forcing execution patterns that don't match your capabilities.
+          </p>
+
+          <p class="text-slate-700 dark:text-white/80 leading-relaxed mt-4">
+            Recording and reviewing your runs provides invaluable feedback that real-time play cannot match. Watch back completed attempts noting specific moments where you lost time—hesitation before purchases, clicking during dialogue windows, momentary rhythm breaks. Then practice those specific segments in isolation before attempting full runs. This deliberate practice approach improves much faster than simply grinding complete runs hoping for overall improvement. Finally, engage with community spaces to share runs, discuss routing innovations, and celebrate personal bests. Speedrunning's social dimension provides motivation and collective knowledge that elevates everyone's performance.
+          </p>
+        </div>
+
+        <div class="mt-6 rounded-xl p-5 bg-gradient-to-r from-green-50 to-blue-50 dark:from-green-900/10 dark:to-blue-900/10 border border-green-200 dark:border-green-800">
+          <h4 class="font-semibold text-green-900 dark:text-green-200 mb-3">Speedrunning Progression Path</h4>
+          <div class="space-y-2 text-sm text-green-800 dark:text-green-300">
+            <p><strong>1. Casual Completion (2-3 runs):</strong> Learn mechanics, memorize shop patterns</p>
+            <p><strong>2. Untimed Practice (5-10 runs):</strong> Develop consistent execution without errors</p>
+            <p><strong>3. First Timed Run:</strong> Establish baseline with standard community route</p>
+            <p><strong>4. Analysis Phase:</strong> Review recordings, identify time loss segments</p>
+            <p><strong>5. Targeted Practice:</strong> Drill specific weak points in isolation</p>
+            <p><strong>6. PB Attempts:</strong> Full timed runs aiming for personal bests</p>
+            <p><strong>7. Community Engagement:</strong> Share runs, discuss optimizations, iterate</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RELATED GUIDES -->
+    <section class="py-12">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-6">Related Guides & Tools</h2>
+        
+        <div class="grid sm:grid-cols-2 gap-4">
+          <a href="/money-farming-tips/" class="block rounded-xl p-4 bg-slate-50/80 dark:bg-white/5 border border-black/10 dark:border-white/10 hover:border-pink-500 dark:hover:border-pink-500 transition focus-outline">
+            <h3 class="font-semibold mb-1">Money Farming Tips</h3>
+            <p class="text-sm text-slate-600 dark:text-white/60">Foundation efficiency strategies for all categories</p>
+          </a>
+
+          <a href="/moral-choices-guide/" class="block rounded-xl p-4 bg-slate-50/80 dark:bg-white/5 border border-black/10 dark:border-white/10 hover:border-pink-500 dark:hover:border-pink-500 transition focus-outline">
+            <h3 class="font-semibold mb-1">Moral Choices Guide</h3>
+            <p class="text-sm text-slate-600 dark:text-white/60">Context for what speedrunning bypasses</p>
+          </a>
+
+          <a href="/all-endings/" class="block rounded-xl p-4 bg-slate-50/80 dark:bg-white/5 border border-black/10 dark:border-white/10 hover:border-pink-500 dark:hover:border-pink-500 transition focus-outline">
+            <h3 class="font-semibold mb-1">All Endings Guide</h3>
+            <p class="text-sm text-slate-600 dark:text-white/60">Understanding category targets and goals</p>
+          </a>
+
+          <a href="/items-guide/" class="block rounded-xl p-4 bg-slate-50/80 dark:bg-white/5 border border-black/10 dark:border-white/10 hover:border-pink-500 dark:hover:border-pink-500 transition focus-outline">
+            <h3 class="font-semibold mb-1">Items Database</h3>
+            <p class="text-sm text-slate-600 dark:text-white/60">Tool progression data for routing</p>
+          </a>
+        </div>
+
+        <div class="mt-8 text-center">
+          <a href="/#play" class="inline-flex items-center gap-2 rounded-2xl px-6 py-3 font-semibold bg-pink-500 hover:bg-pink-400 transition focus-outline">
+            ▶ Start Practicing Now
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-black/10 dark:border-white/10 py-10 text-sm">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+      <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8">
+        <div>
+          <h3 class="font-semibold mb-3 flex items-center gap-2">
+            <span class="inline-block w-2 h-2 rounded-full bg-pink-500" aria-hidden="true"></span>
+            LoveMoney Game
+          </h3>
+          <p class="text-slate-600 dark:text-white/60 text-xs leading-relaxed">
+            Your comprehensive resource for LoveMoney endings, guides, and interactive tools.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="font-semibold mb-3">Quick Links</h4>
+          <ul class="space-y-2 text-slate-600 dark:text-white/60">
+            <li><a href="/how-to-play/" class="hover:text-pink-600 dark:hover:text-pink-300 transition focus-outline">How to Play</a></li>
+            <li><a href="/all-endings/" class="hover:text-pink-600 dark:hover:text-pink-300 transition focus-outline">All Endings</a></li>
+            <li><a href="/ending-calculator/" class="hover:text-pink-600 dark:hover:text-pink-300 transition focus-outline">Ending Calculator</a></li>
+            <li><a href="/download-guide/" class="hover:text-pink-600 dark:hover:text-pink-300 transition focus-outline">Download</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-semibold mb-3">Guides</h4>
+          <ul class="space-y-2 text-slate-600 dark:text-white/60">
+            <li><a href="/items-guide/" class="hover:text-pink-600 dark:hover:text-pink-300 transition focus-outline">Items Guide</a></li>
+            <li><a href="/harvey-character-analysis/" class="hover:text-pink-600 dark:hover:text-pink-300 transition focus-outline">Harvey Analysis</a></li>
+            <li><a href="/lovemoney-vs-bloodmoney/" class="hover:text-pink-600 dark:hover:text-pink-300 transition focus-outline">vs BloodMoney</a></li>
+            <li><a href="/speedrun-guide/" class="hover:text-pink-600 dark:hover:text-pink-300 transition focus-outline">Speedrun Guide</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-semibold mb-3">Legal</h4>
+          <ul class="space-y-2 text-slate-600 dark:text-white/60">
+            <li class="flex items-center gap-2">
+              <span class="text-xs border border-black/10 dark:border-white/20 rounded px-1.5 py-0.5">18+</span>
+              <span class="text-xs">Mature Content</span>
+            </li>
+            <li class="text-xs leading-relaxed">Unofficial fan guide, not affiliated</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pt-8 border-t border-black/10 dark:border-white/10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <p class="text-slate-600 dark:text-white/60">
+          © <span id="year"></span> LoveMoney Game. All trademarks belong to their respective owners.
+        </p>
+        <div class="flex items-center gap-4">
+          <a href="mailto:hello@lovemoneygame.cc" class="hover:text-pink-600 dark:hover:text-pink-300 focus-outline transition">Contact</a>
+          <a href="https://buwu3.itch.io/llllollll" class="hover:text-pink-600 dark:hover:text-pink-300 focus-outline transition" target="_blank" rel="noopener noreferrer">itch.io</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Mobile menu toggle
+    (function(){
+      const toggle = document.getElementById('mobileMenuToggle');
+      const menu = document.getElementById('mobileMenu');
+      
+      toggle.addEventListener('click', () => {
+        const isOpen = menu.classList.contains('open');
+        menu.classList.toggle('open');
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+      });
+
+      menu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          menu.classList.remove('open');
+          toggle.setAttribute('aria-expanded', 'false');
+        });
+      });
+
+      document.addEventListener('click', (e) => {
+        if (!toggle.contains(e.target) && !menu.contains(e.target)) {
+          menu.classList.remove('open');
+          toggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    })();
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const href = this.getAttribute('href');
+        if (href === '#') return;
+        
+        e.preventDefault();
+        const target = document.querySelector(href);
+        if (target) {
+          const headerOffset = 70;
+          const elementPosition = target.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+  </script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
