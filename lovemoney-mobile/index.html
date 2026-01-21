@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Lovemoney Mobile 18+ — Play on Phone Browser (No App Download)</title>
+  <meta name="description" content="Lovemoney mobile guide: No official Android/iOS app exists. Play the 18+ game on mobile browser or download Windows version. Beware fake APKs on itch.io imposters.">
+  <meta name="keywords" content="lovemoney mobile, lovemoney android, lovemoney ios, lovemoney apk, lovemoney phone, mobile visual novel 18+">
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://lovemoneygame.cc/lovemoney-mobile/" />
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8830315294299920"
+      crossorigin="anonymous"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F98FBQ2ZGS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-F98FBQ2ZGS');
+  </script>
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Lovemoney Mobile 18+ — Play on Phone Browser" />
+  <meta property="og:description" content="Complete mobile guide for Lovemoney 18+ visual novel. No official app - play via browser or download desktop version." />
+  <meta property="og:url" content="https://lovemoneygame.cc/lovemoney-mobile/" />
+  <meta property="og:site_name" content="Lovemoney game" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Lovemoney Mobile 18+ Guide" />
+  <meta name="twitter:description" content="Play Lovemoney on mobile browser - no official Android/iOS app exists." />
+
+  <script>tailwind.config = { darkMode: 'class' };</script>
+  <script src="https://cdn.tailwindcss.com/3.4.10"></script>
+  
+  <style>
+    :root { color-scheme: light dark; }
+    .focus-outline:focus { outline: 3px solid currentColor; outline-offset: 2px; }
+    
+    @media (prefers-reduced-motion: no-preference) {
+      button, a, details summary {
+        transition: all 0.2s ease;
+      }
+    }
+    
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    #mobileMenu {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+    }
+    #mobileMenu.open {
+      max-height: 500px;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border-width: 0;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-slate-900 dark:bg-[#0B0B12] dark:text-[#EAEAF0] antialiased selection:bg-pink-500/30">
+  <a href="#content" class="sr-only focus:not-sr-only focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2 px-3 py-2 bg-black/80 text-white absolute left-2 top-2 rounded z-50">Skip to content</a>
+
+  <header class="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-white/70 bg-white/80 dark:supports-[backdrop-filter]:bg-black/40 dark:bg-black/60 border-b border-black/10 dark:border-white/10">
+    <nav class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between" aria-label="Primary">
+      <a href="/" class="flex items-center gap-2 font-semibold tracking-tight focus-outline">
+        <span aria-hidden="true" class="inline-block w-2.5 h-2.5 rounded-full bg-pink-500"></span>
+        <span>Lovemoney game</span>
+        <span class="ml-2 text-xs text-slate-500 dark:text-white/60 border border-black/10 dark:border-white/20 rounded px-1.5 py-0.5">18+</span>
+      </a>
+      
+      <ul class="hidden md:flex items-center gap-6 text-sm">
+        <li><a href="/#about" class="hover:text-pink-500 focus-outline">About</a></li>
+        <li><a href="/#features" class="hover:text-pink-500 focus-outline">Features</a></li>
+        <li><a href="/how-to-play/" class="hover:text-pink-500 focus-outline">How to Play</a></li>
+        <li><a href="/all-endings/" class="hover:text-pink-500 focus-outline">Endings</a></li>
+        <li><a href="/download-guide/" class="hover:text-pink-500 focus-outline">Download</a></li>
+        <li><a href="/#faq" class="hover:text-pink-500 focus-outline">FAQ</a></li>
+      </ul>
+      
+      <div class="flex items-center gap-2">
+        <a href="/#play" class="hidden sm:inline-flex items-center gap-2 rounded-xl px-3.5 py-2 text-sm font-semibold bg-pink-500 hover:bg-pink-400 transition focus-outline">Play Now</a>
+        
+        <button id="mobileMenuToggle" class="md:hidden p-2 hover:bg-black/5 dark:hover:bg-white/10 rounded-lg focus-outline" aria-label="Toggle menu" aria-expanded="false">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </nav>
+    
+    <div id="mobileMenu" class="md:hidden bg-white dark:bg-[#0B0B12] border-t border-black/10 dark:border-white/10">
+      <ul class="px-4 py-3 space-y-2 text-sm">
+        <li><a href="/#about" class="block py-2 hover:text-pink-500 focus-outline">About</a></li>
+        <li><a href="/#features" class="block py-2 hover:text-pink-500 focus-outline">Features</a></li>
+        <li><a href="/how-to-play/" class="block py-2 hover:text-pink-500 focus-outline">How to Play</a></li>
+        <li><a href="/all-endings/" class="block py-2 hover:text-pink-500 focus-outline">Endings</a></li>
+        <li><a href="/download-guide/" class="block py-2 hover:text-pink-500 focus-outline">Download</a></li>
+        <li><a href="/#faq" class="block py-2 hover:text-pink-500 focus-outline">FAQ</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="py-12 sm:py-16">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+          Lovemoney Mobile 18+ — How to Play on Your Phone
+        </h1>
+        
+        <div class="mt-6 space-y-4 text-slate-700 dark:text-white/80 leading-relaxed">
+          <p>
+            <strong>Lovemoney mobile 18+</strong> gameplay is possible through your phone's browser, despite no official Android or iOS app existing. This <strong>uncensored NSFW</strong> visual novel can be played on mobile devices via <strong>lovemoneygame.cc</strong>, avoiding fake APK downloads from <strong>itch.io</strong> imposters. Learn how to <strong>play Lovemoney on mobile</strong> safely below.
+          </p>
+          
+          <p>
+            This comprehensive guide covers everything you need to know about accessing Lovemoney on mobile devices, including browser compatibility, performance optimization, and critical warnings about fake mobile apps that could compromise your device security.
+          </p>
+        </div>
+
+        <div class="mt-8 p-6 rounded-2xl bg-amber-50/80 dark:bg-amber-900/10 border-2 border-amber-500">
+          <h2 class="font-semibold text-amber-900 dark:text-amber-200 flex items-center gap-2 text-lg">
+            <span aria-hidden="true">⚠️</span> Content Notice: 18+ Mature Audiences Only
+          </h2>
+          <p class="mt-2 text-sm text-amber-800 dark:text-amber-300">
+            Lovemoney contains mature themes and explicit content intended exclusively for adults aged 18 and older. By accessing this game on any platform, you confirm you meet the age requirement and understand the nature of the content.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="quick-answer" class="py-12 border-t border-black/10 dark:border-white/10">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-2">Can You Play Lovemoney on Mobile?</h2>
+        <p class="text-slate-600 dark:text-white/70 mb-8">Quick comparison of your options</p>
+
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="rounded-2xl p-6 bg-green-50/80 dark:bg-green-900/10 border-2 border-green-500">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="text-3xl" aria-hidden="true">✅</span>
+              <h3 class="font-bold text-lg text-green-900 dark:text-green-200">Mobile Browser</h3>
+            </div>
+            <p class="text-sm text-green-800 dark:text-green-300 font-semibold mb-3">OFFICIAL METHOD</p>
+            <ul class="space-y-2 text-sm text-green-900 dark:text-green-100">
+              <li class="flex items-start gap-2">
+                <span class="text-green-600 dark:text-green-400">•</span>
+                <span>Play instantly on any phone</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-green-600 dark:text-green-400">•</span>
+                <span>No download or installation needed</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-green-600 dark:text-green-400">•</span>
+                <span>Works on iOS Safari & Android Chrome</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-green-600 dark:text-green-400">•</span>
+                <span>Free to access</span>
+              </li>
+            </ul>
+            <a href="/#play" class="mt-4 inline-flex items-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold bg-green-600 hover:bg-green-500 text-white transition focus-outline w-full justify-center">
+              Play on Mobile Browser
+            </a>
+          </div>
+
+          <div class="rounded-2xl p-6 bg-red-50/80 dark:bg-red-900/10 border-2 border-red-500">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="text-3xl" aria-hidden="true">❌</span>
+              <h3 class="font-bold text-lg text-red-900 dark:text-red-200">Native Mobile Apps</h3>
+            </div>
+            <p class="text-sm text-red-800 dark:text-red-300 font-semibold mb-3">DO NOT EXIST</p>
+            <ul class="space-y-2 text-sm text-red-900 dark:text-red-100">
+              <li class="flex items-start gap-2">
+                <span class="text-red-600 dark:text-red-400">×</span>
+                <span>No official Android APK</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-red-600 dark:text-red-400">×</span>
+                <span>No official iOS app</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-red-600 dark:text-red-400">×</span>
+                <span>All app stores listings are FAKE</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-red-600 dark:text-red-400">×</span>
+                <span>Third-party APKs = malware risk</span>
+              </li>
+            </ul>
+            <div class="mt-4 text-center text-xs text-red-800 dark:text-red-300 font-bold">
+              Developer confirmed: NO mobile app
+            </div>
+          </div>
+
+          <div class="rounded-2xl p-6 bg-blue-50/80 dark:bg-blue-900/10 border-2 border-blue-500">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="text-3xl" aria-hidden="true">💻</span>
+              <h3 class="font-bold text-lg text-blue-900 dark:text-blue-200">Windows Desktop</h3>
+            </div>
+            <p class="text-sm text-blue-800 dark:text-blue-300 font-semibold mb-3">BEST EXPERIENCE</p>
+            <ul class="space-y-2 text-sm text-blue-900 dark:text-blue-100">
+              <li class="flex items-start gap-2">
+                <span class="text-blue-600 dark:text-blue-400">•</span>
+                <span>Superior performance</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-blue-600 dark:text-blue-400">•</span>
+                <span>Full features unlocked</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-blue-600 dark:text-blue-400">•</span>
+                <span>Reliable save system</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-blue-600 dark:text-blue-400">•</span>
+                <span>Official itch.io download (~450MB)</span>
+              </li>
+            </ul>
+            <a href="/download-guide/" class="mt-4 inline-flex items-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold bg-blue-600 hover:bg-blue-500 text-white transition focus-outline w-full justify-center">
+              Download Desktop Version
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="fake-warning" class="py-12 border-t border-black/10 dark:border-white/10">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <div class="rounded-2xl p-8 bg-red-50/80 dark:bg-red-900/10 border-2 border-red-600">
+          <div class="flex items-start gap-4">
+            <span class="text-5xl" aria-hidden="true">🚨</span>
+            <div class="flex-1">
+              <h2 class="text-2xl font-bold text-red-900 dark:text-red-200 mb-3">
+                BEWARE FAKE MOBILE APPS
+              </h2>
+              <div class="space-y-3 text-red-800 dark:text-red-300">
+                <p class="font-semibold">These sites and claims are SCAMS:</p>
+                <ul class="space-y-2 ml-4">
+                  <li class="flex items-start gap-2">
+                    <span>×</span>
+                    <span>"Lovemoney APK download free"</span>
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <span>×</span>
+                    <span>"Lovemoney Android mod latest version"</span>
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <span>×</span>
+                    <span>"Download Lovemoney iOS app"</span>
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <span>×</span>
+                    <span>Third-party app stores claiming to host the game</span>
+                  </li>
+                </ul>
+                
+                <div class="mt-4 p-4 bg-red-100 dark:bg-red-950/50 rounded-xl">
+                  <p class="font-bold mb-2">⚠️ Security Risk:</p>
+                  <p class="text-sm">Installing fake APKs can expose your device to malware, data theft, and unauthorized charges. The developer has explicitly confirmed that <strong>NO official mobile app exists</strong>.</p>
+                </div>
+
+                <div class="mt-4 pt-4 border-t border-red-300 dark:border-red-700">
+                  <p class="font-bold mb-2">✓ Only Trust These Official Sources:</p>
+                  <ul class="space-y-1 text-sm">
+                    <li><strong>Web Version:</strong> <a href="/" class="underline hover:text-red-600 dark:hover:text-red-200">lovemoneygame.cc</a></li>
+                    <li><strong>Desktop Download:</strong> <a href="https://buwu3.itch.io/llllollll" target="_blank" rel="noopener noreferrer" class="underline hover:text-red-600 dark:hover:text-red-200">buwu3.itch.io/llllollll</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-to-play-mobile" class="py-12 border-t border-black/10 dark:border-white/10">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl sm:text-3xl font-bold">How to Play Lovemoney on Mobile Browser</h2>
+        <p class="mt-2 text-slate-600 dark:text-white/70">Step-by-step guide for iPhone, Android, and tablet devices</p>
+
+        <div class="mt-8 space-y-6">
+          <div class="rounded-2xl p-6 bg-gradient-to-r from-pink-50/50 to-purple-50/50 dark:from-pink-900/10 dark:to-purple-900/10 border border-pink-200/50 dark:border-pink-800/50">
+            <h3 class="font-semibold text-lg flex items-center gap-2 mb-3">
+              <span class="flex items-center justify-center w-8 h-8 rounded-full bg-pink-500 text-white text-sm font-bold">1</span>
+              Open Your Mobile Browser
+            </h3>
+            <p class="text-slate-700 dark:text-white/80">
+              Launch your preferred browser app. Recommended browsers include <strong>Chrome</strong> (Android), <strong>Safari</strong> (iOS), <strong>Firefox</strong>, or <strong>Edge</strong>. All modern mobile browsers support the game.
+            </p>
+          </div>
+
+          <div class="rounded-2xl p-6 bg-gradient-to-r from-purple-50/50 to-blue-50/50 dark:from-purple-900/10 dark:to-blue-900/10 border border-purple-200/50 dark:border-purple-800/50">
+            <h3 class="font-semibold text-lg flex items-center gap-2 mb-3">
+              <span class="flex items-center justify-center w-8 h-8 rounded-full bg-purple-500 text-white text-sm font-bold">2</span>
+              Navigate to Lovemoneygame.cc
+            </h3>
+            <p class="text-slate-700 dark:text-white/80">
+              Type <code class="px-2 py-1 bg-slate-200 dark:bg-slate-700 rounded text-sm">lovemoneygame.cc</code> into your browser's address bar, or tap <a href="/" class="underline text-pink-600 dark:text-pink-400 font-semibold">this link to visit the homepage</a>. The site is fully optimized for mobile viewing.
+            </p>
+          </div>
+
+          <div class="rounded-2xl p-6 bg-gradient-to-r from-blue-50/50 to-green-50/50 dark:from-blue-900/10 dark:to-green-900/10 border border-blue-200/50 dark:border-blue-800/50">
+            <h3 class="font-semibold text-lg flex items-center gap-2 mb-3">
+              <span class="flex items-center justify-center w-8 h-8 rounded-full bg-blue-500 text-white text-sm font-bold">3</span>
+              Tap "Play Now"
+            </h3>
+            <p class="text-slate-700 dark:text-white/80">
+              Scroll to the <strong>Play section</strong> and tap the pink "Play Now" button. The game will load directly in your browser window. No downloads, installations, or account creation required.
+            </p>
+          </div>
+
+          <div class="rounded-2xl p-6 bg-gradient-to-r from-green-50/50 to-pink-50/50 dark:from-green-900/10 dark:to-pink-900/10 border border-green-200/50 dark:border-green-800/50">
+            <h3 class="font-semibold text-lg flex items-center gap-2 mb-3">
+              <span class="flex items-center justify-center w-8 h-8 rounded-full bg-green-500 text-white text-sm font-bold">4</span>
+              Start Your Story
+            </h3>
+            <p class="text-slate-700 dark:text-white/80">
+              Once loaded, tap anywhere on the game screen to begin. Use simple tap controls to advance dialogue and make choices. Rotate your device to <strong>landscape mode</strong> for the best reading experience.
+            </p>
+          </div>
+        </div>
+
+        <div class="mt-8 p-6 rounded-xl bg-blue-50/80 dark:bg-blue-900/10 border border-blue-200 dark:border-blue-800">
+          <h3 class="font-semibold mb-2 flex items-center gap-2">
+            <span aria-hidden="true">💡</span> Pro Tip
+          </h3>
+          <p class="text-sm text-blue-900 dark:text-blue-200">
+            For faster loading on subsequent visits, add the site to your home screen. On iOS Safari, tap the Share button → "Add to Home Screen". On Android Chrome, tap the menu (⋮) → "Add to Home Screen". This creates a shortcut icon for quick access.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="comparison" class="py-12 border-t border-black/10 dark:border-white/10">
+      <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-2">Mobile Browser vs Desktop Version</h2>
+        <p class="text-slate-600 dark:text-white/70 mb-8">Detailed comparison to help you choose the right platform</p>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm border-collapse">
+            <thead>
+              <tr class="bg-slate-100 dark:bg-slate-800">
+                <th class="text-left p-4 font-semibold border-b border-black/10 dark:border-white/10">Feature</th>
+                <th class="text-center p-4 font-semibold border-b border-black/10 dark:border-white/10">📱 Mobile Browser</th>
+                <th class="text-center p-4 font-semibold border-b border-black/10 dark:border-white/10">💻 Desktop Windows</th>
+              </tr>
+            </thead>
+            <tbody class="text-slate-700 dark:text-white/80">
+              <tr class="border-b border-black/5 dark:border-white/5">
+                <td class="p-4 font-medium">Installation Required</td>
+                <td class="p-4 text-center">
+                  <span class="inline-flex items-center gap-1 px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 rounded text-xs font-semibold">✓ None</span>
+                </td>
+                <td class="p-4 text-center text-slate-600 dark:text-white/60">~450MB download</td>
+              </tr>
+              <tr class="border-b border-black/5 dark:border-white/5">
+                <td class="p-4 font-medium">Performance</td>
+                <td class="p-4 text-center text-slate-600 dark:text-white/60">Good (browser-dependent)</td>
+                <td class="p-4 text-center">
+                  <span class="inline-flex items-center gap-1 px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 rounded text-xs font-semibold">✓ Excellent</span>
+                </td>
+              </tr>
+              <tr class="border-b border-black/5 dark:border-white/5">
+                <td class="p-4 font-medium">Save Progress</td>
+                <td class="p-4 text-center text-slate-600 dark:text-white/60">Browser storage (may vary)</td>
+                <td class="p-4 text-center">
+                  <span class="inline-flex items-center gap-1 px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 rounded text-xs font-semibold">✓ Local files</span>
+                </td>
+              </tr>
+              <tr class="border-b border-black/5 dark:border-white/5">
+                <td class="p-4 font-medium">Offline Play</td>
+                <td class="p-4 text-center text-slate-600 dark:text-white/60">After first load (cached)</td>
+                <td class="p-4 text-center">
+                  <span class="inline-flex items-center gap-1 px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 rounded text-xs font-semibold">✓ Full offline</span>
+                </td>
+              </tr>
+              <tr class="border-b border-black/5 dark:border-white/5">
+                <td class="p-4 font-medium">Screen Size</td>
+                <td class="p-4 text-center text-slate-600 dark:text-white/60">Small (phone/tablet)</td>
+                <td class="p-4 text-center">
+                  <span class="inline-flex items-center gap-1 px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 rounded text-xs font-semibold">✓ Large & adjustable</span>
+                </td>
+              </tr>
+              <tr class="border-b border-black/5 dark:border-white/5">
+                <td class="p-4 font-medium">Text Readability</td>
+                <td class="p-4 text-center text-slate-600 dark:text-white/60">Decent (landscape better)</td>
+                <td class="p-4 text-center">
+                  <span class="inline-flex items-center gap-1 px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 rounded text-xs font-semibold">✓ Optimal</span>
+                </td>
+              </tr>
+              <tr class="border-b border-black/5 dark:border-white/5">
+                <td class="p-4 font-medium">Battery Impact</td>
+                <td class="p-4 text-center text-slate-600 dark:text-white/60">Moderate drain</td>
+                <td class="p-4 text-center">
+                  <span class="inline-flex items-center gap-1 px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 rounded text-xs font-semibold">✓ Minimal</span>
+                </td>
+              </tr>
+              <tr class="border-b border-black/5 dark:border-white/5">
+                <td class="p-4 font-medium">Cost</td>
+                <td class="p-4 text-center">
+                  <span class="inline-flex items-center gap-1 px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 rounded text-xs font-semibold">✓ Free</span>
+                </td>
+                <td class="p-4 text-center">
+                  <span class="inline-flex items-center gap-1 px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 rounded text-xs font-semibold">✓ Free</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-4 font-medium">Best For</td>
+                <td class="p-4 text-center">Quick sessions, on-the-go</td>
+                <td class="p-4 text-center">Full playthrough, completionists</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="mt-6 p-4 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-black/10 dark:border-white/10">
+          <p class="text-sm text-slate-700 dark:text-white/80">
+            <strong>Recommendation:</strong> Start with the mobile browser version to try the game. If you enjoy the story and want the best experience with reliable saves and superior performance, consider downloading the Windows desktop version for your home computer.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="mobile-tips" class="py-12 border-t border-black/10 dark:border-white/10">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl sm:text-3xl font-bold">5 Tips for Optimal Mobile Play</h2>
+        <p class="mt-2 text-slate-600 dark:text-white/70">Maximize your mobile browser experience</p>
+
+        <div class="mt-8 space-y-4">
+          <div class="rounded-xl p-5 bg-slate-50/80 dark:bg-white/5 border border-black/10 dark:border-white/10">
+            <div class="flex items-start gap-4">
+              <span class="flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-full bg-pink-500/10 dark:bg-pink-500/20 text-pink-600 dark:text-pink-400 font-bold text-lg">1</span>
+              <div>
+                <h3 class="font-semibold mb-1">Use Landscape Mode</h3>
+                <p class="text-sm text-slate-700 dark:text-white/80">Rotate your device horizontally for better text visibility and a more comfortable reading experience. Visual novels are designed for widescreen viewing.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded-xl p-5 bg-slate-50/80 dark:bg-white/5 border border-black/10 dark:border-white/10">
+            <div class="flex items-start gap-4">
+              <span class="flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-full bg-pink-500/10 dark:bg-pink-500/20 text-pink-600 dark:text-pink-400 font-bold text-lg">2</span>
+              <div>
+                <h3 class="font-semibold mb-1">Enable "Desktop Site" Mode (Optional)</h3>
+                <p class="text-sm text-slate-700 dark:text-white/80">In your browser settings, you can request the desktop version of the site for access to all features. On Chrome: Menu (⋮) → "Desktop site". On Safari: Tap AA → "Request Desktop Website".</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded-xl p-5 bg-slate-50/80 dark:bg-white/5 border border-black/10 dark:border-white/10">
+            <div class="flex items-start gap-4">
+              <span class="flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-full bg-pink-500/10 dark:bg-pink-500/20 text-pink-600 dark:text-pink-400 font-bold text-lg">3</span>
+              <div>
+                <h3 class="font-semibold mb-1">Close Other Tabs & Apps</h3>
+                <p class="text-sm text-slate-700 dark:text-white/80">Free up device memory by closing unnecessary browser tabs and background apps. This improves loading speed and reduces lag during gameplay.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded-xl p-5 bg-slate-50/80 dark:bg-white/5 border border-black/10 dark:border-white/10">
+            <div class="flex items-start gap-4">
+              <span class="flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-full bg-pink-500/10 dark:bg-pink-500/20 text-pink-600 dark:text-pink-400 font-bold text-lg">4</span>
+              <div>
+                <h3 class="font-semibold mb-1">Connect to Stable Wi-Fi</h3>
+                <p class="text-sm text-slate-700 dark:text-white/80">Use a reliable internet connection for initial loading. After the game loads, it may work offline temporarily thanks to browser caching, but a stable connection ensures the best experience.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded-xl p-5 bg-slate-50/80 dark:bg-white/5 border border-black/10 dark:border-white/10">
+            <div class="flex items-start gap-4">
+              <span class="flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-full bg-pink-500/10 dark:bg-pink-500/20 text-pink-600 dark:text-pink-400 font-bold text-lg">5</span>
+              <div>
+                <h3 class="font-semibold mb-1">Consider Desktop for Longer Sessions</h3>
+                <p class="text-sm text-slate-700 dark:text-white/80">While mobile browser play is convenient, if you plan multiple playthroughs or longer sessions, the <a href="/download-guide/" class="underline text-pink-600 dark:text-pink-400 font-semibold">Windows desktop version</a> offers superior performance, battery efficiency, and reliable save functionality.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="py-12 border-t border-black/10 dark:border-white/10">
+      <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl sm:text-3xl font-bold">Frequently Asked Questions</h2>
+        <p class="mt-2 text-slate-600 dark:text-white/70">Mobile-specific questions about Lovemoney</p>
+        
+        <div class="mt-8 space-y-4">
+          <details class="group rounded-xl border border-black/10 dark:border-white/10 p-5 bg-slate-50/80 dark:bg-white/5">
+            <summary class="cursor-pointer font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-500 rounded list-none flex items-center justify-between">
+              <span>Is there an official Lovemoney mobile app?</span>
+              <span class="text-pink-500 group-open:rotate-180 transition-transform" aria-hidden="true">▼</span>
+            </summary>
+            <div class="mt-3 text-sm text-slate-700 dark:text-white/80 leading-relaxed space-y-2">
+              <p>
+                <strong>No.</strong> There is no official Android APK or iOS app for Lovemoney. The developer (Buwu) has confirmed that no mobile application has been released. Any sites claiming to offer a mobile app download are distributing fake or malicious software.
+              </p>
+              <p>
+                The only legitimate ways to play Lovemoney are through the <strong>web browser version</strong> (works on mobile) or the <strong>Windows desktop download</strong> from the official itch.io page.
+              </p>
+            </div>
+          </details>
+
+          <details class="group rounded-xl border border-black/10 dark:border-white/10 p-5 bg-slate-50/80 dark:bg-white/5">
+            <summary class="cursor-pointer font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-500 rounded list-none flex items-center justify-between">
+              <span>Can I download Lovemoney APK for Android?</span>
+              <span class="text-pink-500 group-open:rotate-180 transition-transform" aria-hidden="true">▼</span>
+            </summary>
+            <div class="mt-3 text-sm text-slate-700 dark:text-white/80 leading-relaxed space-y-2">
+              <p>
+                <strong>Do not download APK files claiming to be Lovemoney.</strong> All such files are fake and potentially dangerous. Installing unauthorized APKs can compromise your device security, steal personal data, or install malware.
+              </p>
+              <p>
+                Instead, play the game safely through your <strong>mobile browser</strong> at lovemoneygame.cc, or download the official Windows version if you have access to a PC.
+              </p>
+            </div>
+          </details>
+
+          <details class="group rounded-xl border border-black/10 dark:border-white/10 p-5 bg-slate-50/80 dark:bg-white/5">
+            <summary class="cursor-pointer font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-500 rounded list-none flex items-center justify-between">
+              <span>Does it work on iPhone and iPad (iOS)?</span>
+              <span class="text-pink-500 group-open:rotate-180 transition-transform" aria-hidden="true">▼</span>
+            </summary>
+            <p class="mt-3 text-sm text-slate-700 dark:text-white/80 leading-relaxed">
+              Yes! The web version works perfectly on iOS devices using Safari or Chrome. Simply visit lovemoneygame.cc in your browser, navigate to the Play section, and tap "Play Now". The game loads directly without requiring an App Store download.
+            </p>
+          </details>
+
+          <details class="group rounded-xl border border-black/10 dark:border-white/10 p-5 bg-slate-50/80 dark:bg-white/5">
+            <summary class="cursor-pointer font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-500 rounded list-none flex items-center justify-between">
+              <span>Can I save my progress on mobile?</span>
+              <span class="text-pink-500 group-open:rotate-180 transition-transform" aria-hidden="true">▼</span>
+            </summary>
+            <div class="mt-3 text-sm text-slate-700 dark:text-white/80 leading-relaxed space-y-2">
+              <p>
+                Save functionality on the mobile browser version depends on your browser's local storage capabilities. Most modern browsers support saving progress, but this may be affected by:
+              </p>
+              <ul class="list-disc ml-5 space-y-1">
+                <li>Private browsing or incognito mode (saves won't persist)</li>
+                <li>Clearing browser data or cache</li>
+                <li>Browser-specific limitations</li>
+              </ul>
+              <p>
+                For the most reliable save system, consider using the <a href="/download-guide/" class="underline text-pink-600 dark:text-pink-400 font-semibold">Windows desktop version</a>, which saves progress to local files on your computer.
+              </p>
+            </div>
+          </details>
+
+          <details class="group rounded-xl border border-black/10 dark:border-white/10 p-5 bg-slate-50/80 dark:bg-white/5">
+            <summary class="cursor-pointer font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-500 rounded list-none flex items-center justify-between">
+              <span>Why is mobile performance slower than desktop?</span>
+              <span class="text-pink-500 group-open:rotate-180 transition-transform" aria-hidden="true">▼</span>
+            </summary>
+            <div class="mt-3 text-sm text-slate-700 dark:text-white/80 leading-relaxed space-y-2">
+              <p>
+                Browser-based games require more processing power and memory compared to native applications. Mobile devices have hardware limitations and browser overhead that can affect performance. Additionally:
+              </p>
+              <ul class="list-disc ml-5 space-y-1">
+                <li>Running other apps in the background consumes resources</li>
+                <li>Smaller screens make text harder to read</li>
+                <li>Battery optimization settings may throttle performance</li>
+              </ul>
+              <p>
+                The desktop version runs natively on Windows with optimized performance and minimal overhead, making it the best choice for extended play sessions.
+              </p>
+            </div>
+          </details>
+
+          <details class="group rounded-xl border border-black/10 dark:border-white/10 p-5 bg-slate-50/80 dark:bg-white/5">
+            <summary class="cursor-pointer font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-500 rounded list-none flex items-center justify-between">
+              <span>What about Android tablets or Chromebooks?</span>
+              <span class="text-pink-500 group-open:rotate-180 transition-transform" aria-hidden="true">▼</span>
+            </summary>
+            <p class="mt-3 text-sm text-slate-700 dark:text-white/80 leading-relaxed">
+              The browser version works on Android tablets and Chromebooks. The larger screen size on tablets provides a much better experience than phones. Simply open Chrome or your preferred browser, visit lovemoneygame.cc, and play. No special apps or installations needed.
+            </p>
+          </details>
+
+          <details class="group rounded-xl border border-black/10 dark:border-white/10 p-5 bg-slate-50/80 dark:bg-white/5">
+            <summary class="cursor-pointer font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-500 rounded list-none flex items-center justify-between">
+              <span>Can I play offline on mobile?</span>
+              <span class="text-pink-500 group-open:rotate-180 transition-transform" aria-hidden="true">▼</span>
+            </summary>
+            <p class="mt-3 text-sm text-slate-700 dark:text-white/80 leading-relaxed">
+              After the game loads for the first time, some browsers may cache the content and allow limited offline play. However, this is not guaranteed and varies by browser and device settings. For reliable offline play, download the Windows desktop version.
+            </p>
+          </details>
+
+          <details class="group rounded-xl border border-black/10 dark:border-white/10 p-5 bg-slate-50/80 dark:bg-white/5">
+            <summary class="cursor-pointer font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-500 rounded list-none flex items-center justify-between">
+              <span>Do I need to create an account to play on mobile?</span>
+              <span class="text-pink-500 group-open:rotate-180 transition-transform" aria-hidden="true">▼</span>
+            </summary>
+            <p class="mt-3 text-sm text-slate-700 dark:text-white/80 leading-relaxed">
+              No account is required to play via mobile browser. Simply visit the site and start playing immediately. No registration, no login, no personal information needed. If you download the desktop version from itch.io, an itch.io account is optional but not required.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="related-guides" class="py-12 border-t border-black/10 dark:border-white/10">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-8">Related Guides & Tools</h2>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <a href="/how-to-play/" class="block rounded-2xl p-6 bg-slate-50/80 dark:bg-white/5 border border-black/10 dark:border-white/10 hover:border-pink-500 transition">
+            <div class="w-12 h-12 rounded-xl bg-pink-500/10 dark:bg-pink-500/20 flex items-center justify-center mb-4">
+              <span class="text-2xl" aria-hidden="true">📖</span>
+            </div>
+            <h3 class="font-semibold text-lg mb-2">How to Play Guide</h3>
+            <p class="text-sm text-slate-700 dark:text-white/75">Complete tutorial for new players covering basic mechanics and tips</p>
+          </a>
+
+          <a href="/download-guide/" class="block rounded-2xl p-6 bg-slate-50/80 dark:bg-white/5 border border-black/10 dark:border-white/10 hover:border-pink-500 transition">
+            <div class="w-12 h-12 rounded-xl bg-pink-500/10 dark:bg-pink-500/20 flex items-center justify-center mb-4">
+              <span class="text-2xl" aria-hidden="true">💻</span>
+            </div>
+            <h3 class="font-semibold text-lg mb-2">Desktop Download Guide</h3>
+            <p class="text-sm text-slate-700 dark:text-white/75">Official Windows version installation instructions and system requirements</p>
+          </a>
+
+          <a href="/all-endings/" class="block rounded-2xl p-6 bg-slate-50/80 dark:bg-white/5 border border-black/10 dark:border-white/10 hover:border-pink-500 transition">
+            <div class="w-12 h-12 rounded-xl bg-pink-500/10 dark:bg-pink-500/20 flex items-center justify-center mb-4">
+              <span class="text-2xl" aria-hidden="true">🎭</span>
+            </div>
+            <h3 class="font-semibold text-lg mb-2">All Endings Guide</h3>
+            <p class="text-sm text-slate-700 dark:text-white/75">Comprehensive walkthrough of verified story routes and outcomes</p>
+          </a>
+
+          <a href="/ending-calculator/" class="block rounded-2xl p-6 bg-slate-50/80 dark:bg-white/5 border border-black/10 dark:border-white/10 hover:border-pink-500 transition">
+            <div class="w-12 h-12 rounded-xl bg-pink-500/10 dark:bg-pink-500/20 flex items-center justify-center mb-4">
+              <span class="text-2xl" aria-hidden="true">🧮</span>
+            </div>
+            <h3 class="font-semibold text-lg mb-2">Ending Calculator</h3>
+            <p class="text-sm text-slate-700 dark:text-white/75">Interactive quiz to predict your story route based on playstyle</p>
+          </a>
+
+          <a href="/items-guide/" class="block rounded-2xl p-6 bg-slate-50/80 dark:bg-white/5 border border-black/10 dark:border-white/10 hover:border-pink-500 transition">
+            <div class="w-12 h-12 rounded-xl bg-pink-500/10 dark:bg-pink-500/20 flex items-center justify-center mb-4">
+              <span class="text-2xl" aria-hidden="true">🛍️</span>
+            </div>
+            <h3 class="font-semibold text-lg mb-2">Items & Shop Guide</h3>
+            <p class="text-sm text-slate-700 dark:text-white/75">Verified item prices, effects, and purchase recommendations</p>
+          </a>
+
+          <a href="/lovemoney-vs-bloodmoney/" class="block rounded-2xl p-6 bg-slate-50/80 dark:bg-white/5 border border-black/10 dark:border-white/10 hover:border-pink-500 transition">
+            <div class="w-12 h-12 rounded-xl bg-pink-500/10 dark:bg-pink-500/20 flex items-center justify-center mb-4">
+              <span class="text-2xl" aria-hidden="true">⚖️</span>
+            </div>
+            <h3 class="font-semibold text-lg mb-2">LoveMoney vs BloodMoney</h3>
+            <p class="text-sm text-slate-700 dark:text-white/75">Comparison between the fan-made and official games</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta-final" class="py-12 border-t border-black/10 dark:border-white/10">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-4">Ready to Play on Mobile?</h2>
+        <p class="text-slate-700 dark:text-white/80 mb-8 max-w-2xl mx-auto">
+          Choose your preferred method: play instantly in your mobile browser or download the desktop version for the optimal experience.
+        </p>
+        
+        <div class="flex flex-wrap justify-center gap-4">
+          <a href="/#play" class="inline-flex items-center gap-2 rounded-2xl px-6 py-3.5 text-base font-semibold bg-pink-500 hover:bg-pink-400 transition focus-outline">
+            <span aria-hidden="true">📱</span> Play on Mobile Browser
+          </a>
+          <a href="/download-guide/" class="inline-flex items-center gap-2 rounded-2xl px-6 py-3.5 text-base font-semibold bg-black/5 hover:bg-black/10 dark:bg-white/10 dark:hover:bg-white/20 transition focus-outline">
+            <span aria-hidden="true">💻</span> Download Desktop Version
+          </a>
+        </div>
+
+        <p class="mt-6 text-sm text-slate-500 dark:text-white/60">
+          Have questions? Check our <a href="/#faq" class="underline hover:text-pink-600 dark:hover:text-pink-300 font-semibold">FAQ section</a> or <a href="mailto:hello@lovemoneygame.cc" class="underline hover:text-pink-600 dark:hover:text-pink-300 font-semibold">contact us</a>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-black/10 dark:border-white/10 py-10 text-sm">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+      <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8">
+        <div>
+          <h3 class="font-semibold mb-3 flex items-center gap-2">
+            <span class="inline-block w-2 h-2 rounded-full bg-pink-500" aria-hidden="true"></span>
+            Lovemoney game
+          </h3>
+          <p class="text-slate-600 dark:text-white/60 text-xs leading-relaxed">
+            Unofficial fan guide for the 18+ visual novel. Fact-checked guides and tools.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="font-semibold mb-3">Quick Links</h4>
+          <ul class="space-y-2 text-slate-600 dark:text-white/60">
+            <li><a href="/#about" class="hover:text-pink-600 dark:hover:text-pink-300 transition focus-outline">About</a></li>
+            <li><a href="/#features" class="hover:text-pink-600 dark:hover:text-pink-300 transition focus-outline">Features</a></li>
+            <li><a href="/#play" class="hover:text-pink-600 dark:hover:text-pink-300 transition focus-outline">Play Online</a></li>
+            <li><a href="/download-guide/" class="hover:text-pink-600 dark:hover:text-pink-300 transition focus-outline">Download</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-semibold mb-3">Guides</h4>
+          <ul class="space-y-2 text-slate-600 dark:text-white/60">
+            <li><a href="/how-to-play/" class="hover:text-pink-600 dark:hover:text-pink-300 transition focus-outline">How to Play</a></li>
+            <li><a href="/all-endings/" class="hover:text-pink-600 dark:hover:text-pink-300 transition focus-outline">All Endings</a></li>
+            <li><a href="/items-guide/" class="hover:text-pink-600 dark:hover:text-pink-300 transition focus-outline">Items Guide</a></li>
+            <li><a href="/ending-calculator/" class="hover:text-pink-600 dark:hover:text-pink-300 transition focus-outline">Ending Calculator</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-semibold mb-3">Legal</h4>
+          <ul class="space-y-2 text-slate-600 dark:text-white/60">
+            <li class="flex items-center gap-2">
+              <span class="text-xs border border-black/10 dark:border-white/20 rounded px-1.5 py-0.5">18+</span>
+              <span class="text-xs">Mature Content</span>
+            </li>
+            <li class="text-xs leading-relaxed">Unofficial fan guide. Not affiliated with developer.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pt-8 border-t border-black/10 dark:border-white/10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <p class="text-slate-600 dark:text-white/60">
+          © <span id="y"></span> Lovemoney game guide. Unofficial resource.
+        </p>
+        <div class="flex items-center gap-4">
+          <a href="mailto:hello@lovemoneygame.cc" class="hover:text-pink-600 dark:hover:text-pink-300 focus-outline transition">Email</a>
+          <a href="https://buwu3.itch.io/llllollll" class="hover:text-pink-600 dark:hover:text-pink-300 focus-outline transition" target="_blank" rel="noopener noreferrer">Official itch.io</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+
+    // Mobile menu toggle
+    (function(){
+      const toggle = document.getElementById('mobileMenuToggle');
+      const menu = document.getElementById('mobileMenu');
+      
+      toggle.addEventListener('click', () => {
+        const isOpen = menu.classList.contains('open');
+        menu.classList.toggle('open');
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+      });
+
+      menu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          menu.classList.remove('open');
+          toggle.setAttribute('aria-expanded', 'false');
+        });
+      });
+
+      document.addEventListener('click', (e) => {
+        if (!toggle.contains(e.target) && !menu.contains(e.target)) {
+          menu.classList.remove('open');
+          toggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    })();
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const href = this.getAttribute('href');
+        if (href === '#') return;
+        
+        e.preventDefault();
+        const target = document.querySelector(href);
+        if (target) {
+          const headerOffset = 70;
+          const elementPosition = target.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
