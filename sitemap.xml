@@ -38,6 +38,11 @@
 
   <!-- Character & Story -->
   <url>
+    <loc>https://lovemoneygame.cc/harvey-harvington.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://lovemoneygame.cc/harvey-character-analysis.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -49,6 +54,11 @@
   </url>
 
   <!-- Game Guides -->
+  <url>
+    <loc>https://lovemoneygame.cc/lovemoney-walkthrough.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://lovemoneygame.cc/items-guide.html</loc>
     <changefreq>monthly</changefreq>
