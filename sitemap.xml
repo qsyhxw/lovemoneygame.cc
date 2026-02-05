@@ -9,17 +9,17 @@
 
   <!-- Main Guides -->
   <url>
-    <loc>https://lovemoneygame.cc/how-to-play.html</loc>
+    <loc>https://lovemoneygame.cc/how-to-play</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://lovemoneygame.cc/download-guide.html</loc>
+    <loc>https://lovemoneygame.cc/download-guide</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://lovemoneygame.cc/lovemoney-gameplay-guide.html</loc>
+    <loc>https://lovemoneygame.cc/lovemoney-gameplay-guide</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -31,63 +31,63 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lovemoneygame.cc/ending-calculator.html</loc>
+    <loc>https://lovemoneygame.cc/ending-calculator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Character & Story -->
   <url>
-    <loc>https://lovemoneygame.cc/harvey-harvington.html</loc>
+    <loc>https://lovemoneygame.cc/harvey-harvington</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lovemoneygame.cc/harvey-character-analysis.html</loc>
+    <loc>https://lovemoneygame.cc/harvey-character-analysis</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lovemoneygame.cc/moral-choices-guide.html</loc>
+    <loc>https://lovemoneygame.cc/moral-choices-guide</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Game Guides -->
   <url>
-    <loc>https://lovemoneygame.cc/lovemoney-walkthrough.html</loc>
+    <loc>https://lovemoneygame.cc/lovemoney-walkthrough</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lovemoneygame.cc/items-guide.html</loc>
+    <loc>https://lovemoneygame.cc/items-guide</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lovemoneygame.cc/money-farming-tips.html</loc>
+    <loc>https://lovemoneygame.cc/money-farming-tips</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lovemoneygame.cc/speedrun-guide.html</loc>
+    <loc>https://lovemoneygame.cc/speedrun-guide</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Versions & Comparisons -->
   <url>
-    <loc>https://lovemoneygame.cc/uncensored-version.html</loc>
+    <loc>https://lovemoneygame.cc/uncensored-version</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lovemoneygame.cc/lovemoney-vs-bloodmoney.html</loc>
+    <loc>https://lovemoneygame.cc/lovemoney-vs-bloodmoney</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://lovemoneygame.cc/lovemoney-fangame.html</loc>
+    <loc>https://lovemoneygame.cc/lovemoney-fangame</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
