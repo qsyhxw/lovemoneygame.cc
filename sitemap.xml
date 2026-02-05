@@ -24,6 +24,35 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- 18+ Content Guides (NEW) -->
+  <url>
+    <loc>https://lovemoneygame.cc/lovemoney-18-plus-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://lovemoneygame.cc/bloodmoney-18-plus-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lovemoneygame.cc/gameplay-scenes-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Download Guides (NEW) -->
+  <url>
+    <loc>https://lovemoneygame.cc/itch-io-download</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://lovemoneygame.cc/play-online</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Endings & Calculator -->
   <url>
     <loc>https://lovemoneygame.cc/all-endings/</loc>
@@ -36,7 +65,7 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Character & Story -->
+  <!-- Character Pages -->
   <url>
     <loc>https://lovemoneygame.cc/harvey-harvington</loc>
     <changefreq>monthly</changefreq>
@@ -48,7 +77,12 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lovemoneygame.cc/moral-choices-guide</loc>
+    <loc>https://lovemoneygame.cc/eun-mi</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lovemoneygame.cc/developer-buwu</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -74,6 +108,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://lovemoneygame.cc/moral-choices-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 
   <!-- Versions & Comparisons -->
   <url>
@@ -84,12 +123,19 @@
   <url>
     <loc>https://lovemoneygame.cc/lovemoney-vs-bloodmoney</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://lovemoneygame.cc/lovemoney-fangame</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+
+  <!-- International (NEW) -->
+  <url>
+    <loc>https://lovemoneygame.cc/lovemoney-sem-censura</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
   <!-- Mobile Platforms -->
