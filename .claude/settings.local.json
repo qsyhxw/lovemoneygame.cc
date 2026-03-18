@@ -5,7 +5,8 @@
       "Bash(dir /b \"d:\\Antigravity\\lovemoneygame.cc\")",
       "WebSearch",
       "WebFetch(domain:stardewvalleywiki.com)",
-      "Bash(\"d:\\\\Antigravity\\\\lovemoneygame.cc\\\\wiki\\\\lovemoney-all-endings\\\\index.html\":*)"
+      "Bash(\"d:\\\\Antigravity\\\\lovemoneygame.cc\\\\wiki\\\\lovemoney-all-endings\\\\index.html\":*)",
+      "Bash(\"d:\\\\Antigravity\\\\lovemoneygame.cc\\\\wiki\\\\lovemoney-true-ending\\\\index.html\":*)"
     ],
     "deny": [],
     "ask": []
