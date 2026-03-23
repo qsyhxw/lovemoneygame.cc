@@ -1,5 +1,9 @@
 {
   "permissions": {
+    "allow": [
+      "WebFetch(domain:megabonkinfo.org)",
+      "WebFetch(domain:lovemoneygame.io)"
+    ],
     "additionalDirectories": [
       "C:\\Users\\alex\\.claude"
     ]
