@@ -275,17 +275,25 @@
               class="flex items-center gap-2 p-3 rounded-lg bg-white dark:bg-black/20 border border-black/5 dark:border-white/5 hover:border-pink-500 transition">
               <span class="text-pink-500">→</span> Understanding the Ending System
             </a>
-            <a href="#all-endings"
-              class="flex items-center gap-2 p-3 rounded-lg bg-white dark:bg-black/20 border border-black/5 dark:border-white/5 hover:border-pink-500 transition">
-              <span class="text-pink-500">→</span> All 4 Ending Paths
-            </a>
+            <div class="flex flex-col gap-1">
+              <a href="#all-endings"
+                class="flex items-center gap-2 p-3 rounded-lg bg-white dark:bg-black/20 border border-black/5 dark:border-white/5 hover:border-pink-500 transition">
+                <span class="text-pink-500">→</span> All 4 Ending Paths
+              </a>
+              <div class="ml-2 pl-4 border-l-2 border-pink-500/20 flex flex-col gap-2 py-1 text-sm text-slate-600 dark:text-slate-400">
+                <a href="#ending-friendship" class="hover:text-pink-500 transition">💚 Friendship Path (Good)</a>
+                <a href="#ending-neutral" class="hover:text-pink-500 transition">⚖️ Neutral Path</a>
+                <a href="#ending-bad" class="hover:text-pink-500 transition">💔 Aggressive Path (Bad)</a>
+                <a href="#ending-secret" class="hover:text-pink-500 transition">🔒 Secret Ending</a>
+              </div>
+            </div>
             <a href="#soap-decision"
               class="flex items-center gap-2 p-3 rounded-lg bg-white dark:bg-black/20 border border-black/5 dark:border-white/5 hover:border-pink-500 transition">
               <span class="text-pink-500">→</span> The Critical Soap Decision
             </a>
-            <a href="#shop-items"
-              class="flex items-center gap-2 p-3 rounded-lg bg-white dark:bg-black/20 border border-black/5 dark:border-white/5 hover:border-pink-500 transition">
-              <span class="text-pink-500">→</span> Shop Items & Progression
+            <a href="/lovemoney-items-guide"
+              class="flex items-center gap-2 p-3 rounded-lg bg-white dark:bg-black/20 border border-pink-200 dark:border-pink-900/50 hover:border-pink-500 transition shadow-sm">
+              <span class="text-pink-500">→</span> 🛍️ All Items & Unlocks Guide
             </a>
             <a href="#update-version"
               class="flex items-center gap-2 p-3 rounded-lg bg-white dark:bg-black/20 border border-black/5 dark:border-white/5 hover:border-pink-500 transition">
@@ -342,8 +350,8 @@
 
         <div class="grid md:grid-cols-2 gap-6">
           <!-- Friendship Path -->
-          <div
-            class="ending-card rounded-2xl p-6 bg-gradient-to-br from-green-50/80 to-emerald-50/80 dark:from-green-900/10 dark:to-emerald-900/10 border-2 border-green-500">
+          <div id="ending-friendship"
+            class="ending-card rounded-2xl p-6 bg-gradient-to-br from-green-50/80 to-emerald-50/80 dark:from-green-900/10 dark:to-emerald-900/10 border-2 border-green-500 scroll-mt-20">
             <div class="flex items-center gap-3 mb-4">
               <span class="text-4xl" aria-hidden="true">💚</span>
               <div>
@@ -386,8 +394,8 @@
           </div>
 
           <!-- Neutral Path -->
-          <div
-            class="ending-card rounded-2xl p-6 bg-gradient-to-br from-slate-50/80 to-gray-50/80 dark:from-slate-900/10 dark:to-gray-900/10 border-2 border-slate-400">
+          <div id="ending-neutral"
+            class="ending-card rounded-2xl p-6 bg-gradient-to-br from-slate-50/80 to-gray-50/80 dark:from-slate-900/10 dark:to-gray-900/10 border-2 border-slate-400 scroll-mt-20">
             <div class="flex items-center gap-3 mb-4">
               <span class="text-4xl" aria-hidden="true">⚖️</span>
               <div>
@@ -429,8 +437,8 @@
           </div>
 
           <!-- Bad Path -->
-          <div
-            class="ending-card rounded-2xl p-6 bg-gradient-to-br from-red-50/80 to-rose-50/80 dark:from-red-900/10 dark:to-rose-900/10 border-2 border-red-500">
+          <div id="ending-bad"
+            class="ending-card rounded-2xl p-6 bg-gradient-to-br from-red-50/80 to-rose-50/80 dark:from-red-900/10 dark:to-rose-900/10 border-2 border-red-500 scroll-mt-20">
             <div class="flex items-center gap-3 mb-4">
               <span class="text-4xl" aria-hidden="true">💔</span>
               <div>
@@ -472,8 +480,8 @@
           </div>
 
           <!-- Secret Ending -->
-          <div
-            class="ending-card rounded-2xl p-6 bg-gradient-to-br from-purple-50/80 to-indigo-50/80 dark:from-purple-900/10 dark:to-indigo-900/10 border-2 border-purple-500">
+          <div id="ending-secret"
+            class="ending-card rounded-2xl p-6 bg-gradient-to-br from-purple-50/80 to-indigo-50/80 dark:from-purple-900/10 dark:to-indigo-900/10 border-2 border-purple-500 scroll-mt-20">
             <div class="flex items-center gap-3 mb-4">
               <span class="text-4xl" aria-hidden="true">🔒</span>
               <div>
@@ -573,92 +581,19 @@
       </div>
     </section>
 
-    <section id="shop-items" class="py-12 border-t border-black/10 dark:border-white/10">
+        <section id="shop-items-redirect" class="py-12 border-t border-black/10 dark:border-white/10">
       <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-        <h2 class="text-2xl sm:text-3xl font-bold">Shop Items & Income Progression</h2>
-        <p class="mt-2 text-slate-600 dark:text-white/70">Verified items with confirmed prices and effects</p>
-
-        <div class="mt-8 space-y-6">
-          <div class="rounded-xl p-5 bg-slate-50/80 dark:bg-white/5 border border-black/10 dark:border-white/10">
-            <div class="flex items-start gap-4">
-              <div
-                class="flex-shrink-0 w-12 h-12 rounded-lg bg-pink-500/10 dark:bg-pink-500/20 flex items-center justify-center">
-                <span class="text-2xl">🪶</span>
-              </div>
-              <div class="flex-1">
-                <h3 class="font-semibold text-lg">Feather — $100</h3>
-                <p class="text-sm text-slate-600 dark:text-white/70 mt-1">
-                  <strong>Effect:</strong> Increases click value from $1 to $2<br>
-                  <strong>Status:</strong> First available shop item (appears at $100 earned)<br>
-                  <strong>Note:</strong> Confirmed by all sources as the starting upgrade. Considered a "safe" purchase
-                  that doesn't dramatically change Harvey's comfort level.
-                </p>
-              </div>
-            </div>
+        <div class="rounded-3xl p-8 sm:p-10 bg-gradient-to-br from-pink-50 to-purple-50 dark:from-pink-900/20 dark:to-purple-900/20 border-2 border-pink-200 dark:border-pink-800 text-center">
+          <div class="w-16 h-16 mx-auto bg-pink-500/10 dark:bg-pink-500/20 rounded-2xl flex items-center justify-center mb-6">
+            <span class="text-4xl" aria-hidden="true">🛍️</span>
           </div>
-
-          <div class="rounded-xl p-5 bg-slate-50/80 dark:bg-white/5 border border-black/10 dark:border-white/10">
-            <div class="flex items-start gap-4">
-              <div
-                class="flex-shrink-0 w-12 h-12 rounded-lg bg-pink-500/10 dark:bg-pink-500/20 flex items-center justify-center">
-                <span class="text-2xl">🖌️</span>
-              </div>
-              <div class="flex-1">
-                <h3 class="font-semibold text-lg">Brush — Price Unknown</h3>
-                <p class="text-sm text-slate-600 dark:text-white/70 mt-1">
-                  <strong>Effect:</strong> Reported to increase click value to $4<br>
-                  <strong>Status:</strong> Second shop item mentioned in player reports<br>
-                  <strong>Note:</strong> Multiple sources mention this item but exact price is not confirmed. Appears
-                  after Feather purchase.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="rounded-xl p-5 bg-slate-50/80 dark:bg-white/5 border border-black/10 dark:border-white/10">
-            <div class="flex items-start gap-4">
-              <div
-                class="flex-shrink-0 w-12 h-12 rounded-lg bg-pink-500/10 dark:bg-pink-500/20 flex items-center justify-center">
-                <span class="text-2xl">💄</span>
-              </div>
-              <div class="flex-1">
-                <h3 class="font-semibold text-lg">Lipstick — Details Unconfirmed</h3>
-                <p class="text-sm text-slate-600 dark:text-white/70 mt-1">
-                  <strong>Effect:</strong> Unknown (increases intimacy level)<br>
-                  <strong>Status:</strong> Mid-to-late game item mentioned in some sources<br>
-                  <strong>Note:</strong> One source mentions a "Lipstick Ending," suggesting this item affects the story
-                  but details are unclear.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="rounded-xl p-5 bg-red-50/80 dark:bg-red-900/10 border-2 border-red-500">
-            <div class="flex items-start gap-4">
-              <div
-                class="flex-shrink-0 w-12 h-12 rounded-lg bg-red-500/10 dark:bg-red-500/20 flex items-center justify-center">
-                <span class="text-2xl">🧼</span>
-              </div>
-              <div class="flex-1">
-                <h3 class="font-semibold text-lg text-red-900 dark:text-red-200">Soap — THE CRITICAL DECISION</h3>
-                <p class="text-sm text-red-800 dark:text-red-300 mt-1">
-                  <strong>Effect:</strong> Triggers alternate story branch with explicit 18+ content<br>
-                  <strong>Status:</strong> Final shop item, appears late in progression<br>
-                  <strong>Warning:</strong> This purchase is <span class="font-semibold">irreversible</span> and leads
-                  to bad endings where Harvey experiences guilt about infidelity. Multiple sources confirm this is the
-                  key branching point.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="mt-6 p-4 rounded-xl bg-amber-50/80 dark:bg-amber-900/10 border border-amber-500">
-            <p class="text-sm text-amber-900 dark:text-amber-200">
-              <strong>⚠️ Important Note:</strong> Additional items may exist (Hand Pad, Hair Wreath, Oil, etc.) based on
-              limited mentions in community sources, but these have not been independently verified across multiple
-              reliable sources. Prices and effects for most items beyond Feather remain unconfirmed.
-            </p>
-          </div>
+          <h2 class="text-2xl sm:text-3xl font-bold mb-4">Looking for Items & Unlocks?</h2>
+          <p class="text-slate-700 dark:text-white/80 max-w-2xl mx-auto mb-8">
+            We've moved all item prices, effects, and unlocking strategies to a dedicated comprehensive guide. Discover exactly how different items impact Harvey and your ending choices.
+          </p>
+          <a href="/lovemoney-items-guide" class="inline-flex items-center gap-2 rounded-xl px-6 py-3.5 text-sm sm:text-base font-bold bg-pink-500 hover:bg-pink-400 text-white transition focus-outline hover:-translate-y-0.5">
+            View Complete Items Guide →
+          </a>
         </div>
       </div>
     </section>
