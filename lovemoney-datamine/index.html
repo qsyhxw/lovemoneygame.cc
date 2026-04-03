@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>LoveMoney Datamine Guide: Extract script.rpy & View Code</title>
+
+  <meta name="description" content="Learn how to datamine LoveMoney using unrpa and unrpyc. Extract script.rpy to find secret passwords, inspect the Ren'Py code, and uncover hidden mechanics.">
+  <meta name="keywords" content="lovemoney datamine, lovemoney script.rpy, extract lovemoney files, unren lovemoney, lovemoney modding, lovemoney unpack rpa">
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://lovemoneygame.cc/lovemoney-datamine/" />
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8830315294299920"
+      crossorigin="anonymous"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F98FBQ2ZGS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-F98FBQ2ZGS');
+  </script>
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="LoveMoney Datamine Guide: Extract script.rpy" />
+  <meta property="og:description" content="A technical guide to unpacking LoveMoney's Ren'Py archive files and decompiling the script." />
+  <meta property="og:url" content="https://lovemoneygame.cc/lovemoney-datamine/" />
+  <meta property="og:image" content="https://lovemoneygame.cc/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0B0B12" media="(prefers-color-scheme: dark)">
+
+  <link rel="icon" href="/favicon.ico">
+
+  <!-- Tailwind CDN -->
+  <script>tailwind.config = { darkMode: 'class' };</script>
+  <script src="https://cdn.tailwindcss.com/3.4.10"></script>
+  
+  <style>
+    :root { color-scheme: light dark; }
+    .focus-outline:focus { outline: 3px solid currentColor; outline-offset: 2px; }
+    
+    @media (prefers-reduced-motion: no-preference) {
+      * { transition: all 0.2s ease; }
+    }
+    
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    #mobileMenu {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+    }
+    #mobileMenu.open { max-height: 500px; }
+  </style>
+
+  <!-- JSON-LD Structured Data for FAQ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How do I extract the script.rpy file from LoveMoney?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "LoveMoney is built on the Ren'Py engine. To extract the text script, you must first unpack the .rpa archive files using a tool like unrpa, then decompile the resulting .rpyc files back into readable .rpy text files using unrpyc."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is there only a script.rpyc file?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Files ending in .rpyc are compiled bytecode for the Ren'Py engine. They cannot be read via Notepad directly. You must use a decompilation tool to convert them back to human-readable .rpy format."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is datamining LoveMoney legal?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Datamining for personal, educational curiosity (such as finding a password) is common in the modding community. However, redistributing extracted game assets, CGs, or source code violates the game creator's copyright."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="bg-white text-slate-900 dark:bg-[#0B0B12] dark:text-[#EAEAF0] antialiased selection:bg-pink-500/30">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-white/70 bg-white/80 dark:supports-[backdrop-filter]:bg-black/40 dark:bg-black/60 border-b border-black/10 dark:border-white/10">
+    <nav class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between" aria-label="Primary">
+      <a href="/" class="flex items-center gap-2 font-semibold tracking-tight focus-outline">
+        <span aria-hidden="true" class="inline-block w-2.5 h-2.5 rounded-full bg-pink-500"></span>
+        <span>LoveMoney Game</span>
+        <span class="ml-2 text-xs text-slate-500 dark:text-white/60 border border-black/10 dark:border-white/20 rounded px-1.5 py-0.5">18+</span>
+      </a>
+      
+      <ul class="hidden md:flex items-center gap-6 text-sm">
+        <li><a href="/lovemoney-update/" class="hover:text-pink-500 focus-outline">Update Notes</a></li>
+        <li><a href="/all-endings/" class="hover:text-pink-500 focus-outline">Endings</a></li>
+        <li><a href="/ending-calculator/" class="hover:text-pink-500 focus-outline">Calculator</a></li>
+        <li><a href="/items-guide/" class="hover:text-pink-500 focus-outline">Items</a></li>
+      </ul>
+      
+      <div class="flex items-center gap-2">
+        <a href="/download-guide/" class="hidden sm:inline-flex items-center gap-2 rounded-xl px-3.5 py-2 text-sm font-semibold bg-black/5 hover:bg-black/10 dark:bg-white/10 dark:hover:bg-white/20 transition focus-outline">Download</a>
+        
+        <button id="mobileMenuToggle" class="md:hidden p-2 hover:bg-black/5 dark:hover:bg-white/10 rounded-lg focus-outline" aria-label="Toggle menu" aria-expanded="false">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </nav>
+    <div id="mobileMenu" class="md:hidden bg-white dark:bg-[#0B0B12] border-t border-black/10 dark:border-white/10">
+      <ul class="px-4 py-3 space-y-2 text-sm">
+        <li><a href="/lovemoney-update/" class="block py-2 hover:text-pink-500">Update Notes</a></li>
+        <li><a href="/all-endings/" class="block py-2 hover:text-pink-500">Endings</a></li>
+        <li><a href="/ending-calculator/" class="block py-2 hover:text-pink-500">Calculator</a></li>
+        <li><a href="/items-guide/" class="block py-2 hover:text-pink-500">Items Guide</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="content">
+    <!-- Hero / Title Section -->
+    <section class="py-12 sm:py-20 relative overflow-hidden bg-slate-50 dark:bg-[#060609]">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <div class="inline-flex items-center gap-2 px-3 py-1 mb-6 rounded-full bg-slate-200 dark:bg-white/10 font-mono text-xs text-slate-700 dark:text-white/70">
+          > cd game/ && extract script.rpy
+        </div>
+        <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight mb-6 font-mono">
+          LoveMoney Datamine Guide: Extracting <span class="text-pink-500">script.rpy</span>
+        </h1>
+        <p class="text-lg text-slate-700 dark:text-white/80 leading-relaxed mb-6">
+          If you want to view the raw game logic, uncover the precise math behind the ending triggers, or brute-force the <a href="/lovemoney-update/" class="underline font-semibold hover:text-pink-600">hidden purple box password</a> without hunting for notes, you'll need to datamine the game files. 
+        </p>
+        <p class="text-lg text-slate-700 dark:text-white/80 leading-relaxed mb-6">
+          Because LoveMoney is built on the <strong>Ren'Py</strong> visual novel engine, accessing the source code requires specialized unpacking tools like <code>unrpa</code> and <code>unrpyc</code>.
+        </p>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="py-12 border-t border-black/10 dark:border-white/10">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 space-y-12">
+
+        <!-- Phase 1: Unpacking .rpa -->
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold mb-4 font-mono">Phase 1: Unpacking .rpa Archives</h2>
+          <div class="prose prose-slate dark:prose-invert max-w-none text-slate-700 dark:text-white/80 leading-relaxed">
+            <p>
+              When you download LoveMoney and navigate to the <code>/game/</code> directory, you might not see any dialogue or text files. Instead, the game's assets (art, audio, and scripts) are bundled tightly into <code>.rpa</code> archive files (Ren'Py Archive).
+            </p>
+            <ol>
+              <li>Download a standard Ren'Py extraction tool. The most common open-source tool for this is <strong>unrpa</strong> (a Python script) or user-friendly wrappers like <strong>UnRen</strong>.</li>
+              <li>Place the extraction tool into your base LoveMoney directory.</li>
+              <li>Run the extraction process against the <code>.rpa</code> files. This will burst the archive open, spitting out folders full of CGs, audio tracks, and most importantly, the script variants.</li>
+            </ol>
+            <div class="mt-4 p-4 bg-amber-50 dark:bg-amber-900/10 border-l-4 border-amber-500 text-sm">
+              <strong>Legal Disclaimer:</strong> Datamining and extracting these assets is strictly for educational purposes and personal curiosity. Do not redistribute, steal, or re-upload the developer's protected 18+ CG artwork to public forums.
+            </div>
+          </div>
+        </div>
+
+        <!-- Phase 2: Decompiling -->
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold mb-4 font-mono">Phase 2: Decompiling .rpyc to .rpy</h2>
+          <div class="prose prose-slate dark:prose-invert max-w-none text-slate-700 dark:text-white/80 leading-relaxed">
+            <p>
+              Once you've unpacked the archives, you'll likely find files ending in <code>.rpyc</code> (such as <code>script.rpyc</code> or <code>options.rpyc</code>). If you try to open these with Notepad, you will just see garbled machine code. 
+            </p>
+            <p>
+              <strong>.rpyc means "Ren'Py Compiled."</strong> You need to reverse-engineer it back into human-readable Python-based code.
+            </p>
+            <ul class="list-disc list-inside space-y-2">
+              <li>Download the <strong>unrpyc</strong> decompiler from GitHub.</li>
+              <li>Run the `.rpyc` files through the decompiler.</li>
+              <li>The output will be clean <code>script.rpy</code> files. These are the master dialogue and logic files. You can now open them using Notepad++ or Visual Studio Code.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Finding the Password -->
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold mb-4 font-mono">Finding the Password in script.rpy</h2>
+          <div class="flex flex-col md:flex-row gap-8 items-start mt-6">
+            <div class="flex-1 prose prose-slate dark:prose-invert max-w-none text-slate-700 dark:text-white/80 leading-relaxed">
+              <p>
+                Now that you have the raw <code>script.rpy</code> file open in a text editor, finding the secret password is a breeze.
+              </p>
+              <p>
+                Simply press <strong>Ctrl + F</strong> and search for prompts related to the password box, or search for the word <code>password</code> or <code>input</code>. Because Ren'Py logic uses Python conditional statements, you will eventually find a line of code that looks something like this:
+              </p>
+              
+              <div class="bg-slate-900 text-green-400 p-4 rounded-xl font-mono text-sm mt-4 overflow-x-auto shadow-inner">
+                <p># Code Snippet Example</p>
+                <p>$ player_input = renpy.input("Enter the code:")</p>
+                <p>if player_input == "[THE_SECRET_PASSWORD]":</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;jump secret_ending_route</p>
+              </div>
+              
+              <p class="mt-4">
+                The exact string assigned to that conditional jump is the password you need to enter into the dark purple box on the game's start screen.
+              </p>
+            </div>
+            
+            <div class="w-full md:w-1/3 bg-slate-50 dark:bg-white/5 border border-black/10 dark:border-white/10 p-6 rounded-2xl text-center">
+              <h3 class="font-bold text-xl mb-2 text-pink-500">Not a Programmer?</h3>
+              <p class="text-sm text-slate-600 dark:text-white/60 mb-6">
+                Don't want to mess with Python scripts, un-archiving, and decompilers? Skip the code-breaking and just use our Ending Calculator.
+              </p>
+              <a href="/ending-calculator/" class="block w-full py-3 px-4 bg-pink-500 hover:bg-pink-400 text-white font-bold rounded-xl transition focus-outline shadow-md">
+                Launch Calculator
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Advanced Datamining Tips -->
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold mb-4 font-mono">Other Things to Datamine</h2>
+          <div class="grid sm:grid-cols-3 gap-6 mt-6 text-sm">
+            <a href="/all-endings/" class="rounded-xl border border-black/10 dark:border-white/10 p-5 bg-white dark:bg-white/5 hover:border-pink-500 transition group block">
+              <div class="font-bold text-lg mb-2 group-hover:text-pink-500 transition">🔍 Variable Triggers</div>
+              <p class="text-slate-600 dark:text-white/60">Study the exact $money variables or Harvey 'affection' stats required to trigger specific bad/good endings.</p>
+            </a>
+            
+            <a href="/lovemoney-vs-bloodmoney/" class="rounded-xl border border-black/10 dark:border-white/10 p-5 bg-white dark:bg-white/5 hover:border-pink-500 transition group block">
+              <div class="font-bold text-lg mb-2 group-hover:text-pink-500 transition">📜 Hidden Dialogue</div>
+              <p class="text-slate-600 dark:text-white/60">Find cut content, developer notes, or unused dialogue branches that relate to the original BloodMoney game.</p>
+            </a>
+
+            <div class="rounded-xl border border-black/10 dark:border-white/10 p-5 bg-white dark:bg-white/5">
+              <div class="font-bold text-lg mb-2">🖼️ CG Extraction</div>
+              <p class="text-slate-600 dark:text-white/60">Access the full folder of 18+ unblurred character art normally compressed in the image.rpa container.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-black/10 dark:border-white/10 py-10 text-sm mt-12 bg-slate-50 dark:bg-black/30">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+        <div>
+          <h3 class="font-semibold mb-3 flex items-center gap-2">
+            <span class="inline-block w-2 h-2 rounded-full bg-pink-500" aria-hidden="true"></span>
+            LoveMoney Game
+          </h3>
+          <p class="text-slate-600 dark:text-white/60 text-xs leading-relaxed">
+            The ultimate hub for LoveMoney player guides, scripts analysis, ending calculators, and technical datamining.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="font-semibold mb-3">Core Hub</h4>
+          <ul class="space-y-2 text-slate-600 dark:text-white/60">
+            <li><a href="/" class="hover:text-pink-600 transition">Home</a></li>
+            <li><a href="/lovemoney-update/" class="hover:text-pink-600 transition">Update Secrets</a></li>
+            <li><a href="/ending-calculator/" class="hover:text-pink-600 transition">Calculator</a></li>
+            <li><a href="/download-guide/" class="hover:text-pink-600 transition">Download Options</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-semibold mb-3">Gameplay Lore</h4>
+          <ul class="space-y-2 text-slate-600 dark:text-white/60">
+            <li><a href="/harvey-character-analysis" class="hover:text-pink-600 transition">Harvey Analysis</a></li>
+            <li><a href="/lovemoney-vs-bloodmoney/" class="hover:text-pink-600 transition">BloodMoney Tie-in</a></li>
+            <li><a href="/all-endings/" class="hover:text-pink-600 transition">All verified Endings</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-semibold mb-3">Legal & Notice</h4>
+          <ul class="space-y-2 text-slate-600 dark:text-white/60">
+            <li class="flex items-center gap-2">
+              <span class="text-xs border border-pink-500/50 text-pink-600 dark:text-pink-400 rounded px-1.5 py-0.5 font-bold">18+</span>
+              <span class="text-xs font-semibold">Mature Content Guide</span>
+            </li>
+            <li class="text-xs leading-relaxed mt-2 italic">Unofficial fan compilation. We do not distribute original game files or copyrighted assets.</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="pt-6 border-t border-black/10 dark:border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <p class="text-slate-500 dark:text-white/50">© <span id="year"></span> LoveMoney Guide.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const toggle = document.getElementById('mobileMenuToggle');
+    const menu = document.getElementById('mobileMenu');
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
