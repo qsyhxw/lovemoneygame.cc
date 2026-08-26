@@ -4,20 +4,17 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>LoveMoney Items Guide: All Locations & Unlocks | LoveMoney Game</title>
-
+  <title>LoveMoney Items Guide — Locations, Prices &amp; Unlocks</title>
   <meta name="description"
-    content="Complete guide to all LoveMoney items, their effects, prices, and how they unlock different endings. Learn which items to buy for the best ending and which (like Soap) trigger dark routes.">
+    content="Find every LoveMoney item, price, effect, and unlock requirement. See which purchases change routes, including Soap, without mixing in BLOODMONEY items." />
   <meta name="keywords"
-    content="lovemoney items, lovemoney all items, love money items, item unlocks, find items lovemoney, lovemoney soap, lovemoney feather, lovemoney endings">
-
+    content="lovemoney items, lovemoney all items, love money items, item unlocks, lovemoney shop, lovemoney soap, lovemoney feather" />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://lovemoneygame.cc/lovemoney-items-guide" />
 
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8830315294299920"
     crossorigin="anonymous"></script>
 
-  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-F98FBQ2ZGS"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -32,224 +29,327 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
   <link rel="manifest" href="/site.webmanifest" />
 
-  <!-- Open Graph -->
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="LoveMoney Items Guide: All Locations & Unlocks" />
+  <meta property="og:title" content="LoveMoney Items Guide — Locations, Prices &amp; Unlocks" />
   <meta property="og:description"
-    content="Discover every item in LoveMoney, what they do, and how purchasing them affects your ending with Harvey." />
-  <meta property="og:url" content="https://lovemoneygame.cc/lovemoney-items-guide/" />
+    content="Find every LoveMoney item, price, effect, and unlock requirement, with clear evidence limits for route claims." />
+  <meta property="og:url" content="https://lovemoneygame.cc/lovemoney-items-guide" />
   <meta property="og:image" content="https://lovemoneygame.cc/og-image.jpg" />
-  <meta property="og:site_name" content="LoveMoney 18+ Game" />
+  <meta property="og:site_name" content="LoveMoney Game" />
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0B0B12" media="(prefers-color-scheme: dark)" />
 
-  <!-- Theme -->
-  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0B0B12" media="(prefers-color-scheme: dark)">
-
-  <!-- Tailwind CDN -->
-  <script>tailwind.config = { darkMode: 'class' };</script>
+  <script>
+    window.tailwind = window.tailwind || {};
+    window.tailwind.config = { darkMode: 'class' };
+  </script>
   <script src="https://cdn.tailwindcss.com/3.4.10"></script>
 
   <style>
-    :root {
-      color-scheme: light dark;
-    }
-
-    .focus-outline:focus {
-      outline: 3px solid currentColor;
-      outline-offset: 2px;
+    :root { color-scheme: light dark; }
+    .focus-outline:focus { outline: 3px solid currentColor; outline-offset: 2px; }
+    .cv { content-visibility: auto; contain-intrinsic-size: 1px 520px; }
+    #mobileMenu { max-height: 0; overflow: hidden; transition: max-height 0.25s ease; }
+    #mobileMenu.open { max-height: 420px; }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
     }
   </style>
 
-  <!-- FAQ Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [{
-      "@type": "Question",
-      "name": "How do items affect endings in Lovemoney?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Items in Lovemoney not only increase your money earned per click, but they also act as moral choices. Buying gentle items keeps your relationship with Harvey positive, while buying intimate or invasive items like Lipstick and Soap will lead to dark or bad endings."
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://lovemoneygame.cc/lovemoney-items-guide#webpage",
+        "url": "https://lovemoneygame.cc/lovemoney-items-guide",
+        "name": "LoveMoney Items Guide — Locations, Prices & Unlocks",
+        "description": "Find every LoveMoney item, price, effect, and unlock requirement, with clear evidence limits for route claims.",
+        "dateModified": "2026-08-26",
+        "isPartOf": { "@type": "WebSite", "name": "LoveMoney Game", "url": "https://lovemoneygame.cc/" }
+      },
+      {
+        "@type": "Article",
+        "@id": "https://lovemoneygame.cc/lovemoney-items-guide#article",
+        "headline": "Complete LoveMoney Items Guide: Locations & Unlocks",
+        "mainEntityOfPage": { "@id": "https://lovemoneygame.cc/lovemoney-items-guide#webpage" },
+        "dateModified": "2026-08-26"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://lovemoneygame.cc/" },
+          { "@type": "ListItem", "position": 2, "name": "Items Guide", "item": "https://lovemoneygame.cc/lovemoney-items-guide" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Which LoveMoney item has a confirmed price and effect?",
+            "acceptedAnswer": { "@type": "Answer", "text": "The Feather is the only item currently supported by multiple public gameplay descriptions with the same price and numeric effect: $100 and $2 per click. The developer's itch.io page does not publish a complete item table." }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the price and effect of the Brush or Soap?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Public reports disagree or omit exact values for later items. This guide does not present a Brush or Soap price, multiplier, or unlock threshold as confirmed; check the item shown in your game version." }
+          },
+          {
+            "@type": "Question",
+            "name": "Does buying Soap guarantee a specific ending?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Public guides associate late or Soap-related purchases with different route outcomes, but the official listing does not publish a complete item-to-ending map. Treat the relationship as version-sensitive rather than a guaranteed universal rule." }
+          },
+          {
+            "@type": "Question",
+            "name": "Do OLD and UPDATE versions have the same items?",
+            "acceptedAnswer": { "@type": "Answer", "text": "The official itch.io listing says UPDATE contains additional mechanics, secret content, and a new story, but it does not enumerate shop changes. Item availability and effects should therefore be checked against the version you are playing." }
+          }
+        ]
       }
-    }, {
-      "@type": "Question",
-      "name": "Should I buy every item in the shop?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. If you want a good ending, you should avoid purchasing every item. Pacing your purchases and skipping the final, invasive items is key to unlocking the 'Savior' ending."
-      }
-    }]
+    ]
   }
   </script>
 </head>
 
 <body class="bg-slate-50 text-slate-900 dark:bg-[#0B0B12] dark:text-[#EAEAF0] antialiased selection:bg-pink-500/30">
+  <a href="#content" class="sr-only focus:not-sr-only focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2 px-3 py-2 bg-black/80 text-white absolute left-2 top-2 rounded z-50">Skip to content</a>
 
-  <!-- HEADER -->
-  <header
-    class="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-white/70 bg-white/80 dark:supports-[backdrop-filter]:bg-black/40 dark:bg-black/60 border-b border-black/10 dark:border-white/10">
-    <nav class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between">
+  <header class="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-white/70 bg-white/80 dark:supports-[backdrop-filter]:bg-black/40 dark:bg-black/60 border-b border-black/10 dark:border-white/10">
+    <nav class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between" aria-label="Primary">
       <a href="/" class="flex items-center gap-2 font-semibold tracking-tight focus-outline">
         <span aria-hidden="true" class="inline-block w-2.5 h-2.5 rounded-full bg-pink-500"></span>
         <span>LoveMoney Game</span>
       </a>
       <ul class="hidden md:flex items-center gap-6 text-sm">
-        <li><a href="/index.html#about" class="hover:text-pink-500 transition">About</a></li>
-        <li><a href="/index.html#guides" class="hover:text-pink-500 transition">Guides</a></li>
-        <li><a href="/all-endings/" class="hover:text-pink-500 transition">All Endings</a></li>
+        <li><a href="/#about" class="hover:text-pink-500 transition focus-outline">About</a></li>
+        <li><a href="/#guides" class="hover:text-pink-500 transition focus-outline">Guides</a></li>
+        <li><a href="/all-endings/" class="hover:text-pink-500 transition focus-outline">All Endings</a></li>
       </ul>
+      <div class="flex items-center gap-2">
+        <a href="/#play" class="hidden sm:inline-flex items-center gap-2 rounded-xl px-3.5 py-2 text-sm font-semibold bg-pink-500 hover:bg-pink-400 transition focus-outline">Play Now</a>
+        <button id="mobileMenuToggle" class="md:hidden p-2 hover:bg-black/5 dark:hover:bg-white/10 rounded-lg focus-outline" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg>
+        </button>
+      </div>
     </nav>
+    <div id="mobileMenu" class="md:hidden bg-white dark:bg-[#0B0B12] border-t border-black/10 dark:border-white/10">
+      <ul class="px-4 py-3 space-y-2 text-sm">
+        <li><a href="/#about" class="block py-2 hover:text-pink-500 focus-outline">About</a></li>
+        <li><a href="/#guides" class="block py-2 hover:text-pink-500 focus-outline">Guides</a></li>
+        <li><a href="/all-endings/" class="block py-2 hover:text-pink-500 focus-outline">All Endings</a></li>
+        <li><a href="/#play" class="block py-2 hover:text-pink-500 focus-outline">Play</a></li>
+        <li><a href="/download-guide/" class="block py-2 hover:text-pink-500 focus-outline">Download</a></li>
+      </ul>
+    </div>
   </header>
 
-  <!-- CONTENT -->
-  <main class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12">
-
-    <!-- Breadcrumbs -->
-    <nav class="mb-8 text-sm text-slate-500 dark:text-white/50" aria-label="Breadcrumb">
-      <ol class="flex items-center gap-2">
-        <li><a href="/" class="hover:text-pink-500 transition">Home</a></li>
-        <li><span aria-hidden="true">›</span></li>
-        <li class="font-semibold text-slate-800 dark:text-white" aria-current="page">Items Guide</li>
-      </ol>
-    </nav>
-
-    <!-- Article Header -->
-    <header class="mb-12">
-      <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight mb-4 text-slate-900 dark:text-white">
-        Complete LoveMoney Items Guide: Locations & Unlocks
-      </h1>
-      <p class="text-lg text-slate-700 dark:text-white/80 leading-relaxed">
-        In LoveMoney, the items you unlock are more than just idle-game upgrades. Each item you purchase directly
-        impacts Harvey Harvington's state of mind and determines which ending you will receive. Here is the
-        comprehensive guide to every item, its effects, and where to find it.
-      </p>
-    </header>
-
-    <article class="prose prose-slate dark:prose-invert prose-pink max-w-none">
-
-      <h2 class="text-2xl font-bold mt-10 mb-4 border-b border-black/10 dark:border-white/10 pb-2">Introduction to the
-        Item System</h2>
-      <p>
-        The core gameplay loop of LoveMoney involves clicking to earn money towards your $25,000 medical goal. To speed
-        up this process, you can purchase upgrades in the form of <strong>Items</strong>. However, the shop is
-        simultaneously a moral test. The game tracks not just how much money you have, but exactly <em>what</em> you
-        bought.
-      </p>
-      <ul>
-        <li><strong>Economic Effect:</strong> Increases passive income and click value.</li>
-        <li><strong>Narrative Effect:</strong> Changes Harvey's dialogue and on-screen sprite animations.</li>
-      </ul>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4 border-b border-black/10 dark:border-white/10 pb-2">Key Progression Items
-        (Story Critical)</h2>
-      <p>
-        These are the items you will encounter in the shop. We have categorized them by their "moral weight" based on
-        verified community playtesting.
-      </p>
-
-      <div class="overflow-x-auto my-8">
-        <table class="w-full text-left border-collapse">
-          <thead>
-            <tr class="bg-slate-100 dark:bg-white/5 border-b-2 border-slate-300 dark:border-white/20">
-              <th class="p-3">Icon</th>
-              <th class="p-3">Item Name</th>
-              <th class="p-3">Type</th>
-              <th class="p-3">Effects/Stats</th>
-              <th class="p-3">How to Unlock / Locations</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="border-b border-slate-200 dark:border-white/10 hover:bg-slate-50 dark:hover:bg-white/5">
-              <td class="p-3 text-2xl">🪶</td>
-              <td class="p-3 font-semibold text-pink-600 dark:text-pink-400">Feather</td>
-              <td class="p-3">Gentle</td>
-              <td class="p-3">Slightly boosts Money Per Click. Safe to use.</td>
-              <td class="p-3">Available in the Shop from the start.</td>
-            </tr>
-            <tr class="border-b border-slate-200 dark:border-white/10 hover:bg-slate-50 dark:hover:bg-white/5">
-              <td class="p-3 text-2xl">🖌️</td>
-              <td class="p-3 font-semibold text-pink-600 dark:text-pink-400">Brush</td>
-              <td class="p-3">Gentle</td>
-              <td class="p-3">Moderate boost to income. Elicits neutral/positive dialogue.</td>
-              <td class="p-3">Unlocks in the Shop after progressing early game.</td>
-            </tr>
-            <tr class="border-b border-slate-200 dark:border-white/10 hover:bg-slate-50 dark:hover:bg-white/5">
-              <td class="p-3 text-2xl">💮</td>
-              <td class="p-3 font-semibold text-pink-600 dark:text-pink-400">Wreath</td>
-              <td class="p-3">Gentle / Neutral</td>
-              <td class="p-3">High income boost. The last "safe" item to buy.</td>
-              <td class="p-3">Purchasable via the Shop.</td>
-            </tr>
-            <tr class="border-b border-slate-200 dark:border-white/10 hover:bg-slate-50 dark:hover:bg-white/5">
-              <td class="p-3 text-2xl">💄</td>
-              <td class="p-3 font-semibold text-purple-600 dark:text-purple-400">Lipstick</td>
-              <td class="p-3">Intimate</td>
-              <td class="p-3">Massive income boost. Triggers distressed animations from Harvey.</td>
-              <td class="p-3">Late-game Shop unlock. Starts locking you out of "Good" endings.</td>
-            </tr>
-            <tr class="border-b border-slate-200 dark:border-white/10 hover:bg-slate-50 dark:hover:bg-white/5">
-              <td class="p-3 text-2xl">🧼</td>
-              <td class="p-3 font-semibold text-red-600 dark:text-red-400">Soap</td>
-              <td class="p-3">Invasive</td>
-              <td class="p-3">Maximum income boost. Traumatizing story consequences.</td>
-              <td class="p-3">Final Shop item. <a href="/all-endings/" class="underline text-pink-500">Locks you into
-                  the worst/dark endings.</a></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4 border-b border-black/10 dark:border-white/10 pb-2">Consumables & Hidden
-        Items</h2>
-      <p>
-        Currently, Lovemoney functions heavily as a linear tracker; there are no hidden mini-game drops apart from the
-        primary upgrade shop string. Every narrative-altering item is explicitly visible in the main shop UI. However,
-        tracking your item inventory limit is crucial when interacting with the <a href="/moral-choices-guide"
-          class="text-pink-600 dark:text-pink-400 hover:underline">Moral Choices system</a>.
-      </p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4 border-b border-black/10 dark:border-white/10 pb-2">FAQ: How Items Affect
-        Endings</h2>
-
-      <div class="space-y-4 mb-8">
-        <div class="p-4 rounded-xl border border-black/10 dark:border-white/10 bg-white dark:bg-white/5">
-          <h3 class="font-semibold text-lg">Should I buy every item to win easily?</h3>
-          <p class="mt-2 text-slate-700 dark:text-white/80">
-            <strong>No!</strong> While buying the Lipstick and Soap will make reaching $25,000 much faster, it acts as a
-            betrayal of Harvey's trust. If you want the "Pure Heart/Savior" ending, you must pacing your clicks and
-            completely ignore the final, invasive items in the shop.
-          </p>
-        </div>
-
-        <div class="p-4 rounded-xl border border-black/10 dark:border-white/10 bg-white dark:bg-white/5">
-          <h3 class="font-semibold text-lg">Can I sell or refund items?</h3>
-          <p class="mt-2 text-slate-700 dark:text-white/80">
-            Once an item is purchased and used on Harvey, the narrative consequence is permanent for that run. We highly
-            recommend saving your game manually before buying the <strong>Lipstick</strong> or <strong>Soap</strong> so
-            you can reload and explore different paths.
-          </p>
+  <main id="content">
+    <section class="py-12 sm:py-16 border-b border-black/10 dark:border-white/10">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <nav class="mb-7 text-sm text-slate-500 dark:text-white/50" aria-label="Breadcrumb">
+          <ol class="flex items-center gap-2"><li><a href="/" class="hover:text-pink-500 focus-outline">Home</a></li><li aria-hidden="true">›</li><li class="font-semibold text-slate-800 dark:text-white" aria-current="page">Items Guide</li></ol>
+        </nav>
+        <p class="text-sm font-semibold uppercase tracking-[0.18em] text-pink-600 dark:text-pink-300">Shop reference</p>
+        <h1 class="mt-3 text-3xl sm:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white">Complete LoveMoney Items Guide: Locations &amp; Unlocks</h1>
+        <p class="mt-5 text-lg text-slate-700 dark:text-white/80 leading-relaxed">For the current public evidence, the Feather is the only item with a consistently reported price and numeric click effect. Use the table below for confirmed and limited-confidence details, then check the item shown in your own OLD or UPDATE build before treating a route claim as universal.</p>
+        <div class="mt-7 flex flex-wrap gap-3">
+          <a href="#item-table" class="inline-flex items-center rounded-2xl px-5 py-3 font-semibold bg-pink-500 hover:bg-pink-400 transition focus-outline">Jump to item table</a>
+          <a href="/how-to-play/" class="inline-flex items-center rounded-2xl px-5 py-3 font-semibold bg-black/5 hover:bg-black/10 dark:bg-white/10 dark:hover:bg-white/20 transition focus-outline">How to Play</a>
         </div>
       </div>
+    </section>
 
-    </article>
+    <section id="evidence" class="py-12 sm:py-16 border-b border-black/10 dark:border-white/10 cv">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <div class="rounded-2xl p-6 bg-blue-50/80 dark:bg-blue-900/10 border-2 border-blue-300 dark:border-blue-700">
+          <h2 class="text-2xl font-bold text-blue-950 dark:text-blue-100">What is actually documented?</h2>
+          <p class="mt-3 text-blue-900 dark:text-blue-200 leading-7">Buwu's <a href="https://buwu3.itch.io/llllollll" target="_blank" rel="nofollow noopener noreferrer" class="font-semibold underline hover:text-pink-600 dark:hover:text-pink-300 focus-outline">official itch.io listing</a> provides the game files and version labels, but it does not publish a complete item database. Public gameplay descriptions agree on the first Feather purchase and its $2-per-click result; later names, prices, effects, and route triggers are either limited to community reports or conflict across versions.</p>
+          <p class="mt-3 text-sm text-blue-800 dark:text-blue-300">Checked 2026-08-26. “Confirmed” below means supported by more than one public description, not that the developer has published an official item table.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="item-table" class="py-12 sm:py-16 border-b border-black/10 dark:border-white/10 cv">
+      <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-3">
+          <div>
+            <h2 class="text-2xl sm:text-3xl font-bold">Items, prices, effects &amp; unlocks</h2>
+            <p class="mt-2 text-slate-600 dark:text-white/70">A compact reference that separates corroborated details from reports that still need version-specific checking.</p>
+          </div>
+          <span class="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-white/50">Evidence reviewed 2026-08-26</span>
+        </div>
+
+        <div class="mt-8 overflow-x-auto rounded-2xl border border-black/10 dark:border-white/10 bg-white dark:bg-white/5">
+          <table class="w-full min-w-[760px] text-left text-sm">
+            <caption class="sr-only">LoveMoney item prices, effects, unlocks and evidence status</caption>
+            <thead class="bg-slate-100 dark:bg-white/10 text-slate-800 dark:text-white">
+              <tr>
+                <th scope="col" class="p-4 font-semibold">Item</th>
+                <th scope="col" class="p-4 font-semibold">Price</th>
+                <th scope="col" class="p-4 font-semibold">Reported effect</th>
+                <th scope="col" class="p-4 font-semibold">Unlock / location</th>
+                <th scope="col" class="p-4 font-semibold">Confidence</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-black/10 dark:divide-white/10">
+              <tr>
+                <th scope="row" class="p-4 align-top font-semibold text-pink-700 dark:text-pink-300">🪶 Feather</th>
+                <td class="p-4 align-top">$100</td>
+                <td class="p-4 align-top">$1 → $2 per click</td>
+                <td class="p-4 align-top">First shop item after the initial $100 milestone in public descriptions</td>
+                <td class="p-4 align-top"><span class="inline-flex rounded-full bg-emerald-100 px-2 py-1 text-xs font-semibold text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-200">Cross-source report</span></td>
+              </tr>
+              <tr>
+                <th scope="row" class="p-4 align-top font-semibold">🖌️ Brush</th>
+                <td class="p-4 align-top">Not confirmed</td>
+                <td class="p-4 align-top">Reports conflict: $4 per click versus reaction/audio changes only</td>
+                <td class="p-4 align-top">Often described as the next shop item; exact threshold is not stable</td>
+                <td class="p-4 align-top"><span class="inline-flex rounded-full bg-amber-100 px-2 py-1 text-xs font-semibold text-amber-800 dark:bg-amber-900/30 dark:text-amber-200">Conflicting reports</span></td>
+              </tr>
+              <tr>
+                <th scope="row" class="p-4 align-top font-semibold">💮 Wreath / head massager</th>
+                <td class="p-4 align-top">Not confirmed</td>
+                <td class="p-4 align-top">Public guides describe reactions or sound changes; no stable numeric effect</td>
+                <td class="p-4 align-top">Later shop item in limited public guides; naming varies</td>
+                <td class="p-4 align-top"><span class="inline-flex rounded-full bg-amber-100 px-2 py-1 text-xs font-semibold text-amber-800 dark:bg-amber-900/30 dark:text-amber-200">Community report</span></td>
+              </tr>
+              <tr>
+                <th scope="row" class="p-4 align-top font-semibold">💄 Lipstick</th>
+                <td class="p-4 align-top">One report: about $4,000</td>
+                <td class="p-4 align-top">New sound or reaction lines are reported; numeric boost is not established</td>
+                <td class="p-4 align-top">Mid/late shop item in one public guide; exact unlock varies by build</td>
+                <td class="p-4 align-top"><span class="inline-flex rounded-full bg-amber-100 px-2 py-1 text-xs font-semibold text-amber-800 dark:bg-amber-900/30 dark:text-amber-200">Single-source detail</span></td>
+              </tr>
+              <tr>
+                <th scope="row" class="p-4 align-top font-semibold text-rose-700 dark:text-rose-300">🧼 Soap</th>
+                <td class="p-4 align-top">Not confirmed</td>
+                <td class="p-4 align-top">Associated with a more invasive interaction in public reports; no verified multiplier</td>
+                <td class="p-4 align-top">Often described as a late or final shop decision, but no official threshold is published</td>
+                <td class="p-4 align-top"><span class="inline-flex rounded-full bg-amber-100 px-2 py-1 text-xs font-semibold text-amber-800 dark:bg-amber-900/30 dark:text-amber-200">Route claim limited</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="mt-4 text-sm text-slate-600 dark:text-white/60">The table intentionally does not turn unnamed props, Oil, or other one-source mentions into a complete item list. A missing value means “not safely verified,” not “the item cannot exist.”</p>
+      </div>
+    </section>
+
+    <section id="strategy" class="py-12 sm:py-16 border-b border-black/10 dark:border-white/10 cv">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl sm:text-3xl font-bold">Buying strategy without overclaiming</h2>
+        <div class="mt-7 grid gap-4 sm:grid-cols-3">
+          <article class="rounded-2xl p-5 bg-emerald-50/80 dark:bg-emerald-900/10 border border-emerald-300 dark:border-emerald-800">
+            <p class="text-sm font-semibold text-emerald-800 dark:text-emerald-200">1 · Start with Feather</p>
+            <p class="mt-2 text-sm leading-6 text-slate-700 dark:text-white/80">The public descriptions that include a number agree on the $100 Feather and its $2-per-click result, making it the clearest early efficiency purchase.</p>
+          </article>
+          <article class="rounded-2xl p-5 bg-slate-100/80 dark:bg-white/5 border border-black/10 dark:border-white/10">
+            <p class="text-sm font-semibold">2 · Watch the shop</p>
+            <p class="mt-2 text-sm leading-6 text-slate-700 dark:text-white/80">Use the shop's current availability signal and record the price/effect shown in your build. Do not import a later-item value from a different version.</p>
+          </article>
+          <article class="rounded-2xl p-5 bg-amber-50/80 dark:bg-amber-900/10 border border-amber-300 dark:border-amber-800">
+            <p class="text-sm font-semibold text-amber-900 dark:text-amber-200">3 · Decide before late items</p>
+            <p class="mt-2 text-sm leading-6 text-slate-700 dark:text-white/80">Public guides connect late or Soap-related purchases with route changes, but the exact map is not official. Save or note your choices if you are comparing outcomes.</p>
+          </article>
+        </div>
+        <div class="mt-7 rounded-2xl border border-pink-200 bg-pink-50/70 p-5 dark:border-pink-800 dark:bg-pink-900/10">
+          <h3 class="font-semibold text-pink-950 dark:text-pink-100">What this page does not replace</h3>
+          <p class="mt-2 text-sm leading-6 text-pink-900 dark:text-pink-200">This is an items reference, not a full walkthrough or an all-endings chapter. For route summaries, use the <a href="/all-endings/" class="font-semibold underline hover:text-pink-600 dark:hover:text-pink-300 focus-outline">All Endings guide</a>; for basic controls and progression, use <a href="/how-to-play/" class="font-semibold underline hover:text-pink-600 dark:hover:text-pink-300 focus-outline">How to Play</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="version-boundary" class="py-12 sm:py-16 border-b border-black/10 dark:border-white/10 cv">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl sm:text-3xl font-bold">OLD vs UPDATE: check your build</h2>
+        <p class="mt-3 leading-7 text-slate-700 dark:text-white/80">The official Buwu listing labels OLD as an older version with bugs, unfinished features, and translation issues. It describes UPDATE as adding mechanics, secret content, and a new story, but it does not say whether the shop list, item values, or route triggers changed. That is why this guide avoids a fixed “complete list” claim for every build.</p>
+        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+          <div class="rounded-2xl border border-black/10 bg-white p-5 dark:border-white/10 dark:bg-white/5">
+            <h3 class="font-semibold">Before buying</h3>
+            <p class="mt-2 text-sm leading-6 text-slate-700 dark:text-white/80">Check the item name, displayed cost, and any visible effect in the shop. Treat old screenshots and guide tables as version-specific evidence.</p>
+          </div>
+          <div class="rounded-2xl border border-black/10 bg-white p-5 dark:border-white/10 dark:bg-white/5">
+            <h3 class="font-semibold">When comparing endings</h3>
+            <p class="mt-2 text-sm leading-6 text-slate-700 dark:text-white/80">Record the version label and purchase choices. The public material does not justify a universal rule that one item alone always forces one ending.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="py-12 sm:py-16 border-b border-black/10 dark:border-white/10 cv">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl sm:text-3xl font-bold">Items FAQ</h2>
+        <div class="mt-6 divide-y divide-black/10 rounded-2xl border border-black/10 bg-white dark:divide-white/10 dark:border-white/10 dark:bg-white/5">
+          <details class="group p-5" open>
+            <summary class="cursor-pointer list-none pr-8 font-semibold focus-outline">Which LoveMoney item has a confirmed price and effect?</summary>
+            <p class="mt-3 leading-7 text-slate-700 dark:text-white/70">The Feather is the only item currently supported by multiple public gameplay descriptions with the same price and numeric effect: $100 and $2 per click. Buwu's <a href="https://buwu3.itch.io/llllollll" target="_blank" rel="nofollow noopener noreferrer" class="font-semibold text-pink-600 hover:underline dark:text-pink-300 focus-outline">itch.io listing</a> does not publish a complete item table.</p>
+          </details>
+          <details class="group p-5">
+            <summary class="cursor-pointer list-none pr-8 font-semibold focus-outline">What are the price and effect of the Brush or Soap?</summary>
+            <p class="mt-3 leading-7 text-slate-700 dark:text-white/70">Public reports disagree or omit exact values for later items. This guide does not present a Brush or Soap price, multiplier, or unlock threshold as confirmed; check the item shown in your game version.</p>
+          </details>
+          <details class="group p-5">
+            <summary class="cursor-pointer list-none pr-8 font-semibold focus-outline">Does buying Soap guarantee a specific ending?</summary>
+            <p class="mt-3 leading-7 text-slate-700 dark:text-white/70">Public guides associate late or Soap-related purchases with different route outcomes, but the official listing does not publish a complete item-to-ending map. Treat the relationship as version-sensitive rather than a guaranteed universal rule. See the <a href="/all-endings/" class="font-semibold text-pink-600 hover:underline dark:text-pink-300 focus-outline">All Endings guide</a> for the separate route overview.</p>
+          </details>
+          <details class="group p-5">
+            <summary class="cursor-pointer list-none pr-8 font-semibold focus-outline">Do OLD and UPDATE versions have the same items?</summary>
+            <p class="mt-3 leading-7 text-slate-700 dark:text-white/70">The official listing says UPDATE contains additional mechanics, secret content, and a new story, but it does not enumerate shop changes. Check the version you are playing before relying on a later-item price or effect.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="sources" class="py-12 sm:py-16 cv">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl sm:text-3xl font-bold">Sources and next steps</h2>
+        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+          <a href="https://buwu3.itch.io/llllollll" target="_blank" rel="nofollow noopener noreferrer" class="rounded-2xl border border-black/10 bg-white p-5 hover:border-pink-400 dark:border-white/10 dark:bg-white/5 focus-outline">
+            <h3 class="font-semibold">Official Buwu itch.io listing ↗</h3>
+            <p class="mt-2 text-sm leading-6 text-slate-600 dark:text-white/70">Version labels, supported desktop platforms, content warning, and download files.</p>
+          </a>
+          <a href="https://lovemoneygame.io/" target="_blank" rel="nofollow noopener noreferrer" class="rounded-2xl border border-black/10 bg-white p-5 hover:border-pink-400 dark:border-white/10 dark:bg-white/5 focus-outline">
+            <h3 class="font-semibold">Public gameplay description ↗</h3>
+            <p class="mt-2 text-sm leading-6 text-slate-600 dark:text-white/70">One public description reports the $100 Feather and $2-per-click result; it is not a developer item database.</p>
+          </a>
+          <a href="https://lovemoney.games/guide" target="_blank" rel="nofollow noopener noreferrer" class="rounded-2xl border border-black/10 bg-white p-5 hover:border-pink-400 dark:border-white/10 dark:bg-white/5 focus-outline">
+            <h3 class="font-semibold">Public strategy guide ↗</h3>
+            <p class="mt-2 text-sm leading-6 text-slate-600 dark:text-white/70">Useful for the Feather-first strategy and later-item uncertainty; build-specific claims remain qualified.</p>
+          </a>
+          <a href="/all-endings/" class="rounded-2xl border border-pink-300/60 bg-pink-50/70 p-5 hover:bg-pink-100 dark:border-pink-800 dark:bg-pink-900/10 dark:hover:bg-pink-900/20 focus-outline">
+            <h3 class="font-semibold">Continue to All Endings →</h3>
+            <p class="mt-2 text-sm leading-6 text-slate-700 dark:text-white/70">Compare route categories without turning this items page into a full walkthrough.</p>
+          </a>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <!-- CONTENT WARNING -->
-  <section class="py-8 border-t border-black/10 dark:border-white/10 bg-amber-50/50 dark:bg-amber-900/10">
-    <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-sm text-amber-800 dark:text-amber-300">
-      <strong>Notice:</strong> This guide covers mechanics for the 18+ visual novel <em>Lovemoney</em>. The items and
-      their effects are tied to mature, sensitive storylines.
+  <section class="py-8 border-t border-black/10 dark:border-white/10 bg-amber-50/60 dark:bg-amber-900/10">
+    <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-sm text-amber-900 dark:text-amber-200">
+      <strong>18+ notice:</strong> LoveMoney contains sexual content, mature themes, and content warnings on the official listing. This page is an independent guide and does not host the game files.
     </div>
   </section>
 
-  <!-- FOOTER -->
-  <footer class="border-t border-black/10 dark:border-white/10 py-8 text-sm text-center text-slate-500">
-    <div class="mx-auto max-w-4xl px-4">
-      <p>© 2026 LoveMoney Game. Independent Unofficial Guide.</p>
+  <footer class="border-t border-black/10 dark:border-white/10 py-8 text-sm text-center text-slate-500 dark:text-white/50">
+    <div class="mx-auto max-w-6xl px-4">
+      <p>© 2026 LoveMoney Game. Independent unofficial guide.</p>
+      <p class="mt-2"><a href="/" class="hover:text-pink-500 underline focus-outline">Home</a> · <a href="/how-to-play/" class="hover:text-pink-500 underline focus-outline">How to Play</a> · <a href="/all-endings/" class="hover:text-pink-500 underline focus-outline">All Endings</a></p>
     </div>
   </footer>
 
+  <script>
+    const menuToggle = document.getElementById('mobileMenuToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+    if (menuToggle && mobileMenu) {
+      menuToggle.addEventListener('click', () => {
+        const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
+        menuToggle.setAttribute('aria-expanded', String(!expanded));
+        mobileMenu.classList.toggle('open', !expanded);
+      });
+    }
+  </script>
 </body>
 
 </html>
