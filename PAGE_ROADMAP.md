@@ -10,7 +10,7 @@
 - Homepage: `index.html`
 - Last Updated: 2026-08-26
 - Roadmap Status: ACTIVE
-- Current Recommended Queue Order: P2-08
+- Current Recommended Queue Order: NONE - RETURN TO GSC EXPANSION REVIEW
 
 ## Status Values
 
@@ -27,6 +27,7 @@
 | 4 | P2 | CREATED_NEEDS_REVIEW | Eun-Mi / Harvey wife | `/eun-mi` | `harvey harvington wife`, `eun-mi harvington` | 快速确认 Harvey 的妻子是谁、别名/家庭关系与 LoveMoney 关联，并区分官方声明与公开二级 lore | SUPPORT | 将 wife 快答集中到 Eun-Mi 主页面，避免妻子问答页与人物页分散归属 | 核验批准 Title、Meta、H1、canonical、wife 快答、别名、关系、家庭和出处置信度；线上核验 wife 301、Harvey/Toby 内链；观察 56 日 | 2026-08-26 已核验 Buwu 官方 listing 与评论：妻子和孩子属于 LoveMoney canon，Buwu 说明 Harvey 对妻子的忠诚与 cheating 主题边界；SHROOMYCHRIST 官方 HEP listing 确认 Harvey-focused program；主页面已完成本地静态施工，`_redirects` 已加入 wife → `/eun-mi` 301 规则，待线上 HTTP 验证 | NO | YES | P2-05 已按批准行动卡完成本地施工；具体别名、年龄等二级 lore 已显式标注，不作为无来源硬 canon | CONTEXTUAL_ONLY | 首页、Harvey profile、Toby family context 入口 | P2-06：Items 重复页 | `/harvey-harvington-wife/`, `/wiki/harvey-harvington-wife/`, `/wiki/eun-mi-harvington/`, `/harvey-character-analysis.html`, `/wiki/toby-harvington/` | 2026-08-26 |
 | 5 | P2 | CREATED_NEEDS_REVIEW | Items 重复页 | `/lovemoney-items-guide` | `lovemoney items`, `all items` | 查看价格、效果、解锁、购买策略和结局影响，并区分已交叉支持与版本/社区报告 | SUPPORT | 将重复的 `/items-guide` 意图集中到主 items 页，统一全站 items 内链并避免旧页继续承接 | 核验批准 Title、Meta、H1、canonical、Feather 证据型表格、后续项目限制、OLD/UPDATE 边界；线上核验 `/items-guide`、`/items-guide/`、`.html` 301 和真实内链；观察 56 日 | 2026-08-26 已核验 Buwu 官方 listing：未发布完整物品表，确认 OLD/UPDATE 版本边界；多个公开页面交叉支持 Feather `$100 → $2/click`；Brush、Lipstick、Soap 的价格/效果/路线映射仍有限或冲突；主页面已完成本地静态施工，`_redirects` 已加入三种旧 items 路径 → `/lovemoney-items-guide` 301 规则，待线上 HTTP 验证 | NO | YES | P2-06 已按批准行动卡完成本地施工；旧 `/items-guide` 文件保留为迁移源，已移出 sitemap，站内链接全部改指向主 items 页 | CONTEXTUAL_ONLY | 首页 Items Guide、walkthrough、endings 和相关攻略的上下文入口 | P2-07：西语页面边界 | `/items-guide`, `/lovemoney-walkthrough.html`, `/all-endings/`, `/moral-choices-guide.html` | 2026-08-26 |
 | 6 | P2 | CREATED_NEEDS_REVIEW | 西语页面边界 | `/lovemoney-game-en-espanol/` + `/lovemoney-sin-censura/` | `lovemoney en español`, `lovemoney sin censura` | 通用西语页回答免费、怎么玩、下载与语言状态；18+ 页回答 sin censura、版本边界与 patch 风险 | SUPPORT | 保留两页独立归属，避免增长期页面互相吞并，同时用首屏下方互链引导正确入口 | 核验两页批准 Title、Meta、H1、canonical、官方语言/平台事实、双向锚文本；线上核验真实内链、sitemap 与页面可见性；观察 general 的西语品牌份额与 sin-censura exact clicks | 2026-08-26 已核验 Buwu 官方 itch.io listing：公开文件列出 English/Russian，未列出专门西语 build；页面说明 Windows/macOS 下载与内容警告；两页保留独立 Title、Meta、H1、canonical，并在首屏下方加入 `Guía LoveMoney sin censura` ↔ `LoveMoney en español: jugar y descargar` 双向真实内链，未合并或重写增长期核心文案 | NO | YES | P2-07 已按批准行动卡完成本地静态施工；通用西语页不承接 18+ 长文，sin-censura 页不承接完整通用教程；待发布环境复核 | CONTEXTUAL_ONLY | 首页西语入口继续优先指向通用页；仅在 18+ 专题语境下引导 sin-censura 页 | P2-08：Russian winner protection | `/index.html`, `/lovemoney-game-en-espanol/`, `/lovemoney-sin-censura/`, `/lovemoney-mobile/` | 2026-08-26 |
+| 7 | P2 | CREATED_NEEDS_REVIEW | 俄语赢家保护 | `/ru/lovemoney-igra/` | `lovemoney игра`, `lovemoney скачать`, `lovemoney русская версия` | 俄语玩家确认在线试玩、Windows/macOS 下载、俄语独立 сборка 与手机 APK 限制 | PROTECT | 保护当前快速增长的俄语赢家页，只补首页语言入口并维持清晰语言信号，不改主体文案 | 核验批准 Title、Meta、H1、canonical、`lang`、`inLanguage`、self hreflang、sitemap 与首页入口；确认俄语下载词不被跨语言内链导向英文 Mobile 页；观察 56 日 clicks、CTR、position | 2026-08-26 已核验 Buwu 官方 itch.io listing：列出 `LoveMoney_rus_UPDATE-mac` 与 `LoveMoney_rus_UPDATE-win`，官方平台为 Windows/macOS，语言列出 English/Russian；俄语页保留批准 Title、Meta、H1、canonical 和正文，仅确认 `lang=ru`/`inLanguage=ru`/self hreflang；首页已新增 Russian guide 入口，俄语页现有 Mobile / APK 链接未使用俄语下载主词指向英文 mobile 页 | NO | YES | P2-08 已按批准行动卡完成本地静态施工；未改赢家页主体文案、URL 或意图，待发布环境复核和 56 日指标观察 | CONTEXTUAL_ONLY | 首页 Popular Guides 新增 Russian guide 入口；下载页、itch.io 页、英文版本页与英文实体页已有俄语上下文入口 | NONE - RETURN TO GSC EXPANSION REVIEW | `/index.html`, `/what-is-lovemoney`, `/download-guide.html`, `/itch-io-download.html`, `/lovemoney-english-version.html`, `/lovemoney-mobile/` | 2026-08-26 |
 
 ## Queue Rules
 
@@ -37,8 +38,8 @@
 
 ## Next Action
 
-- Next Page: P2-08：Russian winner protection
+- Next Page: NONE - RETURN TO GSC EXPANSION REVIEW
 - Prompt: `03A`
-- Required Before Start: 完成 P2-07 两页首屏互链的发布环境复核；确认 Russian 页面当前 winner 与 English APK 入口没有被错误改写
+- Required Before Start: 无；P2-08 已完成本地施工，后续需先完成发布环境复核和 56 日指标观察，再由 GSC 重新决定下一批动作
 - Action: WAIT
-- Reason: P2-07 已完成本地施工但仍需发布环境复核；下一项是上游已批准的 P2-08 Russian winner protection，继续保护已验证的俄语承接页。
+- Reason: 上游报告本轮没有通过统一建页闸门的下一页；不要根据本次保护动作临时发明新页面，返回 GSC expansion review。
