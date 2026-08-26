@@ -10,7 +10,7 @@
 - Homepage: `index.html`
 - Last Updated: 2026-08-26
 - Roadmap Status: ACTIVE
-- Current Recommended Queue Order: P2-07
+- Current Recommended Queue Order: P2-08
 
 ## Status Values
 
@@ -26,6 +26,7 @@
 | 3 | P2 | CREATED_NEEDS_REVIEW | Mobile / Android / APK | `/lovemoney-mobile/` | `mobile`, `Android/iOS`, `APK status` | 判断手机访问、官方移动版状态、JoiPlay 边界与 APK 安全 | SUPPORT | 将 Android/APK 重复意图集中到 mobile 主页面，同时保留本站浏览器入口与官方桌面来源的区别 | 核验 Title、Meta、H1、canonical、平台状态、Buwu mobile/JoiPlay 公开说明；线上核验 Android/APK 301、内链与浏览器入口；观察 56 日 | 2026-08-26 已核验 Buwu 官方 listing：下载平台为 Windows/macOS；Buwu 公开回复称从未有 mobile version，并建议手机用户尝试 JoiPlay、未确认 iPad；主页面已完成本地静态施工；`_redirects` 已加入 Android/APK → mobile 301 规则，待线上 HTTP 验证 | NO | YES | P2-04 已按批准行动卡完成本地施工，严格排除本站浏览器玩法是官方移动版及 APK 文件承诺 | CONTEXTUAL_ONLY | 首页已有 Mobile Compatibility 入口；相关平台页面指向本页 | P2-05：Eun-Mi / Harvey wife | `/lovemoney-android/`, `/lovemoney-apk/`, `/lovemoney-ios/`, `/lovemoney-android-compatibility.html` | 2026-08-26 |
 | 4 | P2 | CREATED_NEEDS_REVIEW | Eun-Mi / Harvey wife | `/eun-mi` | `harvey harvington wife`, `eun-mi harvington` | 快速确认 Harvey 的妻子是谁、别名/家庭关系与 LoveMoney 关联，并区分官方声明与公开二级 lore | SUPPORT | 将 wife 快答集中到 Eun-Mi 主页面，避免妻子问答页与人物页分散归属 | 核验批准 Title、Meta、H1、canonical、wife 快答、别名、关系、家庭和出处置信度；线上核验 wife 301、Harvey/Toby 内链；观察 56 日 | 2026-08-26 已核验 Buwu 官方 listing 与评论：妻子和孩子属于 LoveMoney canon，Buwu 说明 Harvey 对妻子的忠诚与 cheating 主题边界；SHROOMYCHRIST 官方 HEP listing 确认 Harvey-focused program；主页面已完成本地静态施工，`_redirects` 已加入 wife → `/eun-mi` 301 规则，待线上 HTTP 验证 | NO | YES | P2-05 已按批准行动卡完成本地施工；具体别名、年龄等二级 lore 已显式标注，不作为无来源硬 canon | CONTEXTUAL_ONLY | 首页、Harvey profile、Toby family context 入口 | P2-06：Items 重复页 | `/harvey-harvington-wife/`, `/wiki/harvey-harvington-wife/`, `/wiki/eun-mi-harvington/`, `/harvey-character-analysis.html`, `/wiki/toby-harvington/` | 2026-08-26 |
 | 5 | P2 | CREATED_NEEDS_REVIEW | Items 重复页 | `/lovemoney-items-guide` | `lovemoney items`, `all items` | 查看价格、效果、解锁、购买策略和结局影响，并区分已交叉支持与版本/社区报告 | SUPPORT | 将重复的 `/items-guide` 意图集中到主 items 页，统一全站 items 内链并避免旧页继续承接 | 核验批准 Title、Meta、H1、canonical、Feather 证据型表格、后续项目限制、OLD/UPDATE 边界；线上核验 `/items-guide`、`/items-guide/`、`.html` 301 和真实内链；观察 56 日 | 2026-08-26 已核验 Buwu 官方 listing：未发布完整物品表，确认 OLD/UPDATE 版本边界；多个公开页面交叉支持 Feather `$100 → $2/click`；Brush、Lipstick、Soap 的价格/效果/路线映射仍有限或冲突；主页面已完成本地静态施工，`_redirects` 已加入三种旧 items 路径 → `/lovemoney-items-guide` 301 规则，待线上 HTTP 验证 | NO | YES | P2-06 已按批准行动卡完成本地施工；旧 `/items-guide` 文件保留为迁移源，已移出 sitemap，站内链接全部改指向主 items 页 | CONTEXTUAL_ONLY | 首页 Items Guide、walkthrough、endings 和相关攻略的上下文入口 | P2-07：西语页面边界 | `/items-guide`, `/lovemoney-walkthrough.html`, `/all-endings/`, `/moral-choices-guide.html` | 2026-08-26 |
+| 6 | P2 | CREATED_NEEDS_REVIEW | 西语页面边界 | `/lovemoney-game-en-espanol/` + `/lovemoney-sin-censura/` | `lovemoney en español`, `lovemoney sin censura` | 通用西语页回答免费、怎么玩、下载与语言状态；18+ 页回答 sin censura、版本边界与 patch 风险 | SUPPORT | 保留两页独立归属，避免增长期页面互相吞并，同时用首屏下方互链引导正确入口 | 核验两页批准 Title、Meta、H1、canonical、官方语言/平台事实、双向锚文本；线上核验真实内链、sitemap 与页面可见性；观察 general 的西语品牌份额与 sin-censura exact clicks | 2026-08-26 已核验 Buwu 官方 itch.io listing：公开文件列出 English/Russian，未列出专门西语 build；页面说明 Windows/macOS 下载与内容警告；两页保留独立 Title、Meta、H1、canonical，并在首屏下方加入 `Guía LoveMoney sin censura` ↔ `LoveMoney en español: jugar y descargar` 双向真实内链，未合并或重写增长期核心文案 | NO | YES | P2-07 已按批准行动卡完成本地静态施工；通用西语页不承接 18+ 长文，sin-censura 页不承接完整通用教程；待发布环境复核 | CONTEXTUAL_ONLY | 首页西语入口继续优先指向通用页；仅在 18+ 专题语境下引导 sin-censura 页 | P2-08：Russian winner protection | `/index.html`, `/lovemoney-game-en-espanol/`, `/lovemoney-sin-censura/`, `/lovemoney-mobile/` | 2026-08-26 |
 
 ## Queue Rules
 
@@ -36,8 +37,8 @@
 
 ## Next Action
 
-- Next Page: P2-07：西语页面边界
+- Next Page: P2-08：Russian winner protection
 - Prompt: `03A`
-- Required Before Start: 完成 P2-06 主页面与 `/items-guide` 三种旧路径的 301 线上复核；确认西语页面边界和当前增长期文案不重写
+- Required Before Start: 完成 P2-07 两页首屏互链的发布环境复核；确认 Russian 页面当前 winner 与 English APK 入口没有被错误改写
 - Action: WAIT
-- Reason: P2-06 已完成本地施工但仍需发布环境复核；下一项是上游已批准的 P2-07 西语页面边界施工，继续保持 general Spanish 与 sin censura 的职责分离。
+- Reason: P2-07 已完成本地施工但仍需发布环境复核；下一项是上游已批准的 P2-08 Russian winner protection，继续保护已验证的俄语承接页。
