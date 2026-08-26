@@ -21,7 +21,7 @@
 | Queue | Priority | Status | Page | URL | Primary Keyword | Player Task | Traffic Role | Independent Value | Required Verification | Current Evidence | Hands-on Required | Publishable Without Hands-on | Creation Trigger | Navigation Level | Homepage Placement | Natural Next Page | Related Existing Pages | Last Checked |
 |---:|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | P1 | CREATED_NEEDS_REVIEW | 首页品牌意图恢复 | `/` | `lovemoney`, `lovemoney game` | 了解 LoveMoney，并选择浏览器试玩或进入 Buwu 的 itch.io 桌面下载页 | LANDING | 根 URL 直接回答品牌、游戏类型、试玩、桌面下载与指南分工 | 核对 Title、Meta、H1、首段、canonical、浏览器入口与桌面平台事实；观察 7 天及 28 final 日指标 | 2026-08-26 已核验 Buwu itch.io 页面列出 Windows/macOS；公开首页存在浏览器播放入口；未把 Android 作为官方平台 | NO | YES | 已批准 P1-01；本次已完成静态施工，待发布环境复核 | GLOBAL_NAV | Root URL 首屏、Start Your Journey、Popular Guides | P1-03：Endings 主页面集中与陈旧声明清理 | `/download-guide`, `/how-to-play`, `/games-like-lovemoney`, `/all-endings/`, `/lovemoney-mobile/`, `/uncensored-version` | 2026-08-26 |
-| 1 | P1 | CREATED_NEEDS_REVIEW | Endings 主页面集中与陈旧声明清理 | `/all-endings/` | `all endings`, `ending routes`, `secret ending overview` | 查看路线总览、Soap 决策、版本边界与证据等级 | SUPPORT | 将一般结局总览与 Wiki 重复意图集中到根级页面 | 核验主页面 Title、Meta、H1、canonical、路线证据边界与 true-ending self-canonical；另开技术任务核验 Wiki all-endings 301；观察 7/28/56 天 | 2026-08-26 已核验 Buwu 官方 listing：Windows/macOS、OLD/UPDATE 区分、UPDATE 含 secret content；官方未发布固定结局数量；主页面已完成本地静态施工，Wiki 301 未执行 | NO | YES | P1-03 已批准并完成本地施工；待发布环境复核；Wiki 301 需独立技术任务 | HUB_OR_FEATURED | Start Your Journey 的 endings 入口 | P1-02：Uncensored 归属集中与 CTR 恢复 | `/index.html`, `/how-to-play.html`, `/harvey-character-analysis.html`, `/wiki/lovemoney-true-ending/`, `/wiki/lovemoney-all-endings/` | 2026-08-26 |
+| 1 | P1 | CREATED_NEEDS_REVIEW | Endings 主页面集中与陈旧声明清理 | `/all-endings/` | `all endings`, `ending routes`, `secret ending overview` | 查看路线总览、Soap 决策、版本边界与证据等级 | SUPPORT | 将一般结局总览与 Wiki 重复意图集中到根级页面 | 核验主页面 Title、Meta、H1、canonical、路线证据边界与 true-ending self-canonical；线上核验 Wiki all-endings 301；观察 7/28/56 天 | 2026-08-26 已核验 Buwu 官方 listing：Windows/macOS、OLD/UPDATE 区分、UPDATE 含 secret content；官方未发布固定结局数量；主页面已完成本地静态施工；`_redirects` 已加入 Wiki all-endings → `/all-endings/` 301 规则，待线上 HTTP 验证 | NO | YES | P1-03 页面与迁移规则已完成本地施工；待发布环境复核与 301 验证 | HUB_OR_FEATURED | Start Your Journey 的 endings 入口 | P1-02：Uncensored 归属集中与 CTR 恢复 | `/index.html`, `/how-to-play.html`, `/harvey-character-analysis.html`, `/wiki/lovemoney-true-ending/`, `/wiki/lovemoney-all-endings/` | 2026-08-26 |
 | 2 | P1 | PLANNED_NOT_CREATED | Uncensored 归属集中与 CTR 恢复 | `/uncensored-version` | `uncensored`, `no blur`, `NSFW version status` | 核对当前版本状态、来源与 patch 边界 | SUPPORT | 由专页承接版本状态，首页只提供导航 | 核验 Buwu listing、patch FAQ、来源证据与 Wiki 301 | 上游已批准；需先完成 Batch 2A 观察窗口 | NO | YES | P1-01/P1-03 观察通过后进入 Batch 2B | CONTEXTUAL_ONLY | 首页 focused guide 入口 | NONE - RETURN TO GSC EXPANSION REVIEW | `/itch-io-download.html`, `/where-to-play.html`, `/lovemoney-18-plus-guide.html` | 2026-08-26 |
 
 ## Queue Rules
@@ -35,6 +35,6 @@
 
 - Next Page: P1-02：Uncensored 归属集中与 CTR 恢复
 - Prompt: `03A`
-- Required Before Start: 完成 P1-03 主页面发布复核；将 `/wiki/lovemoney-all-endings/` 的 MERGE + 301 作为独立技术任务；满足 Batch 2A 观察窗口且无暂停阈值
+- Required Before Start: 完成 P1-03 主页面与 Wiki 301 线上复核；满足 Batch 2A 观察窗口且无暂停阈值
 - Action: WAIT
-- Reason: P1-03 已完成本地施工但仍需发布环境复核；P1-02 属于下一批，需保持 P1-01/P1-03 的分批观察与独立 301 迁移边界。
+- Reason: P1-03 页面与 301 规则已完成本地施工，但仍需发布环境复核；P1-02 属于下一批，需保持 P1-01/P1-03 的分批观察与止损边界。
