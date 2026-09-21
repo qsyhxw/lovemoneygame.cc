@@ -8,9 +8,9 @@
 - Domain: lovemoneygame.cc
 - Source Research: `D:\Codex\GSC数据\lovemoneygame.cc\26.8.25-SEO 页面级决策与修改规格.md`
 - Homepage: `index.html`
-- Last Updated: 2026-08-26
+- Last Updated: 2026-09-21
 - Roadmap Status: ACTIVE
-- Current Recommended Queue Order: NONE - RETURN TO GSC EXPANSION REVIEW
+- Current Recommended Queue Order: P1-09 - LOVEMONEY PERFECT / VERSION BOUNDARY
 
 ## Status Values
 
@@ -28,6 +28,7 @@
 | 5 | P2 | CREATED_NEEDS_REVIEW | Items 重复页 | `/lovemoney-items-guide` | `lovemoney items`, `all items` | 查看价格、效果、解锁、购买策略和结局影响，并区分已交叉支持与版本/社区报告 | SUPPORT | 将重复的 `/items-guide` 意图集中到主 items 页，统一全站 items 内链并避免旧页继续承接 | 核验批准 Title、Meta、H1、canonical、Feather 证据型表格、后续项目限制、OLD/UPDATE 边界；线上核验 `/items-guide`、`/items-guide/`、`.html` 301 和真实内链；观察 56 日 | 2026-08-26 已核验 Buwu 官方 listing：未发布完整物品表，确认 OLD/UPDATE 版本边界；多个公开页面交叉支持 Feather `$100 → $2/click`；Brush、Lipstick、Soap 的价格/效果/路线映射仍有限或冲突；主页面已完成本地静态施工，`_redirects` 已加入三种旧 items 路径 → `/lovemoney-items-guide` 301 规则，待线上 HTTP 验证 | NO | YES | P2-06 已按批准行动卡完成本地施工；旧 `/items-guide` 文件保留为迁移源，已移出 sitemap，站内链接全部改指向主 items 页 | CONTEXTUAL_ONLY | 首页 Items Guide、walkthrough、endings 和相关攻略的上下文入口 | P2-07：西语页面边界 | `/items-guide`, `/lovemoney-walkthrough.html`, `/all-endings/`, `/moral-choices-guide.html` | 2026-08-26 |
 | 6 | P2 | CREATED_NEEDS_REVIEW | 西语页面边界 | `/lovemoney-game-en-espanol/` + `/lovemoney-sin-censura/` | `lovemoney en español`, `lovemoney sin censura` | 通用西语页回答免费、怎么玩、下载与语言状态；18+ 页回答 sin censura、版本边界与 patch 风险 | SUPPORT | 保留两页独立归属，避免增长期页面互相吞并，同时用首屏下方互链引导正确入口 | 核验两页批准 Title、Meta、H1、canonical、官方语言/平台事实、双向锚文本；线上核验真实内链、sitemap 与页面可见性；观察 general 的西语品牌份额与 sin-censura exact clicks | 2026-08-26 已核验 Buwu 官方 itch.io listing：公开文件列出 English/Russian，未列出专门西语 build；页面说明 Windows/macOS 下载与内容警告；两页保留独立 Title、Meta、H1、canonical，并在首屏下方加入 `Guía LoveMoney sin censura` ↔ `LoveMoney en español: jugar y descargar` 双向真实内链，未合并或重写增长期核心文案 | NO | YES | P2-07 已按批准行动卡完成本地静态施工；通用西语页不承接 18+ 长文，sin-censura 页不承接完整通用教程；待发布环境复核 | CONTEXTUAL_ONLY | 首页西语入口继续优先指向通用页；仅在 18+ 专题语境下引导 sin-censura 页 | P2-08：Russian winner protection | `/index.html`, `/lovemoney-game-en-espanol/`, `/lovemoney-sin-censura/`, `/lovemoney-mobile/` | 2026-08-26 |
 | 7 | P2 | CREATED_NEEDS_REVIEW | 俄语赢家保护 | `/ru/lovemoney-igra/` | `lovemoney игра`, `lovemoney скачать`, `lovemoney русская версия` | 俄语玩家确认在线试玩、Windows/macOS 下载、俄语独立 сборка 与手机 APK 限制 | PROTECT | 保护当前快速增长的俄语赢家页，只补首页语言入口并维持清晰语言信号，不改主体文案 | 核验批准 Title、Meta、H1、canonical、`lang`、`inLanguage`、self hreflang、sitemap 与首页入口；确认俄语下载词不被跨语言内链导向英文 Mobile 页；观察 56 日 clicks、CTR、position | 2026-08-26 已核验 Buwu 官方 itch.io listing：列出 `LoveMoney_rus_UPDATE-mac` 与 `LoveMoney_rus_UPDATE-win`，官方平台为 Windows/macOS，语言列出 English/Russian；俄语页保留批准 Title、Meta、H1、canonical 和正文，仅确认 `lang=ru`/`inLanguage=ru`/self hreflang；首页已新增 Russian guide 入口，俄语页现有 Mobile / APK 链接未使用俄语下载主词指向英文 mobile 页 | NO | YES | P2-08 已按批准行动卡完成本地静态施工；未改赢家页主体文案、URL 或意图，待发布环境复核和 56 日指标观察 | CONTEXTUAL_ONLY | 首页 Popular Guides 新增 Russian guide 入口；下载页、itch.io 页、英文版本页与英文实体页已有俄语上下文入口 | NONE - RETURN TO GSC EXPANSION REVIEW | `/index.html`, `/what-is-lovemoney`, `/download-guide.html`, `/itch-io-download.html`, `/lovemoney-english-version.html`, `/lovemoney-mobile/` | 2026-08-26 |
+| 8 | P1 | CREATED_NEEDS_REVIEW | LoveMoney PERFECT 与版本边界纠错 | `/lovemoney-perfect/` | `lovemoney perfect`, `lovemoney android`, `original vs perfect` | 区分原版 OLD/UPDATE、PERFECT 与未发布续作，并从创作者页面选择正确平台文件 | SUPPORT | PERFECT 是 2026-09-15 更新的独立 Buwu release，具有独立比较与 Android 下载任务；旧 mobile/update 页无法在不混淆实体的情况下完整承接 | 核验官方 PERFECT 与原版 listing、标题承诺、比较表、平台/文件边界、正文图片、桌面/移动顶部中段页尾、内链和外链范围；部署后复核 HTTP 与正文 | 2026-09-21 官方 PERFECT listing 列出 Windows/Linux/Android 平台及 PC/Mac/mobile 文件；原版 listing 仍列 Windows/macOS OLD/UPDATE；官方 listing 对 Linux 与 Mac 标签存在展示不一致，页面已如实提示；评论中的 Android bad-ending 问题暂无可核实解法 | NO | YES | 官方出现独立新 release，且站内多个页面的绝对无移动端答案已过时；本轮已创建专页并做跨页事实纠错，待发布环境复核 | CONTEXTUAL_ONLY | 首页 Popular Guides 增加一个沿用现有卡片的入口；不改首屏与栏目顺序 | NONE - OBSERVE AFTER DEPLOY | `/lovemoney-mobile/`, `/lovemoney-update/`, `/download-guide`, `/itch-io-download`, `/lovemoney-2/`, `/developer-buwu` | 2026-09-21 |
 
 ## Queue Rules
 
@@ -38,8 +39,17 @@
 
 ## Next Action
 
-- Next Page: NONE - RETURN TO GSC EXPANSION REVIEW
+- Next Page: P1-09 - `/lovemoney-perfect/`
 - Prompt: `03A`
-- Required Before Start: 无；P2-08 已完成本地施工，后续需先完成发布环境复核和 56 日指标观察，再由 GSC 重新决定下一批动作
-- Action: WAIT
-- Reason: 上游报告本轮没有通过统一建页闸门的下一页；不要根据本次保护动作临时发明新页面，返回 GSC expansion review。
+- Required Before Start: 本地 Content Review、桌面/移动 Visual Check、Link Check 与发布环境复核
+- Action: VALIDATE_AND_DEPLOY
+- Reason: 2026-09-15 的独立官方 PERFECT release 使移动端与版本边界发生可核实变化；独立实体、下载选择与比较任务通过第 2C 节价值门槛。
+
+## 2026-09-21 Traffic Review Feedback
+
+- Final 数据窗口：2026-09-12 至 2026-09-18，对比 2026-09-05 至 2026-09-11；Search type=WEB，国家/设备=ALL。点击 897 vs 710（+26.3%），展示 9,410 vs 7,626（+23.4%），CTR 9.53% vs 9.31%，加权平均排名 6.27 vs 6.76。
+- 28 日参考窗口：2026-08-22 至 2026-09-18。俄语、西语、18+、Endings、Mobile 均已有对应页；不按查询变体新增页面。Query+Page 为 API 返回的非匿名 Top rows，不等同全量查询。
+- 最近可得 partial day：2026-09-20，151 clicks / 985 impressions，仅作新增线索，不与完整日作结论性对比。
+- 上轮保护结论：俄语页、两张西语页、18+、Endings、Mobile 均有有效曝光或点击，保留 URL/标题/主意图；Eun-Mi 与 Toby 继续观察，不因短期低点击重写。
+- 本轮 CREATE：`/lovemoney-perfect/`。本轮 UPDATE：版本/平台页、下载页、开发者页、续作页及残留绝对“无移动端”答案；首页仅在既有 Popular Guides 中加一张卡片。
+- 本轮 DEFER：PERFECT Android 重复 bad ending 的具体修复步骤；触发条件为创作者发布说明，或出现可复现且可交叉核验的步骤。
