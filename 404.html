@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,follow">
+  <meta name="theme-color" content="#0f172a">
+  <title>Page Not Found — LoveMoney Game</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <style>
+    :root {
+      color-scheme: light dark;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #fff7fb;
+      color: #172033;
+    }
+    * { box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background:
+        radial-gradient(circle at top, rgba(244, 114, 182, .18), transparent 38rem),
+        #fff7fb;
+    }
+    main {
+      width: min(100%, 720px);
+      padding: clamp(28px, 6vw, 56px);
+      border: 1px solid rgba(15, 23, 42, .12);
+      border-radius: 24px;
+      background: rgba(255, 255, 255, .88);
+      box-shadow: 0 24px 70px rgba(71, 20, 50, .12);
+      text-align: center;
+    }
+    .code {
+      margin: 0;
+      color: #db2777;
+      font-size: clamp(3.5rem, 16vw, 7rem);
+      font-weight: 900;
+      letter-spacing: -.07em;
+      line-height: .9;
+    }
+    h1 {
+      margin: 24px 0 12px;
+      font-size: clamp(1.8rem, 5vw, 3rem);
+      line-height: 1.08;
+    }
+    p {
+      max-width: 56ch;
+      margin: 0 auto;
+      color: #526078;
+      font-size: 1.05rem;
+      line-height: 1.7;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 30px;
+    }
+    a {
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+      padding: 11px 18px;
+      color: #831843;
+      font-weight: 750;
+      text-decoration: none;
+      background: #fce7f3;
+      border: 1px solid #f9a8d4;
+    }
+    a.primary { color: white; background: #db2777; border-color: #db2777; }
+    a:hover { transform: translateY(-1px); }
+    a:focus-visible { outline: 3px solid #f472b6; outline-offset: 3px; }
+    @media (prefers-color-scheme: dark) {
+      :root { background: #0f172a; color: #f8fafc; }
+      body {
+        background:
+          radial-gradient(circle at top, rgba(236, 72, 153, .2), transparent 38rem),
+          #0f172a;
+      }
+      main { background: rgba(15, 23, 42, .9); border-color: rgba(255, 255, 255, .12); }
+      p { color: #cbd5e1; }
+      a { color: #fbcfe8; background: rgba(190, 24, 93, .2); border-color: #9d174d; }
+      a.primary { color: white; background: #db2777; border-color: #db2777; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="code" aria-hidden="true">404</p>
+    <h1>This page could not be found</h1>
+    <p>The address may be outdated or mistyped. Return to the LoveMoney homepage, or continue with one of the existing guides.</p>
+    <nav aria-label="Recovery links">
+      <a class="primary" href="/">Return home</a>
+      <a href="/all-endings/">All endings</a>
+      <a href="/lovemoney-mobile/">Mobile guide</a>
+    </nav>
+  </main>
+</body>
+</html>
