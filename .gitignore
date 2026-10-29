@@ -5,3 +5,8 @@ TRAFFIC_REVIEW.md
 
 # Local working documents; not synced through Git
 /*.md
+
+__pycache__/
+/_private/
+/outputs/
+/PAGE_REPORTS/

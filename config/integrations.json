@@ -1,0 +1,1097 @@
+{
+  "version": 1,
+  "site": "lovemoneygame.cc",
+  "reviewed": true,
+  "integrations": [
+    {
+      "id": "existing-script-000",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "all-endings/index.html",
+        "bloodmoney-18-plus-guide.html",
+        "developer-buwu.html",
+        "download-guide.html",
+        "ending-calculator.html",
+        "eun-mi.html",
+        "gameplay-scenes-guide.html",
+        "games-like-lovemoney.html",
+        "harvey-character-analysis.html",
+        "harvey-harvington-abs.html",
+        "harvey-harvington-voice-actor.html",
+        "harvey-harvington-wife/index.html",
+        "harvey-harvington.html",
+        "how-to-get-lovemoney.html",
+        "how-to-play.html",
+        "index.html",
+        "itch-io-download.html",
+        "items-guide.html",
+        "lovemoney-1-click.html",
+        "lovemoney-18-plus-guide.html",
+        "lovemoney-2/index.html",
+        "lovemoney-android-compatibility.html",
+        "lovemoney-android/index.html",
+        "lovemoney-apk/index.html",
+        "lovemoney-app-download.html",
+        "lovemoney-community/index.html",
+        "lovemoney-datamine/index.html",
+        "lovemoney-english-version.html",
+        "lovemoney-fangame.html",
+        "lovemoney-full-version.html",
+        "lovemoney-game-controversy/index.html",
+        "lovemoney-game-en-espanol/index.html",
+        "lovemoney-game-gallery/index.html",
+        "lovemoney-gameplay-guide.html",
+        "lovemoney-gameplay-overview.html",
+        "lovemoney-github-source-code/index.html",
+        "lovemoney-ios/index.html",
+        "lovemoney-items-guide.html",
+        "lovemoney-lotion-guide.html",
+        "lovemoney-mobile/index.html",
+        "lovemoney-optimal-run-paths.html",
+        "lovemoney-perfect/index.html",
+        "lovemoney-review.html",
+        "lovemoney-sem-censura.html",
+        "lovemoney-sin-censura/index.html",
+        "lovemoney-unblocked.html",
+        "lovemoney-update/index.html",
+        "lovemoney-vs-bloodmoney.html",
+        "lovemoney-walkthrough.html",
+        "money-farming-tips.html",
+        "moral-choices-guide.html",
+        "play-online.html",
+        "ru/lovemoney-igra/index.html",
+        "speedrun-guide.html",
+        "uncensored-version.html",
+        "websites-like-lovemoney.html",
+        "what-is-lovemoney.html",
+        "where-to-play.html",
+        "wiki/eun-mi-harvington/index.html",
+        "wiki/harvey-harvington-age/index.html",
+        "wiki/harvey-harvington-wife/index.html",
+        "wiki/harvey-harvington/index.html",
+        "wiki/lovemoney-all-endings/index.html",
+        "wiki/lovemoney-harvey-ending/index.html",
+        "wiki/lovemoney-itch-io/index.html",
+        "wiki/lovemoney-soap-scene/index.html",
+        "wiki/lovemoney-true-ending/index.html",
+        "wiki/lovemoney-uncensored/index.html",
+        "wiki/toby-harvington/index.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {
+            "crossorigin": "anonymous",
+            "src": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8830315294299920"
+          },
+          "count": 1,
+          "location": "head",
+          "tag": "script"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-001",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "all-endings/index.html",
+        "bloodmoney-18-plus-guide.html",
+        "developer-buwu.html",
+        "download-guide.html",
+        "ending-calculator.html",
+        "eun-mi.html",
+        "gameplay-scenes-guide.html",
+        "games-like-lovemoney.html",
+        "harvey-character-analysis.html",
+        "harvey-harvington-abs.html",
+        "harvey-harvington-voice-actor.html",
+        "harvey-harvington-wife/index.html",
+        "harvey-harvington.html",
+        "how-to-get-lovemoney.html",
+        "how-to-play.html",
+        "index.html",
+        "itch-io-download.html",
+        "items-guide.html",
+        "lovemoney-1-click.html",
+        "lovemoney-18-plus-guide.html",
+        "lovemoney-2/index.html",
+        "lovemoney-android-compatibility.html",
+        "lovemoney-android/index.html",
+        "lovemoney-apk/index.html",
+        "lovemoney-app-download.html",
+        "lovemoney-community/index.html",
+        "lovemoney-datamine/index.html",
+        "lovemoney-english-version.html",
+        "lovemoney-fangame.html",
+        "lovemoney-full-version.html",
+        "lovemoney-game-controversy/index.html",
+        "lovemoney-game-en-espanol/index.html",
+        "lovemoney-game-gallery/index.html",
+        "lovemoney-gameplay-guide.html",
+        "lovemoney-gameplay-overview.html",
+        "lovemoney-github-source-code/index.html",
+        "lovemoney-ios/index.html",
+        "lovemoney-items-guide.html",
+        "lovemoney-lotion-guide.html",
+        "lovemoney-mobile/index.html",
+        "lovemoney-optimal-run-paths.html",
+        "lovemoney-perfect/index.html",
+        "lovemoney-review.html",
+        "lovemoney-sem-censura.html",
+        "lovemoney-sin-censura/index.html",
+        "lovemoney-unblocked.html",
+        "lovemoney-update/index.html",
+        "lovemoney-vs-bloodmoney.html",
+        "lovemoney-walkthrough.html",
+        "money-farming-tips.html",
+        "moral-choices-guide.html",
+        "play-online.html",
+        "ru/lovemoney-igra/index.html",
+        "speedrun-guide.html",
+        "uncensored-version.html",
+        "websites-like-lovemoney.html",
+        "what-is-lovemoney.html",
+        "where-to-play.html",
+        "wiki/eun-mi-harvington/index.html",
+        "wiki/harvey-harvington-age/index.html",
+        "wiki/harvey-harvington-wife/index.html",
+        "wiki/harvey-harvington/index.html",
+        "wiki/lovemoney-all-endings/index.html",
+        "wiki/lovemoney-harvey-ending/index.html",
+        "wiki/lovemoney-itch-io/index.html",
+        "wiki/lovemoney-soap-scene/index.html",
+        "wiki/lovemoney-true-ending/index.html",
+        "wiki/lovemoney-uncensored/index.html",
+        "wiki/toby-harvington/index.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {
+            "src": "https://www.googletagmanager.com/gtag/js?id=G-F98FBQ2ZGS"
+          },
+          "count": 1,
+          "location": "head",
+          "tag": "script"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-002",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "bloodmoney-18-plus-guide.html",
+        "developer-buwu.html",
+        "gameplay-scenes-guide.html",
+        "itch-io-download.html",
+        "lovemoney-sem-censura.html",
+        "play-online.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "head",
+          "tag": "script",
+          "text_sha256": "c07719e5b86b709ab22e4c0d96ed8d2e1ef9fae532689a700ba5c815ac6772a7"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-003",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "all-endings/index.html",
+        "bloodmoney-18-plus-guide.html",
+        "developer-buwu.html",
+        "download-guide.html",
+        "ending-calculator.html",
+        "gameplay-scenes-guide.html",
+        "games-like-lovemoney.html",
+        "harvey-character-analysis.html",
+        "harvey-harvington-abs.html",
+        "harvey-harvington-voice-actor.html",
+        "harvey-harvington-wife/index.html",
+        "harvey-harvington.html",
+        "how-to-get-lovemoney.html",
+        "how-to-play.html",
+        "index.html",
+        "itch-io-download.html",
+        "items-guide.html",
+        "lovemoney-1-click.html",
+        "lovemoney-18-plus-guide.html",
+        "lovemoney-2/index.html",
+        "lovemoney-android-compatibility.html",
+        "lovemoney-android/index.html",
+        "lovemoney-apk/index.html",
+        "lovemoney-app-download.html",
+        "lovemoney-community/index.html",
+        "lovemoney-datamine/index.html",
+        "lovemoney-english-version.html",
+        "lovemoney-fangame.html",
+        "lovemoney-full-version.html",
+        "lovemoney-game-controversy/index.html",
+        "lovemoney-game-en-espanol/index.html",
+        "lovemoney-game-gallery/index.html",
+        "lovemoney-gameplay-guide.html",
+        "lovemoney-gameplay-overview.html",
+        "lovemoney-github-source-code/index.html",
+        "lovemoney-ios/index.html",
+        "lovemoney-lotion-guide.html",
+        "lovemoney-optimal-run-paths.html",
+        "lovemoney-perfect/index.html",
+        "lovemoney-review.html",
+        "lovemoney-sem-censura.html",
+        "lovemoney-sin-censura/index.html",
+        "lovemoney-unblocked.html",
+        "lovemoney-update/index.html",
+        "lovemoney-vs-bloodmoney.html",
+        "lovemoney-walkthrough.html",
+        "money-farming-tips.html",
+        "moral-choices-guide.html",
+        "play-online.html",
+        "ru/lovemoney-igra/index.html",
+        "speedrun-guide.html",
+        "uncensored-version.html",
+        "websites-like-lovemoney.html",
+        "what-is-lovemoney.html",
+        "where-to-play.html",
+        "wiki/eun-mi-harvington/index.html",
+        "wiki/harvey-harvington-age/index.html",
+        "wiki/harvey-harvington-wife/index.html",
+        "wiki/harvey-harvington/index.html",
+        "wiki/lovemoney-all-endings/index.html",
+        "wiki/lovemoney-harvey-ending/index.html",
+        "wiki/lovemoney-itch-io/index.html",
+        "wiki/lovemoney-soap-scene/index.html",
+        "wiki/lovemoney-true-ending/index.html",
+        "wiki/lovemoney-uncensored/index.html",
+        "wiki/toby-harvington/index.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "head",
+          "tag": "script",
+          "text_sha256": "1e6a1a8dcc525f553cf27a34fed177418dd7b477e58b67a2b832b90e04a73815"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-004",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "all-endings/index.html",
+        "bloodmoney-18-plus-guide.html",
+        "developer-buwu.html",
+        "download-guide.html",
+        "ending-calculator.html",
+        "eun-mi.html",
+        "gameplay-scenes-guide.html",
+        "games-like-lovemoney.html",
+        "harvey-character-analysis.html",
+        "harvey-harvington-abs.html",
+        "harvey-harvington-voice-actor.html",
+        "harvey-harvington-wife/index.html",
+        "harvey-harvington.html",
+        "how-to-get-lovemoney.html",
+        "how-to-play.html",
+        "index.html",
+        "itch-io-download.html",
+        "items-guide.html",
+        "lovemoney-1-click.html",
+        "lovemoney-18-plus-guide.html",
+        "lovemoney-2/index.html",
+        "lovemoney-android-compatibility.html",
+        "lovemoney-android/index.html",
+        "lovemoney-apk/index.html",
+        "lovemoney-app-download.html",
+        "lovemoney-community/index.html",
+        "lovemoney-datamine/index.html",
+        "lovemoney-english-version.html",
+        "lovemoney-fangame.html",
+        "lovemoney-full-version.html",
+        "lovemoney-game-controversy/index.html",
+        "lovemoney-game-en-espanol/index.html",
+        "lovemoney-game-gallery/index.html",
+        "lovemoney-gameplay-guide.html",
+        "lovemoney-gameplay-overview.html",
+        "lovemoney-github-source-code/index.html",
+        "lovemoney-ios/index.html",
+        "lovemoney-items-guide.html",
+        "lovemoney-lotion-guide.html",
+        "lovemoney-mobile/index.html",
+        "lovemoney-optimal-run-paths.html",
+        "lovemoney-perfect/index.html",
+        "lovemoney-review.html",
+        "lovemoney-sem-censura.html",
+        "lovemoney-sin-censura/index.html",
+        "lovemoney-unblocked.html",
+        "lovemoney-update/index.html",
+        "lovemoney-vs-bloodmoney.html",
+        "lovemoney-walkthrough.html",
+        "money-farming-tips.html",
+        "moral-choices-guide.html",
+        "play-online.html",
+        "ru/lovemoney-igra/index.html",
+        "speedrun-guide.html",
+        "uncensored-version.html",
+        "websites-like-lovemoney.html",
+        "what-is-lovemoney.html",
+        "where-to-play.html",
+        "wiki/eun-mi-harvington/index.html",
+        "wiki/harvey-harvington-age/index.html",
+        "wiki/harvey-harvington-wife/index.html",
+        "wiki/harvey-harvington/index.html",
+        "wiki/lovemoney-all-endings/index.html",
+        "wiki/lovemoney-harvey-ending/index.html",
+        "wiki/lovemoney-itch-io/index.html",
+        "wiki/lovemoney-soap-scene/index.html",
+        "wiki/lovemoney-true-ending/index.html",
+        "wiki/lovemoney-uncensored/index.html",
+        "wiki/toby-harvington/index.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {
+            "src": "https://cdn.tailwindcss.com/3.4.10"
+          },
+          "count": 1,
+          "location": "head",
+          "tag": "script"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-005",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "bloodmoney-18-plus-guide.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "de29bc086bb0a7932e0983405160db3330a25d46a4877dd1dcf8eabc4c6d1711"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-006",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "developer-buwu.html",
+        "gameplay-scenes-guide.html",
+        "lovemoney-sem-censura.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "71c76f0700606accb31500b0bfb6a9aa11211296d0c1765a32cafbc0b5538819"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-007",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "download-guide.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "head",
+          "tag": "script",
+          "text_sha256": "1eeba8ddcd7278441712f6f9d928c9b3fc30b430e4b9f809643026abc3695105"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-008",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "ending-calculator.html",
+        "harvey-harvington-abs.html",
+        "harvey-harvington-voice-actor.html",
+        "harvey-harvington-wife/index.html",
+        "how-to-get-lovemoney.html",
+        "how-to-play.html",
+        "index.html",
+        "items-guide.html",
+        "lovemoney-1-click.html",
+        "lovemoney-18-plus-guide.html",
+        "lovemoney-2/index.html",
+        "lovemoney-android-compatibility.html",
+        "lovemoney-android/index.html",
+        "lovemoney-apk/index.html",
+        "lovemoney-community/index.html",
+        "lovemoney-datamine/index.html",
+        "lovemoney-english-version.html",
+        "lovemoney-fangame.html",
+        "lovemoney-game-controversy/index.html",
+        "lovemoney-game-en-espanol/index.html",
+        "lovemoney-github-source-code/index.html",
+        "lovemoney-ios/index.html",
+        "lovemoney-lotion-guide.html",
+        "lovemoney-optimal-run-paths.html",
+        "lovemoney-perfect/index.html",
+        "lovemoney-review.html",
+        "lovemoney-sin-censura/index.html",
+        "lovemoney-update/index.html",
+        "lovemoney-walkthrough.html",
+        "money-farming-tips.html",
+        "moral-choices-guide.html",
+        "ru/lovemoney-igra/index.html",
+        "speedrun-guide.html",
+        "websites-like-lovemoney.html",
+        "what-is-lovemoney.html",
+        "wiki/lovemoney-harvey-ending/index.html",
+        "wiki/lovemoney-soap-scene/index.html",
+        "wiki/lovemoney-true-ending/index.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "head",
+          "tag": "script",
+          "text_sha256": "eedd729f1c7e3833548ccba4ed449442a6f3ea633e347972dd2ee92b2d639b02"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-009",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "ending-calculator.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "542b9c650d0b0cbcd78eca2d71d2110d9dd3abbdff05ac8dcf50fedcc0cbf26c"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-010",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "all-endings/index.html",
+        "eun-mi.html",
+        "games-like-lovemoney.html",
+        "harvey-character-analysis.html",
+        "harvey-harvington.html",
+        "lovemoney-app-download.html",
+        "lovemoney-full-version.html",
+        "lovemoney-game-gallery/index.html",
+        "lovemoney-gameplay-guide.html",
+        "lovemoney-gameplay-overview.html",
+        "lovemoney-items-guide.html",
+        "lovemoney-mobile/index.html",
+        "lovemoney-unblocked.html",
+        "lovemoney-vs-bloodmoney.html",
+        "uncensored-version.html",
+        "where-to-play.html",
+        "wiki/eun-mi-harvington/index.html",
+        "wiki/harvey-harvington-age/index.html",
+        "wiki/harvey-harvington-wife/index.html",
+        "wiki/harvey-harvington/index.html",
+        "wiki/lovemoney-all-endings/index.html",
+        "wiki/lovemoney-itch-io/index.html",
+        "wiki/lovemoney-uncensored/index.html",
+        "wiki/toby-harvington/index.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "head",
+          "tag": "script",
+          "text_sha256": "8229b0fdcaae360d0901806b926c9e14b524af14643ffa185848ee36984b24cd"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-011",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "eun-mi.html",
+        "lovemoney-mobile/index.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "head",
+          "tag": "script",
+          "text_sha256": "a25da1ef85705e8d2c6e9db760b562a1ff65fe4eb02dbb13322badb17c4ff7b0"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-012",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "eun-mi.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "ad8d4607d6a6e6e14ea10ae58c53309cafe3e101b01aa6e505bdfa56cae6ba8a"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-013",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "harvey-character-analysis.html",
+        "wiki/toby-harvington/index.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "5465fe0e96698664f380fc0cd4ad06de0a90efa68c2565de1b21b459375fae99"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-014",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "harvey-harvington-abs.html",
+        "harvey-harvington-voice-actor.html",
+        "lovemoney-1-click.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "4e8a44ebcabefe24eba34c823ecb2c53878574b552d1941a6f1b15f42d3fe0b5"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-015",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "harvey-harvington.html",
+        "wiki/lovemoney-soap-scene/index.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "96186de241d14bbbd6a49ad4e42f83ab84c60ada75db0499ab016925e7f325bc"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-016",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "how-to-play.html",
+        "lovemoney-18-plus-guide.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "36c9d4896d9fb659e1d4eba6e5bdfa07574a615b23e29b6a022ac72240ec53a4"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-017",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "index.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {
+            "data-cfasync": "false",
+            "src": "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+          },
+          "count": 1,
+          "location": "body",
+          "tag": "script"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-018",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "index.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "20fd911fd4baa67f95c65d034c8ddc6a7bfee3c3235362f2fe2543a765c2bc6b"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-019",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "index.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {
+            "crossorigin": "anonymous",
+            "data-cf-beacon": "{\"version\":\"2024.11.0\",\"token\":\"27307eff68c94505bf885bed6f21ee6e\",\"r\":1,\"server_timing\":{\"name\":{\"cfCacheStatus\":true,\"cfEdge\":true,\"cfExtPri\":true,\"cfL4\":true,\"cfOrigin\":true,\"cfSpeedBrain\":true},\"location_startswith\":null}}",
+            "integrity": "sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==",
+            "src": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+          },
+          "count": 1,
+          "location": "body",
+          "tag": "script"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-020",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "itch-io-download.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "6248e725192b7005c6900ca2ef53b74be33d6e88ab4376e2164523e7714515a5"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-021",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "items-guide.html",
+        "lovemoney-vs-bloodmoney.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "bfe20365d29cbec0f27584df8fa35c650ceb1940916aed2046838cf51cbc7d6b"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-022",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "lovemoney-app-download.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "c7be227912e80fd43678df4509fd6ed4c84cd0652a4e9f3ed703cda5d7449ca8"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-023",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "lovemoney-fangame.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "5f509eec9e655f54784fdc38bf8732664179a2dbd279dd81bcb7b4a00167e4e4"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-024",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "lovemoney-full-version.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "943b440c22229eb315787a803c4d0cc1e0283170ca554ba1e5b2d4a1b7a0baf4"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-025",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "lovemoney-gameplay-guide.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "e88eee1bd0c8a405f13e287bb3ee369b9f928b43ed3d021b7776368dfaf01c71"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-026",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "lovemoney-items-guide.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "head",
+          "tag": "script",
+          "text_sha256": "5358ffe6ca047e219867615295d99d5569decdd2a342e36a330926f1b48d9d81"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-027",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "lovemoney-items-guide.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "8cf0ef8713e728032a10609761bf5e856b07bf7bcafa286ff46a28128e6ff5c9"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-028",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "lovemoney-2/index.html",
+        "lovemoney-datamine/index.html",
+        "lovemoney-lotion-guide.html",
+        "lovemoney-update/index.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "a8a0a4d8179c321a04a3e9b5f77226649d9164f17fca0936f6b3c62359e26ccd"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-029",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "lovemoney-unblocked.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "5918625ed1e87658663168499990c855f6460c9a8926f9aef6b9399f26bd005d"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-030",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "lovemoney-walkthrough.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "ae74a296ac7bd32b0948835a6228d2395bc63b31b6bb34a0834b2779a2c09e7b"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-031",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "money-farming-tips.html",
+        "moral-choices-guide.html",
+        "speedrun-guide.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "042067c21dbe2bef9646587b5f87b3b0d8c964ef4d6a95127d0fae09099b1146"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-032",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "moral-choices-guide.html",
+        "speedrun-guide.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "32be6b212596df994474555898439a62d9f52cfb867e854c579e919070104e1a"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-033",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "play-online.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "16f0fd3548fc58a3e5905c98bbf0c37ff0b44d316140b5c97d268f3b471c755b"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-034",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "all-endings/index.html",
+        "lovemoney-mobile/index.html",
+        "lovemoney-perfect/index.html",
+        "uncensored-version.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "4f55767468558c616a47b039feeb435f7163f6ff0e5978bce50a4907a89dc191"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-035",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "what-is-lovemoney.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "3d0fe54798f9b3c0e029a19b7e359b07648d92239a91dcba89d74e5bf29cd317"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-036",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "where-to-play.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "b41bed1f37bcd6c36d8f5b60ff8c2f3530c0c81bdfeeb7cf2d72b02a26539cfc"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-037",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "harvey-harvington-wife/index.html",
+        "lovemoney-apk/index.html",
+        "lovemoney-sin-censura/index.html",
+        "ru/lovemoney-igra/index.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "3b4a7c4dbbc89185c53b50fd5f415a79124d1eef930764ed427a5b8bdafc5533"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-038",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "lovemoney-android/index.html",
+        "lovemoney-ios/index.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "c5bb974a5f24eed80bbdea4d87463d5bfdd02b2c9358e823f606aca480c2375c"
+        }
+      ]
+    },
+    {
+      "id": "existing-script-039",
+      "enabled": true,
+      "authorization": "2026-10-29 monthly review: preserve existing site integrations; immutable pre-content inventory.",
+      "include": [
+        "lovemoney-community/index.html",
+        "lovemoney-game-controversy/index.html",
+        "lovemoney-game-en-espanol/index.html",
+        "lovemoney-game-gallery/index.html",
+        "lovemoney-github-source-code/index.html"
+      ],
+      "exclude": [],
+      "checks": [
+        {
+          "attrs": {},
+          "count": 1,
+          "location": "body",
+          "tag": "script",
+          "text_sha256": "85bb3cb6934c175c282e5f9c6e922aa1bba03ab56336f2183f425e5dd31d6b31"
+        }
+      ]
+    }
+  ]
+}
